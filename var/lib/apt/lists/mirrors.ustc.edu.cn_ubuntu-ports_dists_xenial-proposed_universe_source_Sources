@@ -1,0 +1,86 @@
+Package: docker.io
+Format: 3.0 (quilt)
+Binary: docker.io, vim-syntax-docker, golang-github-docker-docker-dev, golang-docker-dev, docker-doc
+Architecture: amd64 arm64 armhf i386 ppc64el s390x all
+Version: 18.09.7-0ubuntu1~16.04.8
+Priority: optional
+Section: universe/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Tagliamonte <paultag@debian.org>
+Uploaders: Docker Packaging Team <docker-maint@lists.alioth.debian.org>, Tianon Gravi <tianon@debian.org>
+Standards-Version: 3.9.8
+Build-Depends: bash-completion, btrfs-tools, ca-certificates, cmake, debconf (>= 0.5), debhelper (>= 9.20160000~), dh-apparmor, dh-exec, dh-systemd, git, golang-1.10-go, libapparmor-dev, libdevmapper-dev (>= 2:1.02.68~), libltdl-dev, libseccomp-dev, libsystemd-dev (>= 209~), pkg-config, procps, tzdata
+Build-Conflicts: golang-github-docker-docker-dev
+Testsuite: autopkgtest
+Homepage: https://www.docker.com/community-edition
+Vcs-Browser: https://anonscm.debian.org/cgit/docker/docker.io.git
+Vcs-Git: https://anonscm.debian.org/git/docker/docker.io.git
+Directory: pool/universe/d/docker.io
+Package-List:
+ docker-doc deb doc optional arch=all
+ docker.io deb admin optional arch=amd64,arm64,armhf,i386,ppc64el,s390x
+ golang-docker-dev deb oldlibs optional arch=all
+ golang-github-docker-docker-dev deb admin optional arch=all
+ vim-syntax-docker deb admin optional arch=all
+Files:
+ abccb92eb0996f655972194a83718175 3393 docker.io_18.09.7-0ubuntu1~16.04.8.dsc
+ 6ebaa8c25410c63d8e66539a8391eb7b 2704598 docker.io_18.09.7.orig-libnetwork.tar.gz
+ 49b8700202b8c9091bb531f03dfc5e8f 32164 docker.io_18.09.7.orig-tini.tar.gz
+ 839d9a67029808b71d3bbfe9b905c0f6 15264213 docker.io_18.09.7.orig.tar.gz
+ 991407a86276159abe51debcd9a14601 35496 docker.io_18.09.7-0ubuntu1~16.04.8.debian.tar.xz
+Checksums-Sha1:
+ 194645532809903e85d95d9d0ef00c3ddf437165 3393 docker.io_18.09.7-0ubuntu1~16.04.8.dsc
+ 328968c4c058747d3ad3a5a980215c39469e7e9e 2704598 docker.io_18.09.7.orig-libnetwork.tar.gz
+ 006be838c5837af29410e0767cadbccf1318876d 32164 docker.io_18.09.7.orig-tini.tar.gz
+ 0ce66245ce2f638a9c896aabc23da59dbfff1442 15264213 docker.io_18.09.7.orig.tar.gz
+ 806d466c4333219f2206c03ec7be1abf1ef32073 35496 docker.io_18.09.7-0ubuntu1~16.04.8.debian.tar.xz
+Checksums-Sha256:
+ 55e93c9404492637520efafbdf3b9a42c25c55ae96659bb330e9d7b0def0d1b1 3393 docker.io_18.09.7-0ubuntu1~16.04.8.dsc
+ ae535f0fdac2856db4184364b16874ee77dc6d3fd258f2b7a55ab7f1f76bc8f6 2704598 docker.io_18.09.7.orig-libnetwork.tar.gz
+ 287d08575ae8825c1e8fd5f783104df7a26a88046a2d34d46c986348f5e0cadb 32164 docker.io_18.09.7.orig-tini.tar.gz
+ f05dc15f5c11635472534c3aaf759c39c1bba842dd1ac23059431c2fd1ae1795 15264213 docker.io_18.09.7.orig.tar.gz
+ b4606838cbd2a5dea148f978cad280ade2a7a8970adbdcbd1bc86c504ddca68d 35496 docker.io_18.09.7-0ubuntu1~16.04.8.debian.tar.xz
+Checksums-Sha512:
+ e0b577fe82eea55593859196aac24b190bf35819fca626024e5e35d30da45631ea3285f8a4af17a95ce1300c66309574e2f75fd08e07234195ed90b3414676e5 3393 docker.io_18.09.7-0ubuntu1~16.04.8.dsc
+ 5050f739925ba4648237762ff541db79fc4e7569ad0933bd2898fce0eb6cb0a126b9d2e7a604f5575a66035f2681a751c3a97d21bbc513cc507a3c599e274819 2704598 docker.io_18.09.7.orig-libnetwork.tar.gz
+ 7205101a59cc70d69dcca8dc6bd101eef50e7aea7501758b2478c0548c14843e53b706f66cdd38c3dfcca9308725f7d96c95208b6190f19cb3189fec96e0020b 32164 docker.io_18.09.7.orig-tini.tar.gz
+ 7d06ab01673b5931a8dde1d2fcebf442d1a107c98c95cd8fe3b886c123b48470950601782fe0c83e7537a1e856069e79a096b9f4523fea7984fd3e773b243b66 15264213 docker.io_18.09.7.orig.tar.gz
+ 249bab236f8f648a55f3f01ce70c9f3941bea5120e4d41aab88fa9113750298880e3105307c0dfef6c261702f1bbdc596373f7715c8f9cbb60c67482447957e0 35496 docker.io_18.09.7-0ubuntu1~16.04.8.debian.tar.xz
+Go-Import-Path: github.com/docker/docker
+
+Package: google-guest-agent
+Format: 3.0 (quilt)
+Binary: google-guest-agent
+Architecture: any
+Version: 20210414.00-0ubuntu1~16.04.0
+Priority: optional
+Section: universe/devel
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders: Balint Reczey <rbalint@ubuntu.com>
+Standards-Version: 4.5.0
+Build-Depends: debhelper (>= 9), dh-golang, dh-systemd, golang-1.13
+Testsuite: autopkgtest-pkg-go
+Homepage: https://github.com/GoogleCloudPlatform/guest-agent
+Vcs-Browser: https://code.launchpad.net/~ubuntu-core-dev/+git/google-guest-agent
+Vcs-Git: https://git.launchpad.net/~ubuntu-core-dev/+git/google-guest-agent -b ubuntu/master
+Directory: pool/universe/g/google-guest-agent
+Package-List:
+ google-guest-agent deb devel optional arch=any
+Files:
+ 78ffa05f83d4256bad6eac5a59dec185 2290 google-guest-agent_20210414.00-0ubuntu1~16.04.0.dsc
+ ca739dc34f5ffaf500d9190116be60b6 82543 google-guest-agent_20210414.00.orig.tar.gz
+ 3110e9d0dad675e6b1a4c7956ac3a363 1786324 google-guest-agent_20210414.00-0ubuntu1~16.04.0.debian.tar.xz
+Checksums-Sha1:
+ 1a090e4cbc124b3131eaf0589338fe79713c2e85 2290 google-guest-agent_20210414.00-0ubuntu1~16.04.0.dsc
+ aeebeb96606ffb3758ac4d3237e2ea144c51aebe 82543 google-guest-agent_20210414.00.orig.tar.gz
+ 2e91f5798d1375d5c169e18ab619cc3810df9da3 1786324 google-guest-agent_20210414.00-0ubuntu1~16.04.0.debian.tar.xz
+Checksums-Sha256:
+ 04e95c065504d8535e580f1dbc584f841b347f9f00a15b676291aff6a73a9f51 2290 google-guest-agent_20210414.00-0ubuntu1~16.04.0.dsc
+ 11d520949136ed5d436842da2ff428b13898b5656ad146ae8530a555b7b84a00 82543 google-guest-agent_20210414.00.orig.tar.gz
+ 1ae65e1936347a970af4b38d9cf8dd3dc7cbdcf049ec2098b0f37194ee2b5fef 1786324 google-guest-agent_20210414.00-0ubuntu1~16.04.0.debian.tar.xz
+Checksums-Sha512:
+ 84f0b6053332d5c5e32b213a1a622ef665cc0873a03157830d5682a87c1ae6b602ae24fbb9e3305685771e9bf82d4c90c0c7c082f3ec0e694009a7595d16da9b 2290 google-guest-agent_20210414.00-0ubuntu1~16.04.0.dsc
+ bb1c01bd719f59d49ce77251df39e2158fd8682989ab161382b136c816e7d9595f22982938771db2397d05ea2177b46517dd5f2633baae803c7cca426026e39c 82543 google-guest-agent_20210414.00.orig.tar.gz
+ ccb9709f389f55bee8ee3511d510d02843853a7c16ab0db93e109a41a1cb60ff305b4789b77644c006ab4ca9352451c800bad110f3876afc9b9ae7a0c750fdd0 1786324 google-guest-agent_20210414.00-0ubuntu1~16.04.0.debian.tar.xz
+Go-Import-Path: github.com/GoogleCloudPlatform/guest-agent
+

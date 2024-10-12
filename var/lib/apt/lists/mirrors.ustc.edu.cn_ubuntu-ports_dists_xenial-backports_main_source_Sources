@@ -1,0 +1,332 @@
+Package: appstream
+Format: 3.0 (quilt)
+Binary: appstream, libappstream4, libappstream-dev, gir1.2-appstream-1.0, libappstreamqt2, libappstreamqt-dev, appstream-doc, appstream-index
+Architecture: any all
+Version: 0.10.6-1~ubuntu16.04.2
+Priority: optional
+Section: misc
+Maintainer: Matthias Klumpp <mak@debian.org>
+Standards-Version: 3.9.8
+Build-Depends: cmake (>= 2.8), debhelper (>= 10), gettext, gobject-introspection, gtk-doc-tools, itstool, libgirepository1.0-dev (>= 1.32), libglib2.0-dev (>= 2.46), libstemmer-dev, libxml2-dev (>= 2.8.0), libyaml-dev (>= 0.1.6), qtbase5-dev (>= 5.4), valac, xmlto
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Homepage: http://www.freedesktop.org/wiki/Distributions/AppStream/
+Vcs-Browser: https://anonscm.debian.org/git/pkg-packagekit/appstream.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-packagekit/appstream.git
+Directory: pool/main/a/appstream
+Package-List:
+ appstream deb admin optional arch=any
+ appstream-doc deb doc optional arch=all
+ appstream-index deb oldlibs extra arch=all
+ gir1.2-appstream-1.0 deb introspection optional arch=any
+ libappstream-dev deb libdevel optional arch=any
+ libappstream4 deb libs optional arch=any
+ libappstreamqt-dev deb libdevel optional arch=any
+ libappstreamqt2 deb libs optional arch=any
+Files:
+ e03b6c5ca7e8ab7618789f48201ba7cd 2697 appstream_0.10.6-1~ubuntu16.04.2.dsc
+ eaf1b7b47690987290c14b9629cd229b 1965876 appstream_0.10.6.orig.tar.xz
+ 73bc44a9f8181199b76c0cc58da3f48d 9548 appstream_0.10.6-1~ubuntu16.04.2.debian.tar.xz
+Checksums-Sha1:
+ de9565c9557c6d2711fbcb6b194ccaf60b5e2611 2697 appstream_0.10.6-1~ubuntu16.04.2.dsc
+ 0a7c946f58f802243273ba5b6e7d9c4af66ccc92 1965876 appstream_0.10.6.orig.tar.xz
+ 5162f1dd063cafd234034aa89d58b55f87bac70d 9548 appstream_0.10.6-1~ubuntu16.04.2.debian.tar.xz
+Checksums-Sha256:
+ ab122075d92a5942591431ed3eaa80b6d6170bc99930aa85aca06fbe5c200f19 2697 appstream_0.10.6-1~ubuntu16.04.2.dsc
+ fed48f8f5c031203222e6cf53988e1db1c0bc51ce3e467f76d20b4c55a74dddc 1965876 appstream_0.10.6.orig.tar.xz
+ 58e0f52ee2d6bf9c19291462bfee83864ebba312344f90225bafd392f401331d 9548 appstream_0.10.6-1~ubuntu16.04.2.debian.tar.xz
+Checksums-Sha512:
+ fb31924da027f65fb2eb4263eea70f3e789dfa5686789dfb4aed0ff4f95d74549c4e817fc7aefb54ca9add92c06ff5c9f03c64dfb6b7637875e6655b61791857 2697 appstream_0.10.6-1~ubuntu16.04.2.dsc
+ 9967df3115ce97d3b0ba8ffdec4e57069d54bb20bd608c49f4c1a6ebe7c6539702e221422a7958a71d50dca6934fb56456247062c3e0fe43aed57030d7e83383 1965876 appstream_0.10.6.orig.tar.xz
+ 5aced626b4f87730259f5ede3a8afe44bee5b28efdcda90ee9b710717ae9829e55553f74ee08be6310d44060e108bc9cdf292bb66cd0c1eb35b626faf2ed3d5b 9548 appstream_0.10.6-1~ubuntu16.04.2.debian.tar.xz
+Testsuite-Restrictions: needs-root
+
+Package: autopkgtest
+Format: 3.0 (native)
+Binary: autopkgtest
+Architecture: all
+Version: 4.3~ubuntu16.04.1
+Priority: optional
+Section: devel
+Maintainer: Autopkgtest team <autopkgtest-devel@lists.alioth.debian.org>
+Uploaders: Ian Jackson <ijackson@chiark.greenend.org.uk>, Martin Pitt <mpitt@debian.org>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9), python3 (>= 3.1), python3-mock, python3-debian, python3-docutils, pyflakes3 | pyflakes, procps, pycodestyle | pep8
+Testsuite: autopkgtest
+Testsuite-Triggers: autodep8, build-essential, debhelper, fakeroot, lxd, lxd-client, pyflakes
+Vcs-Browser: https://anonscm.debian.org/git/autopkgtest/autopkgtest.git
+Vcs-Git: https://anonscm.debian.org/git/autopkgtest/autopkgtest.git
+Directory: pool/main/a/autopkgtest
+Package-List:
+ autopkgtest deb devel optional arch=all
+Files:
+ 145060357922370a0005668d72cc2ae7 1919 autopkgtest_4.3~ubuntu16.04.1.dsc
+ b74248011e27c6e3d5089b16540ac75b 172792 autopkgtest_4.3~ubuntu16.04.1.tar.xz
+Checksums-Sha1:
+ cc64f604824bc06a1bb4c83d1b7cc6b9e316eeb8 1919 autopkgtest_4.3~ubuntu16.04.1.dsc
+ 1885d1a93c7d204b2080a5d8084c7ef56d1df8c8 172792 autopkgtest_4.3~ubuntu16.04.1.tar.xz
+Checksums-Sha256:
+ 2cfc4eee13e8c674769290a60c71768f765e5b379cb4454b8e5b08a6ff6e2239 1919 autopkgtest_4.3~ubuntu16.04.1.dsc
+ e7b56fc69d2feccb86bd45007be401b3d135bc496848b2f81da87a9b585701da 172792 autopkgtest_4.3~ubuntu16.04.1.tar.xz
+Checksums-Sha512:
+ 7873a060069c2c784a9f4b1093fa14553d141279bf62d26bd08b086115dce9dad8c2f5642627638b56b41756c19c9d33fd5c4e3bf6029f0e42a3d30c34f107de 1919 autopkgtest_4.3~ubuntu16.04.1.dsc
+ b47a394b41aa8090ea2fbfe7ebaee527feb0326b27de42b3bad2a2b80b54cd978ad39d35a9576c5946d424e9ff51a9894f53981659bad141d62b98002916cf26 172792 autopkgtest_4.3~ubuntu16.04.1.tar.xz
+
+Package: debhelper
+Format: 3.0 (native)
+Binary: debhelper, dh-systemd
+Architecture: all
+Version: 10.2.2ubuntu1~ubuntu16.04.1
+Priority: optional
+Section: devel
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debhelper Maintainers <debhelper-devel@lists.alioth.debian.org>
+Uploaders: Niels Thykier <niels@thykier.net>, Bernhard R. Link <brlink@debian.org>
+Standards-Version: 3.9.8
+Build-Depends: dpkg-dev (>= 1.18.0~), perl:any, po4a (>= 0.24)
+Vcs-Browser: https://anonscm.debian.org/git/debhelper/debhelper.git
+Vcs-Git: https://anonscm.debian.org/git/debhelper/debhelper.git
+Directory: pool/main/d/debhelper
+Package-List:
+ debhelper deb devel optional arch=all
+ dh-systemd deb oldlibs extra arch=all
+Files:
+ 2e7247c676ce191d24e831a9f673add8 1864 debhelper_10.2.2ubuntu1~ubuntu16.04.1.dsc
+ 6eb194d5b6b9bb422f1d232a2d9da3fb 354740 debhelper_10.2.2ubuntu1~ubuntu16.04.1.tar.xz
+Checksums-Sha1:
+ f1cec404bd1b38692c6854b681c0de292f2b0065 1864 debhelper_10.2.2ubuntu1~ubuntu16.04.1.dsc
+ f11df68a1181862ce719a2b3f114e39218992f81 354740 debhelper_10.2.2ubuntu1~ubuntu16.04.1.tar.xz
+Checksums-Sha256:
+ b591c58d40ac045f36f5be3f32dd0cf78c69ff21e58ccd5717d0293b768b6174 1864 debhelper_10.2.2ubuntu1~ubuntu16.04.1.dsc
+ 3c38ef741ecc21dd52c2b86ae3dab3a0cb8991a6e76d484801c1dd2e860ef47f 354740 debhelper_10.2.2ubuntu1~ubuntu16.04.1.tar.xz
+Checksums-Sha512:
+ 8f8f95dd8378e4c426f4b3f9fb7f072e0175f99ed58fe0933b5f33eaf26351f66e8f68f3bff60c56aeb03a4f96f338b507921bc3f653c8ae7a256f4f7233e4d5 1864 debhelper_10.2.2ubuntu1~ubuntu16.04.1.dsc
+ 15fb015ee2a8e7267e0f57ac81d8e3d8a67aedd2651a42f2c20b92dcaa39fc7dd04123150873ddd228ff7c4716d18c9c5d86c6ff79bb77fd6c681e27ca4386c9 354740 debhelper_10.2.2ubuntu1~ubuntu16.04.1.tar.xz
+
+Package: dh-autoreconf
+Format: 3.0 (native)
+Binary: dh-autoreconf
+Architecture: all
+Version: 12~ubuntu16.04.1
+Priority: optional
+Section: devel
+Maintainer: Julian Andres Klode <jak@debian.org>
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 9)
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/dh-autoreconf.git
+Vcs-Git: git://anonscm.debian.org/collab-maint/dh-autoreconf.git
+Directory: pool/main/d/dh-autoreconf
+Package-List:
+ dh-autoreconf deb devel optional arch=all
+Files:
+ cff744c0abf1befc1fd5cd727d41c496 1580 dh-autoreconf_12~ubuntu16.04.1.dsc
+ 208eaac316abf7aaa38cf0021a7c1603 7052 dh-autoreconf_12~ubuntu16.04.1.tar.xz
+Checksums-Sha1:
+ 08bde951d3b9b4b6d549f04907fe888c9eaa2ae6 1580 dh-autoreconf_12~ubuntu16.04.1.dsc
+ b2fbff1bc9b8a31914d0a7466173bdc240c0be0d 7052 dh-autoreconf_12~ubuntu16.04.1.tar.xz
+Checksums-Sha256:
+ b5bd4b7265fb6ee517201dbc1cc3843efdc1cf8c4be8c682a1744125a9427484 1580 dh-autoreconf_12~ubuntu16.04.1.dsc
+ a0cbaf684b7d222644fa190b5d03d186c3a24248d394b598b1f55e11aa4d0bb8 7052 dh-autoreconf_12~ubuntu16.04.1.tar.xz
+Checksums-Sha512:
+ e314a88734ad1ed7f983dc2a5331cc1f03620bb347f08f1980208a4619804b22d97402055306376c93eb1ce17fe2a1cd6ee570e88882547b5c38af30eeebd437 1580 dh-autoreconf_12~ubuntu16.04.1.dsc
+ e453fd43390b1cc778203b51fde044112ce48c1a612f978ac92d6da43d98604d387d645838fd25fdfe43457b161b987faf6f019f7f11c91c9474a07dbe8510ec 7052 dh-autoreconf_12~ubuntu16.04.1.tar.xz
+
+Package: distro-info
+Format: 3.0 (native)
+Binary: distro-info, libdistro-info-perl, python-distro-info, python3-distro-info
+Architecture: any all
+Version: 0.18ubuntu0.18.04.1~bpo16.04.1
+Priority: optional
+Section: devel
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Benjamin Drung <bdrung@debian.org>
+Uploaders: Stefano Rivera <stefanor@debian.org>
+Standards-Version: 4.1.3
+Build-Depends: debhelper (>= 9), dh-python, distro-info-data (>= 0.28ubuntu0.18), pylint, pylint3, python-all (>= 2.6.3-3~), python-flake8, python-setuptools, python-unittest2, python3-all, python3-flake8, python3-setuptools, shunit2 (>= 2.1.6)
+Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/distro-info.git
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/distro-info.git
+Directory: pool/main/d/distro-info
+Package-List:
+ distro-info deb devel optional arch=any
+ libdistro-info-perl deb perl optional arch=all
+ python-distro-info deb python optional arch=all
+ python3-distro-info deb python optional arch=all
+Files:
+ ffa19567d93e389ea2159db3d5502480 2208 distro-info_0.18ubuntu0.18.04.1~bpo16.04.1.dsc
+ e250097be057f009bbf7ccf4fa1e3de2 28588 distro-info_0.18ubuntu0.18.04.1~bpo16.04.1.tar.xz
+Checksums-Sha1:
+ f87f6a428a3b4c52bb0d91df5854cf12c6d63bf7 2208 distro-info_0.18ubuntu0.18.04.1~bpo16.04.1.dsc
+ 8ce61db20a7b41b1c0cefd920bc84545d67b1d82 28588 distro-info_0.18ubuntu0.18.04.1~bpo16.04.1.tar.xz
+Checksums-Sha256:
+ 819ca8a3e4a0e8afb851df45a8907b4c150337f026a7b515ff56f3dd031da2ce 2208 distro-info_0.18ubuntu0.18.04.1~bpo16.04.1.dsc
+ 42036477380f8a1225f28d9f0749adb5a175fa60afebcc13a3f6fdb5d8553008 28588 distro-info_0.18ubuntu0.18.04.1~bpo16.04.1.tar.xz
+Checksums-Sha512:
+ 576ba556c74c2cd2a16d68029e3001dccab163a0b14f93606b16cac83a278f687b5aa25b19e07354265e44b18f9e1ffd5dd9d6d2d73c0e200dc00cd088a40164 2208 distro-info_0.18ubuntu0.18.04.1~bpo16.04.1.dsc
+ 741f13ff34fb5100aceae0fcc26e5ca4b79167a4291ac6b06dbdd966dc3f4b6cbbb267f3f71ff0fd0bf70b3c153c5bd52f1f01c10dd1e4660ee3643994a5e021 28588 distro-info_0.18ubuntu0.18.04.1~bpo16.04.1.tar.xz
+
+Package: libarchive
+Format: 3.0 (quilt)
+Binary: libarchive-dev, libarchive13, libarchive-tools, bsdtar, bsdcpio
+Architecture: any all
+Version: 3.2.1-2~ubuntu16.04.1
+Priority: optional
+Section: libs
+Maintainer: Debian Libarchive Maintainers <ah-libarchive@debian.org>
+Uploaders: Andreas Henriksson <andreas@fatal.se>, Peter Pentchev <roam@ringlet.net>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9), pkg-config, libbz2-dev, liblz4-dev, liblzma-dev, libxml2-dev, zlib1g-dev, libacl1-dev [!hurd-any], e2fslibs-dev, libattr1-dev, sharutils, nettle-dev, liblzo2-dev, locales | locales-all, dh-autoreconf
+Testsuite: autopkgtest
+Homepage: http://www.libarchive.org/
+Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/libarchive.git
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/libarchive.git
+Directory: pool/main/liba/libarchive
+Package-List:
+ bsdcpio deb oldlibs extra arch=all
+ bsdtar deb oldlibs extra arch=all
+ libarchive-dev deb libdevel optional arch=any
+ libarchive-tools deb utils optional arch=any
+ libarchive13 deb libs optional arch=any
+Files:
+ 28f3a14a549341d97f19cb773b2db8aa 2459 libarchive_3.2.1-2~ubuntu16.04.1.dsc
+ afa257047d1941a565216edbf0171e72 5448888 libarchive_3.2.1.orig.tar.gz
+ 754d7ad7e8d1888dd521431d2dea6310 15424 libarchive_3.2.1-2~ubuntu16.04.1.debian.tar.xz
+Checksums-Sha1:
+ bf62e09231afec924bb61125f4cd7787340975b2 2459 libarchive_3.2.1-2~ubuntu16.04.1.dsc
+ d8c2e3c4028970b0827066b5a5fe5e9cd02c6f47 5448888 libarchive_3.2.1.orig.tar.gz
+ 033b6085c105ecf595d8b93900335a2694573492 15424 libarchive_3.2.1-2~ubuntu16.04.1.debian.tar.xz
+Checksums-Sha256:
+ c6df4fee76ebf4a306c69e8e94e6a73388f9f42fb773b2b5da90e76b0d23a7fc 2459 libarchive_3.2.1-2~ubuntu16.04.1.dsc
+ 72ee1a4e3fd534525f13a0ba1aa7b05b203d186e0c6072a8a4738649d0b3cfd2 5448888 libarchive_3.2.1.orig.tar.gz
+ d99ff67e35985cf071b7889db0f6df32a34be6e81bdcbefbb52a4707202adfcf 15424 libarchive_3.2.1-2~ubuntu16.04.1.debian.tar.xz
+Checksums-Sha512:
+ 88cb36ebdfed89e88b7b3326d98f309b58f9027425aaa1c49801be87773e4c5706744511f654e84f117cc3e7d50776393652581144deac7e823eea14e604f41f 2459 libarchive_3.2.1-2~ubuntu16.04.1.dsc
+ a5d43cb0bf36b687fabfbc874e7adc1fa94c563e7f073e107db8d4e79e8d0d8146cb985809f8115fbb882fc2d8a2a477d0a7364e93e6df62f292bb5e9865ec5c 5448888 libarchive_3.2.1.orig.tar.gz
+ 261edc91698335338613565b0e51bd8b57bf262a17f776f97a9ffd19f175688cf3f521405965cd9e50d3c4e07ae68e587893f34c5766f144a4f61db65b82b22e 15424 libarchive_3.2.1-2~ubuntu16.04.1.debian.tar.xz
+
+Package: lxc
+Format: 3.0 (quilt)
+Binary: lxc, lxc1, lxc-dev, lxc-utils, liblxc-common, liblxc-dev, liblxc1, libpam-cgfs
+Architecture: linux-any all
+Version: 3.0.3-0ubuntu1~16.04.1
+Priority: optional
+Section: admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Standards-Version: 4.2.1
+Build-Depends: bash-completion, debhelper (>= 10), dh-apparmor, docbook2x, dpkg-dev (>= 1.16.1~) | hardening-wrapper, libapparmor-dev (>= 2.8.96~2652-0ubuntu1), libcap-dev, libgnutls28-dev, libpam0g-dev, libseccomp-dev, libselinux1-dev, linux-libc-dev, pkg-config
+Testsuite: autopkgtest
+Testsuite-Triggers: autoconf, busybox-static, cloud-image-utils, debootstrap, dirmngr, distro-info, lxcfs, uidmap, xz-utils
+Homepage: https://linuxcontainers.org
+Vcs-Browser: https://github.com/lxc/lxc-pkg-ubuntu
+Vcs-Git: https://github.com/lxc/lxc-pkg-ubuntu
+Directory: pool/main/l/lxc
+Package-List:
+ liblxc-common deb admin optional arch=linux-any
+ liblxc-dev deb libdevel optional arch=linux-any
+ liblxc1 deb libs optional arch=linux-any
+ libpam-cgfs deb admin optional arch=linux-any
+ lxc deb oldlibs optional arch=all
+ lxc-dev deb oldlibs optional arch=all
+ lxc-utils deb admin optional arch=linux-any
+ lxc1 deb oldlibs optional arch=all
+Files:
+ f60a23af133967ad49572c46d7f93b8b 2851 lxc_3.0.3-0ubuntu1~16.04.1.dsc
+ 0aa1a982f7dfa4c7b8ce87b7047b0b6e 1263371 lxc_3.0.3.orig.tar.gz
+ 0d68fe6a95969318cb3c148130a82c3a 833 lxc_3.0.3.orig.tar.gz.asc
+ 608342c040bd671ea3878f6dd55c9813 118692 lxc_3.0.3-0ubuntu1~16.04.1.debian.tar.xz
+Checksums-Sha1:
+ ab02c8f3c062cad9b6df51c86d173e4b00e9e5fe 2851 lxc_3.0.3-0ubuntu1~16.04.1.dsc
+ 05665debbb056bac43ddb0dc55b0bb1392dab818 1263371 lxc_3.0.3.orig.tar.gz
+ 26f828d26e111a58334bcb8b8fb2a63d6fde8973 833 lxc_3.0.3.orig.tar.gz.asc
+ c8496d2cefbd8c4cd13bffd2d5a19e8ecbb14712 118692 lxc_3.0.3-0ubuntu1~16.04.1.debian.tar.xz
+Checksums-Sha256:
+ 82a8ce3b64b24563e2a84e53b6e2efe5f82c95c1d1ae49a067cffbdfee21c51b 2851 lxc_3.0.3-0ubuntu1~16.04.1.dsc
+ 620cb832cc02c63bf4d330657bf6176544e145da281ee384a34d689635a19841 1263371 lxc_3.0.3.orig.tar.gz
+ a63e4391e512f87c2637621d2b1af03fdbda608b172c242bd2fc1f0e436e0123 833 lxc_3.0.3.orig.tar.gz.asc
+ 92e4f1961d81ab59fa2ab84eb1a806ebebf4e223f8a42e079a87279579865217 118692 lxc_3.0.3-0ubuntu1~16.04.1.debian.tar.xz
+Checksums-Sha512:
+ e51025942eff322ebd1ffef745a4cbcce833efacf005eabc8d0c64e0ceba83ec46ff484a6e7eb595c4f8642d9759f77320f763ba4b82f93d4edc582059f6c59a 2851 lxc_3.0.3-0ubuntu1~16.04.1.dsc
+ cdc411364153d7ed494bab604260f5cbdfd5bd7734a59af970b3198c7b3cb340b6736856a2189d5989e169945a817ac8b531bc3ab62217a4285dd63a851f9c8a 1263371 lxc_3.0.3.orig.tar.gz
+ 61802284b1c31779cbe442d1a63f0a981597e183abc042fd0ebe77bd43f1d20d609bfc9b010e6fcf6007ac863f7c4b9506cbb70069c7cff4e9bb054003488340 833 lxc_3.0.3.orig.tar.gz.asc
+ f838e1a303b053200764d5e69fa2d93c870ce9d77a367559d514374eedbeada4bb4e27090fcdd5d1dd86591acd9a0379c5bff4c96b33a4d0e5f9115ca20a710e 118692 lxc_3.0.3-0ubuntu1~16.04.1.debian.tar.xz
+
+Package: lxcfs
+Format: 3.0 (quilt)
+Binary: lxcfs
+Architecture: linux-any
+Version: 3.0.3-0ubuntu1~16.04.1
+Priority: optional
+Section: admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: pkg-lxc <pkg-lxc-devel@lists.alioth.debian.org>
+Uploaders: Adnan Hodzic <adnan@hodzic.org>, Evgeni Golov <evgeni@debian.org>
+Standards-Version: 4.2.1
+Build-Depends: debhelper (>= 10), help2man, libattr1-dev, libfuse-dev, linux-libc-dev, pkg-config
+Testsuite: autopkgtest
+Testsuite-Triggers: lxc, uuid-runtime
+Homepage: https://linuxcontainers.org
+Directory: pool/main/l/lxcfs
+Package-List:
+ lxcfs deb admin optional arch=linux-any
+Files:
+ 606875fac4b81b3e6fe783aad8347858 2283 lxcfs_3.0.3-0ubuntu1~16.04.1.dsc
+ bfc41f949caeabd0468189480222f25e 401975 lxcfs_3.0.3.orig.tar.gz
+ 7842cfd292bd2932aecfb29edd370705 833 lxcfs_3.0.3.orig.tar.gz.asc
+ d3b8eeb39e881643b4de4f052dddcf4b 63380 lxcfs_3.0.3-0ubuntu1~16.04.1.debian.tar.xz
+Checksums-Sha1:
+ 4cb72fa205d66a1e18d8723265137aaffa29d4a8 2283 lxcfs_3.0.3-0ubuntu1~16.04.1.dsc
+ f975411971fee386250212ce4b0bb32e25ec79e0 401975 lxcfs_3.0.3.orig.tar.gz
+ 1bf558f4a4b0ac5dbd0d314c492f576c2f9f7ab9 833 lxcfs_3.0.3.orig.tar.gz.asc
+ 19771cf20c831b75be37b8497f1b4609a2f9a66d 63380 lxcfs_3.0.3-0ubuntu1~16.04.1.debian.tar.xz
+Checksums-Sha256:
+ 13bb2bde4c71db634bc9ac84187c6f646d0063be22958386f4627c779823e086 2283 lxcfs_3.0.3-0ubuntu1~16.04.1.dsc
+ 890aa30d960d9b1e53b0c0712bf645c1f1924f750e32cd090f368c1338bd462f 401975 lxcfs_3.0.3.orig.tar.gz
+ 8a051227365ad79efbe0a68aa5af0d5b70c54ed623d31c3ede4dc0724b18ad73 833 lxcfs_3.0.3.orig.tar.gz.asc
+ 46de31aa3f87cffae7b4c10d320f366e6a7056b4ad083194e8173493445a5f6b 63380 lxcfs_3.0.3-0ubuntu1~16.04.1.debian.tar.xz
+Checksums-Sha512:
+ f72ac4825563160c777a5342faa8100e3508aa9b82fff42d9bc3eb075b0b5170758893bf820d19bf099b6f5360171a68ba26f25bdf1579889deda558ae431130 2283 lxcfs_3.0.3-0ubuntu1~16.04.1.dsc
+ 93d9a3baca87571c1a6bd24e815a0824d6a04693831352927d2af6ffb50a849f2f7a62653e2c7ca80f1efce9dd42801f97fca2fd6d2a8ff64277f2bd3ab83169 401975 lxcfs_3.0.3.orig.tar.gz
+ e0c83c2f570b3c86b134f5965eb165d6572469eb01f75f395d04ea0beaaf0d26ada16938c9e802ba3b454c3b7d68fcf482de3266d007cc1480b9820f79d0d510 833 lxcfs_3.0.3.orig.tar.gz.asc
+ d9913a404dd856b97d23ec7d4e52caf5f0bdd727c594a4cd1b377abcff56c8d3c0cdcbabc5e4eef909217f28e637056c1c0a529cf1acbdde3100262c82346e83 63380 lxcfs_3.0.3-0ubuntu1~16.04.1.debian.tar.xz
+
+Package: lxd
+Format: 3.0 (quilt)
+Binary: lxd-client, lxd, lxd-tools
+Architecture: amd64 arm64 armhf i386 ppc64el s390x
+Version: 3.0.3-0ubuntu1~16.04.1
+Priority: optional
+Section: admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Standards-Version: 4.2.1
+Build-Depends: debhelper (>= 10), dh-apparmor, dh-golang, golang-1.10-go, help2man, libacl1-dev, libcap-dev, libuv1-dev, lxc-dev (>= 1.1.0~), pkg-config, python3-lxc, tcl8.6-dev
+Testsuite: autopkgtest
+Testsuite-Triggers: acl, btrfs-tools, busybox-static, curl, git, golang-go, jq, make, socat, sqlite3, thin-provisioning-tools, uuid-runtime, zfsutils-linux
+Homepage: https://linuxcontainers.org/
+Vcs-Browser: https://github.com/lxc/lxd-pkg-ubuntu
+Vcs-Git: https://github.com/lxc/lxd-pkg-ubuntu
+Directory: pool/main/l/lxd
+Package-List:
+ lxd deb admin optional arch=amd64,arm64,armhf,i386,ppc64el,s390x
+ lxd-client deb admin optional arch=amd64,arm64,armhf,i386,ppc64el,s390x
+ lxd-tools deb admin optional arch=amd64,arm64,armhf,i386,ppc64el,s390x
+Files:
+ 56150fbb25297a16ce6184b14ec0cca5 2676 lxd_3.0.3-0ubuntu1~16.04.1.dsc
+ 55fda0828042b1118536392f89974e66 22309140 lxd_3.0.3.orig.tar.gz
+ 4a019fb185c3971090143197f56c3c9f 833 lxd_3.0.3.orig.tar.gz.asc
+ e38ada069984ba3d98bf595ab9c3d291 116088 lxd_3.0.3-0ubuntu1~16.04.1.debian.tar.xz
+Checksums-Sha1:
+ 6f64275ed42896a54686b93271c1bba2fbb47e3f 2676 lxd_3.0.3-0ubuntu1~16.04.1.dsc
+ 31ddb6bf8918fc8ebdf362d11142430756902ff0 22309140 lxd_3.0.3.orig.tar.gz
+ f98b4daba7b4c0bd3fe6e45db02bd1e6c3546efd 833 lxd_3.0.3.orig.tar.gz.asc
+ 36ade865033e21c835263af523f7f2bb43109038 116088 lxd_3.0.3-0ubuntu1~16.04.1.debian.tar.xz
+Checksums-Sha256:
+ 58ca527eefd8fb769a24cabbffc2d680f5fe0f3258d99e894a4eaf51b1348cf4 2676 lxd_3.0.3-0ubuntu1~16.04.1.dsc
+ 55b4ae1844e95ad8c283a22ac6c2f661fddedf17fd39d1fdbe60f07895986453 22309140 lxd_3.0.3.orig.tar.gz
+ 7f843960b039048add459fb50dd5f685bef257befa4951c2ff559ef49a73139a 833 lxd_3.0.3.orig.tar.gz.asc
+ ab2c27a41936f8611eb7d7a4ab8db0c25b0c9a34824c1f4a9ce45efd8553193a 116088 lxd_3.0.3-0ubuntu1~16.04.1.debian.tar.xz
+Checksums-Sha512:
+ c9a8bfaf02ac428f3038adedf7a112d58d623337a64b651ba78a109431081476d1182622e1175ecdfa83727ef8ddd5500ace0a87ac6d4c36d1d4c795adb04dd4 2676 lxd_3.0.3-0ubuntu1~16.04.1.dsc
+ 43092c952d6f09e68811d090f06b8871fe0b9af3be562832d8be19e96e52f2baf725af25c7bba7572616452dad9ed5999ffb0da9bb38b78ec46c5ded406e1f02 22309140 lxd_3.0.3.orig.tar.gz
+ dda2aa87e648dc57c9c0668ede2cbda70a43a686f0d57d284bdbb1742defb272c16d3bf0df627898b2f85c4bbb2e164bc73cf4249e77ef1a0ba12daf78edb504 833 lxd_3.0.3.orig.tar.gz.asc
+ b6429f7ad10567e7469c207218b0ad74da27b23d9a73067a2f3bec0f381278f58867512dab60bc8ef8f599e265ac6d1370b9498f157b7b9027a2e2c14fe587ed 116088 lxd_3.0.3-0ubuntu1~16.04.1.debian.tar.xz
+Go-Import-Path: github.com/lxc/lxd
+

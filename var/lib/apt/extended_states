@@ -1,0 +1,152 @@
+Package: vim-common
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libsqlite3-0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libpython3.5
+Architecture: armhf
+Auto-Installed: 1
+
+Package: mime-support
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libmagic1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libmpdec2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libexpat1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: vim-runtime
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libgpm2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: file
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libpython3.5-stdlib
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libpython3.5-minimal
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libssl1.0.0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libdns-export162
+Architecture: armhf
+Auto-Installed: 1
+
+Package: isc-dhcp-common
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libisc-export160
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libatm1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: iproute2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libxtables11
+Architecture: armhf
+Auto-Installed: 1
+
+Package: isc-dhcp-client
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libmnl0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: locales
+Architecture: armhf
+Auto-Installed: 1
+
+Package: language-pack-en
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libpopt0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: ucf
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libestr0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: logrotate
+Architecture: armhf
+Auto-Installed: 1
+
+Package: cron
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libjson-c2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libgnutls-openssl27
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libgmp10
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libhogweed4
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libnettle6
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libidn11
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libgnutls30
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libffi6
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libp11-kit0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libtasn1-6
+Architecture: armhf
+Auto-Installed: 1
+

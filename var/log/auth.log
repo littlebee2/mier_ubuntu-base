@@ -1,0 +1,10 @@
+Feb 11 16:28:18 alientek_imx6ul login[169]: pam_unix(login:account): account root has password changed in future
+Feb 11 16:28:18 alientek_imx6ul login[169]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Feb 11 16:28:18 alientek_imx6ul login[194]: ROOT LOGIN  on '/dev/ttymxc0'
+Feb 11 16:28:24 alientek_imx6ul groupadd[201]: group added to /etc/group: name=danneil, GID=1000
+Feb 11 16:28:24 alientek_imx6ul groupadd[201]: group added to /etc/gshadow: name=danneil
+Feb 11 16:28:24 alientek_imx6ul groupadd[201]: new group: name=danneil, GID=1000
+Feb 11 16:28:24 alientek_imx6ul useradd[207]: new user: name=danneil, UID=1000, GID=1000, home=/home/danneil, shell=/bin/bash
+Feb 11 16:28:33 alientek_imx6ul passwd[216]: pam_unix(passwd:chauthtok): password changed for danneil
+Feb 11 16:28:33 alientek_imx6ul chfn[221]: pam_unix(chfn:account): account root has password changed in future
+Feb 11 16:28:42 alientek_imx6ul chfn[221]: changed user 'danneil' information

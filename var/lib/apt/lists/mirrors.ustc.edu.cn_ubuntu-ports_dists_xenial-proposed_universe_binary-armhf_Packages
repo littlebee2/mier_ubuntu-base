@@ -1,0 +1,480 @@
+Package: agda-bin
+Architecture: armhf
+Version: 2.4.2.5-1build1
+Priority: optional
+Section: universe/haskell
+Source: agda
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 45146
+Depends: libc6 (>= 2.15), libffi6 (>= 3.0.4), libgmp10, libtinfo5 (>= 6), zlib1g (>= 1:1.1.4)
+Recommends: libghc-agda-dev (>= 2.4.2.5), libghc-agda-dev (<< 2.4.2.5+~)
+Suggests: agda-mode
+Filename: pool/universe/a/agda/agda-bin_2.4.2.5-1build1_armhf.deb
+Size: 6305750
+MD5sum: 235bb28a61a29529944d2196d40f283e
+SHA1: a88817c615b6c4603a7edb7dee42ff1628e2915d
+SHA256: 9000d78ed83c06d3ff1efc9d2127c296149e78efd683f23bb12249e787006618
+SHA512: aeb50603d8d1693cf5760464fe942a6120e02d19eada4eb42698c8310b0493410e0287dfb592178721362081205f55d1a0156deb6fa52911f1f4c26c1073fe78
+Homepage: http://wiki.portal.chalmers.se/agda/
+Description: commandline interface to Agda
+Description-md5: f8e26d204d9ccc3a3cfdad460ae35595
+
+Package: docker-doc
+Architecture: all
+Version: 18.09.7-0ubuntu1~16.04.8
+Priority: optional
+Section: universe/doc
+Source: docker.io
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Tagliamonte <paultag@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1229
+Provides: docker.io-doc
+Filename: pool/universe/d/docker.io/docker-doc_18.09.7-0ubuntu1~16.04.8_all.deb
+Size: 968926
+MD5sum: c90a722a26f3bd6df7f0e3d09b799420
+SHA1: 5b374e441e2f54e8225b8821f6752011395d3a2a
+SHA256: 1b7339fc479c8524571635955020215381b8b4793a9898514e1c976e78b84562
+SHA512: 01e2ef837271ac279e1b6e425f9420a76d61e3846683dca3d17347c34c3263321eeaf500ea0e5b9cd838842fae4ec7850b29e7b5bc1ade82a56bf28aa9a5c47c
+Homepage: https://www.docker.com/community-edition
+Description: Linux container runtime -- documentation
+Description-md5: 4f86326741c09d05fe80222b21fce476
+
+Package: docker.io
+Architecture: armhf
+Version: 18.09.7-0ubuntu1~16.04.8
+Built-Using: glibc (= 2.23-0ubuntu11.2)
+Priority: optional
+Section: universe/admin
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Tagliamonte <paultag@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 95928
+Depends: adduser, containerd (>= 1.2.6-0ubuntu1~), iptables, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), libc6 (>= 2.17), libdevmapper1.02.1 (>= 2:1.02.97), libseccomp2 (>= 2.1.0), libsystemd0
+Recommends: ca-certificates, cgroupfs-mount | cgroup-lite, git, pigz, ubuntu-fan, xz-utils, apparmor
+Suggests: aufs-tools, btrfs-tools, debootstrap, docker-doc, rinse, zfs-fuse | zfsutils
+Breaks: docker (<< 1.5~)
+Replaces: docker (<< 1.5~)
+Filename: pool/universe/d/docker.io/docker.io_18.09.7-0ubuntu1~16.04.8_armhf.deb
+Size: 18925402
+MD5sum: 04f3ef08865e687c5376854bb1619fb3
+SHA1: 70eadaaa89dbfb393ea6fca2a8f6fade20dfc5c9
+SHA256: 7d7944ec99d23fb4e7b196bf609d8b8a4f271e18db04de1a8de303caa8722b1e
+SHA512: 5578b4c83c950b1796aaabe998259aa6439f5fb4ef36acf9ddb7e792547fea4b37aaf7417a96f70acf9d82032972135d5d048c2e17b6689b3ef5029d34fa357f
+Homepage: https://www.docker.com/community-edition
+Description: Linux container runtime
+Description-md5: 05dc9eba68f3bf418e6a0cf29d555878
+
+Package: golang-docker-dev
+Architecture: all
+Version: 18.09.7-0ubuntu1~16.04.8
+Priority: optional
+Section: universe/admin
+Source: docker.io
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Tagliamonte <paultag@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 61
+Depends: golang-github-docker-docker-dev
+Filename: pool/universe/d/docker.io/golang-docker-dev_18.09.7-0ubuntu1~16.04.8_all.deb
+Size: 11552
+MD5sum: 0a5ce9b77fe5e80ea689211014d2e25f
+SHA1: 1e5027f2bebdc3867bad8e201e23ca3f191c21ff
+SHA256: ab19374f8893b39ef747667643ce52b61d7afb0cce43fbe2d1bd050b83bb42dc
+SHA512: 4b533e0a4bb7c0eee3aeaddad0d0d526c2995153136d580b2e850f4252f348c3572ffd08dadc3c51b53e01d1cd38967303507d02f8c02bc6dc7e1046748d9514
+Homepage: https://www.docker.com/community-edition
+Description: Transitional package for golang-github-docker-docker-dev
+Description-md5: d8f9334d5a9c76803c31ea534993299a
+
+Package: golang-github-docker-docker-dev
+Architecture: all
+Version: 18.09.7-0ubuntu1~16.04.8
+Priority: optional
+Section: universe/admin
+Source: docker.io
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Tagliamonte <paultag@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 36176
+Provides: golang-docker-dev
+Breaks: golang-docker-dev (<< 1.8.2~ds1-1~)
+Replaces: golang-docker-dev (<< 1.8.2~ds1-1~)
+Filename: pool/universe/d/docker.io/golang-github-docker-docker-dev_18.09.7-0ubuntu1~16.04.8_all.deb
+Size: 4487054
+MD5sum: 62014d07bceed12094e941fa78d05adc
+SHA1: 2b14ab068438be3aae1ff9b135ce76ebda29058e
+SHA256: cd7e4fa4736364522bc685b2b2493b5faf1950e8734153b4c504d05f898ddae4
+SHA512: bf6c27e06a66992130e19eee5bcb38bd290701180b95ce46ac2d507cb1a073d721f4b8531e3a942dec261c337b97d5cf323f204f23e0e0d31b2fcb017de4b272
+Homepage: https://www.docker.com/community-edition
+Description: Externally reusable Go packages included with Docker
+Description-md5: 6265ea5dccb7d86a2aa69e4e5d1c8598
+
+Package: google-guest-agent
+Architecture: armhf
+Version: 20210414.00-0ubuntu1~16.04.0
+Built-Using: golang-1.13 (= 1.13.8-1ubuntu1~16.04.3)
+Priority: optional
+Section: universe/devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 38913
+Depends: init-system-helpers (>= 1.18~), libc6 (>= 2.4)
+Breaks: gce-compute-image-packages (<< 20191115), python3-google-compute-engine
+Replaces: gce-compute-image-packages (<< 20191115)
+Filename: pool/universe/g/google-guest-agent/google-guest-agent_20210414.00-0ubuntu1~16.04.0_armhf.deb
+Size: 7597632
+MD5sum: 3d1f1f0fa65fcbcdc8e9d30b3c022c28
+SHA1: 0acd3e2f5bf90ad414dfcd16d94c234bedf64eff
+SHA256: 034403294bd89b0de5d8753ec8c8c10e52408b18ff03fbec4abc96fe3d86bc83
+SHA512: e259fc8f68b00c1a2533a8f458b49892570aef43ea22ee6294bd29dfbbf7e56e141a5b76519a916a38f18b4e89653bd139764e67c94b7e7e91f7f8b1bd315be8
+Homepage: https://github.com/GoogleCloudPlatform/guest-agent
+Description: Google Compute Engine Guest Agent
+Description-md5: 631281603d95decc0c24b058cbfb142f
+
+Package: libghc-agda-dev
+Architecture: armhf
+Version: 2.4.2.5-1build1
+Priority: extra
+Section: universe/haskell
+Source: agda
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 121513
+Provides: libghc-agda-dev-2.4.2.5-94f27
+Depends: libc6 (>= 2.4), libghc-quickcheck-dev-2.8.1-eeb73, libghc-array-dev-0.5.1.0-a4b4f, libghc-base-dev-4.8.2.0-2f1f7, libghc-binary-dev-0.7.5.0-29f70, libghc-boxes-dev-0.1.4-128a0, libghc-bytestring-dev-0.10.6.0-3b51e, libghc-containers-dev-0.5.6.2-169e5, libghc-data-hash-dev-0.2.0.1-36918, libghc-deepseq-dev-1.4.1.1-39756, libghc-directory-dev-1.2.2.0-17b20, libghc-edit-distance-dev-0.2.2.1-9d389, libghc-equivalence-dev-0.3.1-888c8, libghc-filepath-dev-1.4.0.0-73e0b, libghc-geniplate-mirror-dev-0.7.1-77a5f, libghc-hashable-dev-1.2.3.3-99999, libghc-hashtables-dev-1.2.1.0-a0b73, libghc-haskeline-dev-0.7.2.1-e7139, libghc-haskell-src-exts-dev-1.17.1-7afd8, libghc-mtl-dev-2.2.1-c5163, libghc-parallel-dev-3.2.1.0-29613, libghc-pretty-dev-1.1.2.0-b0632, libghc-process-dev-1.2.3.0-21d25, libghc-strict-dev-0.3.2-2979b, libghc-template-haskell-dev-2.10.0.0-4b92a, libghc-text-dev-1.2.2.0-2f82e, libghc-time-dev-1.5.0.1-cf94b, libghc-transformers-dev-0.4.2.0-25242, libghc-transformers-compat-dev-0.4.0.4-8aa40, libghc-unordered-containers-dev-0.2.5.1-1333d, libghc-xhtml-dev-3000.2.1-7f8e2, libghc-zlib-dev-0.6.1.1-863f5
+Suggests: libghc-agda-doc
+Filename: pool/universe/a/agda/libghc-agda-dev_2.4.2.5-1build1_armhf.deb
+Size: 13815724
+MD5sum: f55db779023b149a53066b1ac074708f
+SHA1: f34b528d204324f33e172cfcd647cf467e1b0b32
+SHA256: d74c3ff266aa4cae9e8cb5833c034bc0b48810ad3f580d0cf46815fc8a9323e6
+SHA512: 304f88655fa22f326e6e5fe08386426e3406196d45543292593cc285b967f13b5593e209f3aed77540ae4c70e3e75bd2694fea25fd68e514753206590e20e2dc
+Homepage: http://wiki.portal.chalmers.se/agda/
+Description: dependently typed functional programming language
+Ghc-Package: Agda-2.4.2.5-94f279b349f4521135e1ca61aa2d3cb2
+Description-md5: 367dee38c949eb56c7f0325161eedb49
+
+Package: linux-buildinfo-4.4.0-1148-raspi2
+Architecture: armhf
+Version: 4.4.0-1148.158
+Priority: optional
+Section: universe/kernel
+Source: linux-raspi2
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1569
+Filename: pool/universe/l/linux-raspi2/linux-buildinfo-4.4.0-1148-raspi2_4.4.0-1148.158_armhf.deb
+Size: 257264
+MD5sum: f4efbd0d204f73eb8fe1cd28884c1a78
+SHA1: b95fd7c3eeb501b779289ae17f38d2ed2e954075
+SHA256: be4411137a136894d77da86a786010256fc2db2c51825ccef0c98c212ad4eea5
+SHA512: 8e33c3b9215f37e6179b6b1b46a0dc85e0d627faf49ca558171c3efea4ce656ff698ebe0a29687da3f0e9f886322b30e402d7daf37088cc796c9c0db9079de16
+Description: Linux kernel buildinfo for version 4.4.0 on ARM (hard float) SMP
+Description-md5: 37251d530035006334331845917b466e
+
+Package: linux-buildinfo-4.4.0-1149-raspi2
+Architecture: armhf
+Version: 4.4.0-1149.160
+Priority: optional
+Section: universe/kernel
+Source: linux-raspi2
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1576
+Filename: pool/universe/l/linux-raspi2/linux-buildinfo-4.4.0-1149-raspi2_4.4.0-1149.160_armhf.deb
+Size: 261684
+MD5sum: 6b54b54f701087b0d1725b34e1060102
+SHA1: 9abf7a0c4a8579461e4fd3c2bc308311c80e770c
+SHA256: 1c8ea0fe1ab1cb750eb2aaff5a6ea7c379195fc907923656eb56f1a8388b97d2
+SHA512: f9b02a800035c51dc6f8fa980b425c03441da6be5043532cb656e7758da0ceaa087cff6eb874c1cac06e1dadde91332c149577d92c88a639e01556952d0ce083
+Description: Linux kernel buildinfo for version 4.4.0 on ARM (hard float) SMP
+Description-md5: 37251d530035006334331845917b466e
+
+Package: linux-headers-4.4.0-1148-raspi2
+Architecture: armhf
+Version: 4.4.0-1148.158
+Priority: optional
+Section: universe/devel
+Source: linux-raspi2
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6473
+Provides: linux-headers, linux-headers-3.0
+Depends: linux-raspi2-headers-4.4.0-1148, libc6 (>= 2.11), libssl1.0.0 (>= 1.0.0)
+Filename: pool/universe/l/linux-raspi2/linux-headers-4.4.0-1148-raspi2_4.4.0-1148.158_armhf.deb
+Size: 744630
+MD5sum: d4ac7bf24c2323b1a9ccf22f189658ec
+SHA1: f838b16772d0d7c769cc3def69b2957f81e975f9
+SHA256: 6174e3b3810bcc9b8ff1418b799058812b76b087b727074941f9f00487af3189
+SHA512: f6881ed275f011e8b10e4508cc48b8ac080ee13077b97fa73e78ef54b7be19a238ffb583e26f02675120057f70fa94abc39598e2d7b086af4793bab4fb97e40d
+Description: Linux kernel headers for version 4.4.0 on ARM (hard float) SMP
+Description-md5: fcdcafb2c58dfd7daa52ba0b2c2894af
+
+Package: linux-headers-4.4.0-1149-raspi2
+Architecture: armhf
+Version: 4.4.0-1149.160
+Priority: optional
+Section: universe/devel
+Source: linux-raspi2
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6479
+Provides: linux-headers, linux-headers-3.0
+Depends: linux-raspi2-headers-4.4.0-1149, libc6 (>= 2.11), libssl1.0.0 (>= 1.0.0)
+Filename: pool/universe/l/linux-raspi2/linux-headers-4.4.0-1149-raspi2_4.4.0-1149.160_armhf.deb
+Size: 746416
+MD5sum: 93235ba1820eba757f5f9d4153404bcc
+SHA1: 5716f6fbd1ecdddaceabfba66007ffd9cacb6f5c
+SHA256: d976c9bf8549ab188a57dee2861f5d7c22c24b31a50bcbabea11a425c67d1b1f
+SHA512: b9124b6cb513f0d31f66e7e865fa1fa86878559347f45c79943b7e308272417871042d0785e9e661a56288bff75fe5e188b8631e767eeebcb22c75e6c7295d8f
+Description: Linux kernel headers for version 4.4.0 on ARM (hard float) SMP
+Description-md5: 738c44fdd3ab0676e2b9623f26d62ceb
+
+Package: linux-image-4.4.0-1148-raspi2
+Architecture: armhf
+Version: 4.4.0-1148.158
+Priority: optional
+Section: universe/kernel
+Source: linux-raspi2
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6080
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules
+Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-4.4.0-1148-raspi2
+Recommends: flash-kernel, initramfs-tools | linux-initramfs-tool
+Suggests: fdutils, linux-raspi2-doc-4.4.0 | linux-raspi2-source-4.4.0, linux-raspi2-tools, linux-headers-4.4.0-1148-raspi2
+Conflicts: linux-image-unsigned-4.4.0-1148-raspi2
+Filename: pool/universe/l/linux-raspi2/linux-image-4.4.0-1148-raspi2_4.4.0-1148.158_armhf.deb
+Size: 5797748
+MD5sum: 42646f33a25feea2cf583cb4ec843e60
+SHA1: 1007d8dd0982fba2317a0f0d223f80a2c732ef4a
+SHA256: 6f9fbfb54e76518632572c4385d723beb5249eb13a133d9d3eb23926fb775278
+SHA512: 5f69e9d331f8561427a8963fbda9f8b3cdce2ac5364ebebf6fa79709b57686cd7431e2b64eb4218fc9cc355e743d291bdc1cf662ff2ee4d5bf7058f158660097
+Description: Linux kernel image for version 4.4.0 on ARM (hard float) SMP
+Description-md5: cf241f4620886fe2587367119d625378
+
+Package: linux-image-4.4.0-1149-raspi2
+Architecture: armhf
+Version: 4.4.0-1149.160
+Priority: optional
+Section: universe/kernel
+Source: linux-raspi2
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6085
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules
+Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-4.4.0-1149-raspi2
+Recommends: flash-kernel, initramfs-tools | linux-initramfs-tool
+Suggests: fdutils, linux-raspi2-doc-4.4.0 | linux-raspi2-source-4.4.0, linux-raspi2-tools, linux-headers-4.4.0-1149-raspi2
+Conflicts: linux-image-unsigned-4.4.0-1149-raspi2
+Filename: pool/universe/l/linux-raspi2/linux-image-4.4.0-1149-raspi2_4.4.0-1149.160_armhf.deb
+Size: 5801470
+MD5sum: aa05d53e5838110358166c78e480a7ad
+SHA1: b10c8a4f17277e07d7120f048f01116ff4f47ea7
+SHA256: ae950934de60e8d92bff39d7b2e544b6c052c25919862524fa70a24764ac6b71
+SHA512: d76376f357e18d55552a1b76e292facdbb4cd55ff31e1b28a4e6becefbf052ecce1043032f18b2cc39eae40f2c7de32e3e00de37a7468367b93173f934f5f95e
+Description: Linux kernel image for version 4.4.0 on ARM (hard float) SMP
+Description-md5: cf241f4620886fe2587367119d625378
+
+Package: linux-modules-4.4.0-1148-raspi2
+Architecture: armhf
+Version: 4.4.0-1148.158
+Priority: optional
+Section: universe/kernel
+Source: linux-raspi2
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 105205
+Filename: pool/universe/l/linux-raspi2/linux-modules-4.4.0-1148-raspi2_4.4.0-1148.158_armhf.deb
+Size: 23235848
+MD5sum: b8236f3353bae575695892c677fdaaf7
+SHA1: 3e7d70db82dd9ed309a0dc011f394e52e1dd0af5
+SHA256: 73c9dd919088097ea8bc5b1cb67ab2720d1fcc15e7d3f1a680e8b3d5ca3dacb4
+SHA512: 7bd7f156c385fc2757f537bf413fa6c8e9b75a0a66cef871ac326aaca9243175349a235242f7a09051d7e0cc179b57f987860d829d27997a4c25eb3a8d79f254
+Description: Linux kernel extra modules for version 4.4.0 on ARM (hard float) SMP
+Description-md5: 9f3043a604907999ebd0a829bb29dd0d
+
+Package: linux-modules-4.4.0-1149-raspi2
+Architecture: armhf
+Version: 4.4.0-1149.160
+Priority: optional
+Section: universe/kernel
+Source: linux-raspi2
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 105220
+Filename: pool/universe/l/linux-raspi2/linux-modules-4.4.0-1149-raspi2_4.4.0-1149.160_armhf.deb
+Size: 23235544
+MD5sum: d7a0f6484b987659533898500e35d053
+SHA1: 124b93149cab6a85ab803422bebe536c32675dc5
+SHA256: 61ba3c4e4ade731b5d1a1c4c7c629b739805bef98b8c045b477ee46c8a45928f
+SHA512: 48498accc9e8baac94bd91178150a109a9f5b07c546ed757e82c8768f266d21d312a262425f5611eb29f46526fd0224f42e7fda1ec718109a836c7ca03056d35
+Description: Linux kernel extra modules for version 4.4.0 on ARM (hard float) SMP
+Description-md5: 9f3043a604907999ebd0a829bb29dd0d
+
+Package: linux-raspi2-headers-4.4.0-1148
+Architecture: armhf
+Version: 4.4.0-1148.158
+Multi-Arch: foreign
+Priority: optional
+Section: universe/devel
+Source: linux-raspi2
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 69657
+Depends: coreutils | fileutils (>= 4.0)
+Breaks: iscsitarget-dkms (<< 1.4.20.3+svn502-2ubuntu4.4)
+Filename: pool/universe/l/linux-raspi2/linux-raspi2-headers-4.4.0-1148_4.4.0-1148.158_armhf.deb
+Size: 10098312
+MD5sum: ff475911e57e6c9cba1e6328a45b4458
+SHA1: 9db833c4cce6c0ca949709ab569cbe18881448e6
+SHA256: a624069007afd9c3aca6327442de68d676fece668dcaf86bcd19c11ed8daf206
+SHA512: cf1439d359963c620f8789047d88586c58192e81a8b32af8ba30d99504be1e0073fa3f446b95c7cc67aa14868464bf6f6f8123f76e608338d6954336aa46f267
+Description: Header files related to Linux kernel version 4.4.0
+Description-md5: 4bda99cb5158b86bea66ef8387eb0679
+
+Package: linux-raspi2-headers-4.4.0-1149
+Architecture: armhf
+Version: 4.4.0-1149.160
+Multi-Arch: foreign
+Priority: optional
+Section: universe/devel
+Source: linux-raspi2
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 69668
+Depends: coreutils | fileutils (>= 4.0)
+Breaks: iscsitarget-dkms (<< 1.4.20.3+svn502-2ubuntu4.4)
+Filename: pool/universe/l/linux-raspi2/linux-raspi2-headers-4.4.0-1149_4.4.0-1149.160_armhf.deb
+Size: 10103158
+MD5sum: c9251110698eaa6318cb58aba5dbcd74
+SHA1: dbaa97f311cc9926f7933cc09f5fddaf02b6b96a
+SHA256: 0fc69261e467150cca08386d3c77f29593fb4d560b2ab0efafd598c217bfcc5a
+SHA512: 51299540d222ccc27021ae4742fdf19b91399738668557a4b3b1b8f330432fb307c92605745fd73a1cff92b8e7a6a903d58588f1eb2e43eecdeb6a6b3dad738c
+Description: Header files related to Linux kernel version 4.4.0
+Description-md5: 88a98c738e3b082ed0f08db4cab8fc2a
+
+Package: linux-raspi2-tools-4.4.0-1148
+Architecture: armhf
+Version: 4.4.0-1148.158
+Priority: optional
+Section: universe/devel
+Source: linux-raspi2
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 8747
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.8), libdw1 (>= 0.157), libelf1 (>= 0.144), libgcc1 (>= 1:3.5), libslang2 (>= 2.2.4), libudev1 (>= 183), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/universe/l/linux-raspi2/linux-raspi2-tools-4.4.0-1148_4.4.0-1148.158_armhf.deb
+Size: 2410868
+MD5sum: 949e0cfffe6043524946531b69d25ad9
+SHA1: b31969c1d7775ca05ac79fcdbf5fd7276c16b1d6
+SHA256: 0f58ad6d3627abc20dceeb96421c66091753d1ebda0fbdfb8c34d4b1da85f136
+SHA512: d010e7983827ccbee8d750a419ea786d20982cc88ba00a79eda196b9a7e9ab0475c55794b26c69a63e49e05c71520bd6fa6bca039ed604d86aeb6510fbe7f65e
+Description: Linux kernel version specific tools for version 4.4.0-1148
+Description-md5: e187f988870cff6873a92282ecf26cf4
+
+Package: linux-raspi2-tools-4.4.0-1149
+Architecture: armhf
+Version: 4.4.0-1149.160
+Priority: optional
+Section: universe/devel
+Source: linux-raspi2
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 8754
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.8), libdw1 (>= 0.157), libelf1 (>= 0.144), libgcc1 (>= 1:3.5), libslang2 (>= 2.2.4), libudev1 (>= 183), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/universe/l/linux-raspi2/linux-raspi2-tools-4.4.0-1149_4.4.0-1149.160_armhf.deb
+Size: 2414032
+MD5sum: 0d552568edd8dccab9558af29e0af304
+SHA1: 6779fa7438e2e18b88cd2d86153b72115bc29f45
+SHA256: 337b140cbc98c916331d333359e5e1a4ba3146b392d534e1e006e08298d8849a
+SHA512: e95217999d30404c60c5fc057c16c4fcea38017c97364bcf34f89d3181ff8c09293b0935b2f468f9976ed4770a9098268419f437c8c65663e694b50df3b72c70
+Description: Linux kernel version specific tools for version 4.4.0-1149
+Description-md5: 4bd310eedbb3cd1a6049eb61e4be3e6c
+
+Package: linux-tools-4.4.0-1148-raspi2
+Architecture: armhf
+Version: 4.4.0-1148.158
+Priority: optional
+Section: universe/devel
+Source: linux-raspi2
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 445
+Depends: linux-raspi2-tools-4.4.0-1148
+Filename: pool/universe/l/linux-raspi2/linux-tools-4.4.0-1148-raspi2_4.4.0-1148.158_armhf.deb
+Size: 2572
+MD5sum: c7a0e8e4616c43cce0a7d8db7f20b1a6
+SHA1: c4fc236adbcbde63b92fe669c30d4dc285762d19
+SHA256: c8275bc4819c627082ebedf191c8ce9cc2fcdb9cf977efc23ccd9db026a138b0
+SHA512: 02662c81fb9f0d9ef2d20f3afc378e0c5cb6eff49a49e91b41a8a6b52b7b62a8fe60bf03d3759c69965020125f64a332ef38292fbeb95138dc27f3fcf9454616
+Description: Linux kernel version specific tools for version 4.4.0-1148
+Description-md5: ea4b1be4bba0526758bd41e477e594b4
+
+Package: linux-tools-4.4.0-1149-raspi2
+Architecture: armhf
+Version: 4.4.0-1149.160
+Priority: optional
+Section: universe/devel
+Source: linux-raspi2
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 452
+Depends: linux-raspi2-tools-4.4.0-1149
+Filename: pool/universe/l/linux-raspi2/linux-tools-4.4.0-1149-raspi2_4.4.0-1149.160_armhf.deb
+Size: 2566
+MD5sum: 53843f14e9d1b414a594844669c8db64
+SHA1: b3a44bfc3da48dc425336379137e30f30ffa6103
+SHA256: 9a03402b5cd4bc367432ebfb21e03a75540b02394b2e60f1ea52bf640fe1bc46
+SHA512: 62fb4f0cfe067f9472d32bd4a5a994c376bb48824f8b47d81b78cfadcf9934e6a8f629f359932709d3aa3945595024524aa866a6e488d2f86c4f71486b7fb4e6
+Description: Linux kernel version specific tools for version 4.4.0-1149
+Description-md5: 87d9ad8e71c0bce6e2d3415ab65aaa84
+
+Package: vim-syntax-docker
+Architecture: all
+Version: 18.09.7-0ubuntu1~16.04.8
+Priority: optional
+Section: universe/admin
+Source: docker.io
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Paul Tagliamonte <paultag@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 72
+Depends: vim
+Recommends: vim-addon-manager
+Suggests: docker.io
+Filename: pool/universe/d/docker.io/vim-syntax-docker_18.09.7-0ubuntu1~16.04.8_all.deb
+Size: 14318
+MD5sum: 86c4052877a21a1a4bf263c91cc1e1a4
+SHA1: 028f6ad2c23fa5ced28fa5bfe651db81f0f1b4dc
+SHA256: d236ede8620aedd86e5849109191915e8cf0c02065664b03f1ac2b7ff6242e9c
+SHA512: 8f14189cfbda68d95b90fb66a6239b97be04375228084a8f04ffcbba9c8ad207a6cd4d38cb957755503ef9853550d38126d494bb006808cdb8e9e1ffb5a4271c
+Homepage: https://www.docker.com/community-edition
+Description: Docker container engine - Vim highlighting syntax files
+Description-md5: fcdf3cc569fec99526c4f1c044063f82
+

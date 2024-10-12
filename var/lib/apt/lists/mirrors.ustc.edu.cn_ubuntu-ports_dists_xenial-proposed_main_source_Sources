@@ -1,0 +1,76 @@
+Package: autopkgtest
+Format: 3.0 (native)
+Binary: autopkgtest
+Architecture: all
+Version: 3.20.4ubuntu1.1
+Priority: optional
+Section: devel
+Maintainer: Autopkgtest team <autopkgtest-devel@lists.alioth.debian.org>
+Uploaders: Ian Jackson <ijackson@chiark.greenend.org.uk>, Martin Pitt <mpitt@debian.org>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9), python3 (>= 3.1), python3-mock, python3-debian, python3-docutils, pyflakes, procps, pep8
+Testsuite: autopkgtest
+Testsuite-Triggers: autodep8, build-essential, debhelper, pyflakes
+Vcs-Browser: https://anonscm.debian.org/git/autopkgtest/autopkgtest.git
+Vcs-Git: https://anonscm.debian.org/git/autopkgtest/autopkgtest.git
+Directory: pool/main/a/autopkgtest
+Package-List:
+ autopkgtest deb devel optional arch=all
+Files:
+ c07e9d94c1560a3e285aa27451dda7f6 1923 autopkgtest_3.20.4ubuntu1.1.dsc
+ 65259eab45d5f28e37ca27532df6b6ad 159332 autopkgtest_3.20.4ubuntu1.1.tar.xz
+Checksums-Sha1:
+ 08d9a5382a8d09a105145e914b4d924c0addeabb 1923 autopkgtest_3.20.4ubuntu1.1.dsc
+ b48592a41cb676cce8bdb98921d2641a1a78603f 159332 autopkgtest_3.20.4ubuntu1.1.tar.xz
+Checksums-Sha256:
+ 016ed819ee7ba3b0023315c4afe9da0bcec6fb3a05a8797a3c5dc87a039d8118 1923 autopkgtest_3.20.4ubuntu1.1.dsc
+ 993c8f5d6d73137185c13d825c08031e59b322c62bc2eed682c04754f41b7aed 159332 autopkgtest_3.20.4ubuntu1.1.tar.xz
+Checksums-Sha512:
+ 76a55db5629ee56d86295439522a6c255aeeaf5eb2e26a665169666eb5fa04800bd02db01f4384dd165b7da060587eb2d218456a2a80b3c588d1f5458bd82a48 1923 autopkgtest_3.20.4ubuntu1.1.dsc
+ 055909d465112ece241810bd2fd8e59dae5879a79cf9863cdea38f0bfebd974074e59aa4d57a4fcd2e088c265cae6583969f5ab0ee27794f2e5ca54867f72fda 159332 autopkgtest_3.20.4ubuntu1.1.tar.xz
+
+Package: network-manager
+Format: 3.0 (quilt)
+Binary: network-manager, network-manager-dev, libnm-glib4, libnm-glib-dev, libnm-glib-vpn1, libnm-glib-vpn-dev, libnm-util2, libnm-util-dev, libnm0, libnm-dev, gir1.2-networkmanager-1.0
+Architecture: linux-any
+Version: 1.2.6-0ubuntu0.16.04.4
+Priority: optional
+Section: net
+Maintainer: Ubuntu Core Dev Team <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 9), dh-systemd (>= 1.14), dh-autoreconf, pkg-config, intltool, libdbus-glib-1-dev (>= 0.100), libdbus-1-dev (>= 1.1), libiw-dev (>= 27+28pre9), libglib2.0-dev (>= 2.32), libnl-3-dev (>= 3.2.8), libnl-route-3-dev (>= 3.2.8), libnl-genl-3-dev (>= 3.2.8), ppp-dev (>= 2.4.7-1+1), libpolkit-gobject-1-dev, libpolkit-agent-1-dev (>= 0.97), libgnutls-dev, libgcrypt20-dev, uuid-dev, systemd (>= 185), libsystemd-dev (>= 209), libudev-dev (>= 165), libgudev-1.0-dev (>= 165), libgirepository1.0-dev (>= 0.10.7-1~), gobject-introspection (>= 0.9.12-4~), libsoup2.4-dev (>= 2.40), gtk-doc-tools, perl, libyaml-perl, libglib2.0-doc, libmm-glib-dev (>= 0.7.991), libndp-dev, libreadline-dev, libnewt-dev (>= 0.52.15), libbluetooth-dev (>= 5), dbus <!nocheck>, python-gi <!nocheck>, valac (>= 0.17.1.24), dbus-test-runner, python-dbus <!nocheck>
+Testsuite: autopkgtest
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Vcs-Bzr: https://code.launchpad.net/~network-manager/network-manager/ubuntu
+Directory: pool/main/n/network-manager
+Package-List:
+ gir1.2-networkmanager-1.0 deb introspection optional arch=linux-any
+ libnm-dev deb libdevel optional arch=linux-any
+ libnm-glib-dev deb libdevel optional arch=linux-any
+ libnm-glib-vpn-dev deb libdevel optional arch=linux-any
+ libnm-glib-vpn1 deb libs optional arch=linux-any
+ libnm-glib4 deb libs optional arch=linux-any
+ libnm-util-dev deb libdevel optional arch=linux-any
+ libnm-util2 deb libs optional arch=linux-any
+ libnm0 deb libs optional arch=linux-any
+ network-manager deb net optional arch=linux-any
+ network-manager-dev deb devel optional arch=linux-any
+Files:
+ d0465e2e5c1a53653d476c6ef29982a3 3671 network-manager_1.2.6-0ubuntu0.16.04.4.dsc
+ c7dfcdb272c0636b2151101d976a77c7 3731684 network-manager_1.2.6.orig.tar.xz
+ 49ba42770c6800ec2c171413473a4260 143864 network-manager_1.2.6-0ubuntu0.16.04.4.debian.tar.xz
+Checksums-Sha1:
+ d3b3f14d46798ba3383b60f14e1aee35348cd00f 3671 network-manager_1.2.6-0ubuntu0.16.04.4.dsc
+ 05d26dd072b94011555a41fcb1a9f7b332932554 3731684 network-manager_1.2.6.orig.tar.xz
+ 2ec1d3751211b780a9f716f3940b7d28c1e35c6c 143864 network-manager_1.2.6-0ubuntu0.16.04.4.debian.tar.xz
+Checksums-Sha256:
+ 79312c59b9242b1b641839ddacb92ef31772d93e0e57d878816c75a3ef1b6b3d 3671 network-manager_1.2.6-0ubuntu0.16.04.4.dsc
+ 40f8fb42ad33e35e3a7bd6c30c166814585b0c7c32c6ef96e178089fe313e9af 3731684 network-manager_1.2.6.orig.tar.xz
+ 04501c699d1feb97c0b536076264c9c8d4064f120f51062bdab4242c7423d5a1 143864 network-manager_1.2.6-0ubuntu0.16.04.4.debian.tar.xz
+Checksums-Sha512:
+ 895f42be9e473b050e341e089007648b1d647657b573e25f364d2061f23c1b50631295d12e97e3241d756f6958f12ff8675671d50bfc0a48cf37a5566eef92eb 3671 network-manager_1.2.6-0ubuntu0.16.04.4.dsc
+ 592db242d1f9b7a6848ea3fd826d09755a9d86582e4fae25899611392fb533f4e032756b74713dc998b4f4a0f684f0f0b437bad72d97cceb4d4dc38996c96a90 3731684 network-manager_1.2.6.orig.tar.xz
+ 4fbc7a49dbb678270c2ecb529b2cbd22c0af623a235f8406a8287fdc361bb3c0d50cf23c4e35516b233c64b715012100378f46417a021ab4164809e44700526e 143864 network-manager_1.2.6-0ubuntu0.16.04.4.debian.tar.xz
+

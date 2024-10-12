@@ -1,0 +1,2398 @@
+Package: autopkgtest
+Description-md5: d1a3b5cd66ee5520127338964a105bfc
+Description-en: automatic as-installed testing for Debian packages
+ autopkgtest runs tests on binary packages.  The tests are run on the
+ package as installed on a testbed system (which may be found via a
+ virtualisation or containment system).  The tests are expected to be
+ supplied in the corresponding Debian source package.
+ .
+ See adt-run(1) and /usr/share/doc/autopkgtest.
+ Depending on which virtualization server you want to use, you need to
+ install additional packages (schroot, lxc, lxd, or qemu-system)
+ .
+ For generating tests of well-known source packages such as Perl and Ruby
+ libraries you should install the autodep8 package.
+
+Package: gir1.2-networkmanager-1.0
+Description-md5: 1a7cb995cf66551c57433bbaf46aee25
+Description-en: GObject introspection data for NetworkManager
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, WiFi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package contains introspection data for NetworkManager.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
+Package: libnm-dev
+Description-md5: 1b717b382fe67c166e11c143d527a631
+Description-en: GObject-based client library for NetworkManager (development files)
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, WiFi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package contains header and development files.
+
+Package: libnm-glib-dev
+Description-md5: 56d0a34d148547835775f648c283d58f
+Description-en: network management framework (GLib interface)
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, WiFi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package provides the interface that applications can use to query
+ connection status via NetworkManager.
+
+Package: libnm-glib-vpn-dev
+Description-md5: c78ac261b5f6cfbb4c74b78a708c90bc
+Description-en: network management framework (GLib interface)
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, WiFi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package provides the shared library that applications can use for
+ creating VPN connections via NetworkManager.
+
+Package: libnm-glib-vpn1
+Description-md5: a8d1fc7f276929433320d96cddd81b4b
+Description-en: network management framework (GLib VPN shared library)
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, WiFi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package provides the shared library that applications can use for
+ creating VPN connections via NetworkManager.
+
+Package: libnm-glib4
+Description-md5: 217fbdca65cb15a2066a01b11aa4ed86
+Description-en: network management framework (GLib shared library)
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, WiFi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package provides the shared library that applications can use to query
+ connection status via NetworkManager.
+
+Package: libnm-util-dev
+Description-md5: 386633658ef6f2e5bd09c1075e48d085
+Description-en: network management framework (development files)
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, WiFi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package contains header and development files.
+
+Package: libnm-util2
+Description-md5: 9206e0c0315bf3dee48dfe5ab4d4bd13
+Description-en: network management framework (shared library)
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, WiFi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package contains a convenience library to ease the access to
+ NetworkManager.
+
+Package: libnm0
+Description-md5: 38459a9c4a6d9a0f4df9a5fa423e81fc
+Description-en: GObject-based client library for NetworkManager
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, WiFi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package contains a convenience library to ease the access to
+ NetworkManager.
+
+Package: linux-aws-cloud-tools-4.4.0-1125
+Description-md5: 50d6b59f55c8f3387a45dca654b90f79
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-1125
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud tools for version 4.4.0-1125 on
+ 64 bit x86.
+ You probably want to install linux-cloud-tools-4.4.0-1125-<flavour>.
+
+Package: linux-aws-headers-4.15.0-1095
+Description-md5: 64c4498e6786a13998d52351c2ef8e36
+Description-en: Header files related to Linux kernel version 4.15.0
+ This package provides kernel header files for version 4.15.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-aws-headers-4.15.0-1095/debian.README.gz for details
+
+Package: linux-aws-headers-4.15.0-1096
+Description-md5: fd83bf1163791bbf31236e8ed64b4143
+Description-en: Header files related to Linux kernel version 4.15.0
+ This package provides kernel header files for version 4.15.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-aws-headers-4.15.0-1096/debian.README.gz for details
+
+Package: linux-aws-headers-4.4.0-1125
+Description-md5: e060ece12bf0df12ed440e8f82cdd909
+Description-en: Header files related to Linux kernel version 4.4.0
+ This package provides kernel header files for version 4.4.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-aws-headers-4.4.0-1125/debian.README.gz for details
+
+Package: linux-aws-hwe-tools-4.15.0-1095
+Description-md5: ce24631e237389b3cca98a14c44abe95
+Description-en: Linux kernel version specific tools for version 4.15.0-1095
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.15.0-1095 on
+ 64 bit x86.
+ You probably want to install linux-tools-4.15.0-1095-<flavour>.
+
+Package: linux-aws-hwe-tools-4.15.0-1096
+Description-md5: dec87a48abb77c9f1572bc692c5c2a3b
+Description-en: Linux kernel version specific tools for version 4.15.0-1096
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.15.0-1096 on
+ 64 bit x86.
+ You probably want to install linux-tools-4.15.0-1096-<flavour>.
+
+Package: linux-aws-tools-4.4.0-1125
+Description-md5: 7ad1f5e4c399e0c432fcda867f801b93
+Description-en: Linux kernel version specific tools for version 4.4.0-1125
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-1125 on
+ 64 bit x86.
+ You probably want to install linux-tools-4.4.0-1125-<flavour>.
+
+Package: linux-azure-cloud-tools-4.15.0-1110
+Description-md5: af958809031ffab85a9f95e1c0294410
+Description-en: Linux kernel version specific cloud tools for version 4.15.0-1110
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud tools for version 4.15.0-1110 on
+ 64 bit x86.
+ You probably want to install linux-cloud-tools-4.15.0-1110-<flavour>.
+
+Package: linux-azure-headers-4.15.0-1110
+Description-md5: e325b747216fc3c4d428c0ee49c7f9ea
+Description-en: Header files related to Linux kernel version 4.15.0
+ This package provides kernel header files for version 4.15.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-azure-headers-4.15.0-1110/debian.README.gz for details
+
+Package: linux-azure-tools-4.15.0-1110
+Description-md5: e670ddb65a9edb49bd344ae6d1a25358
+Description-en: Linux kernel version specific tools for version 4.15.0-1110
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.15.0-1110 on
+ 64 bit x86.
+ You probably want to install linux-tools-4.15.0-1110-<flavour>.
+
+Package: linux-buildinfo-4.15.0-1066-oracle
+Description-md5: ec6b9a317bc4aefc4bb8618c8c2a11bc
+Description-en: Linux kernel buildinfo for version 4.15.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.15.0-1067-oracle
+Description-md5: ec6b9a317bc4aefc4bb8618c8c2a11bc
+Description-en: Linux kernel buildinfo for version 4.15.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.15.0-1095-aws
+Description-md5: ec6b9a317bc4aefc4bb8618c8c2a11bc
+Description-en: Linux kernel buildinfo for version 4.15.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.15.0-1095-gcp
+Description-md5: ec6b9a317bc4aefc4bb8618c8c2a11bc
+Description-en: Linux kernel buildinfo for version 4.15.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.15.0-1096-aws
+Description-md5: ec6b9a317bc4aefc4bb8618c8c2a11bc
+Description-en: Linux kernel buildinfo for version 4.15.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.15.0-1110-azure
+Description-md5: ec6b9a317bc4aefc4bb8618c8c2a11bc
+Description-en: Linux kernel buildinfo for version 4.15.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.4.0-1125-aws
+Description-md5: 6dfcca32cc0a77528ab3ad76b4cbb417
+Description-en: Linux kernel buildinfo for version 4.4.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.4.0-206-generic
+Description-md5: 6dfcca32cc0a77528ab3ad76b4cbb417
+Description-en: Linux kernel buildinfo for version 4.4.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.4.0-206-lowlatency
+Description-md5: 6dfcca32cc0a77528ab3ad76b4cbb417
+Description-en: Linux kernel buildinfo for version 4.4.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.4.0-207-generic
+Description-md5: 6dfcca32cc0a77528ab3ad76b4cbb417
+Description-en: Linux kernel buildinfo for version 4.4.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.4.0-207-lowlatency
+Description-md5: 6dfcca32cc0a77528ab3ad76b4cbb417
+Description-en: Linux kernel buildinfo for version 4.4.0 on 64 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-cloud-tools-4.15.0-1110-azure
+Description-md5: b02138844c6131016ccdc7e9800d194b
+Description-en: Linux kernel version specific cloud tools for version 4.15.0-1110
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 4.15.0-1110 on
+ 64 bit x86.
+
+Package: linux-cloud-tools-4.4.0-1125-aws
+Description-md5: 64a744143a01d53ceeedc16f6ab3b588
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-1125
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 4.4.0-1125 on
+ 64 bit x86.
+
+Package: linux-cloud-tools-4.4.0-206
+Description-md5: 32fa7ee3babc8228b638b427a03017e8
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud tools for version 4.4.0-206 on
+ 64 bit x86.
+ You probably want to install linux-cloud-tools-4.4.0-206-<flavour>.
+
+Package: linux-cloud-tools-4.4.0-206-generic
+Description-md5: 68552cfbf2bb8e94bf3143ee9359a300
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 4.4.0-206 on
+ 64 bit x86.
+
+Package: linux-cloud-tools-4.4.0-206-lowlatency
+Description-md5: 68552cfbf2bb8e94bf3143ee9359a300
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 4.4.0-206 on
+ 64 bit x86.
+
+Package: linux-cloud-tools-4.4.0-207
+Description-md5: 38b045820b9eb2858d199bec3115eabe
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud tools for version 4.4.0-207 on
+ 64 bit x86.
+ You probably want to install linux-cloud-tools-4.4.0-207-<flavour>.
+
+Package: linux-cloud-tools-4.4.0-207-generic
+Description-md5: fba7d8afa183bbe8d6f1ab6249d396b4
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 4.4.0-207 on
+ 64 bit x86.
+
+Package: linux-cloud-tools-4.4.0-207-lowlatency
+Description-md5: fba7d8afa183bbe8d6f1ab6249d396b4
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 4.4.0-207 on
+ 64 bit x86.
+
+Package: linux-cloud-tools-common
+Description-md5: c46b3f589b3d9c07a66c74de87fb3dc8
+Description-en: Linux kernel version specific cloud tools for version 4.4.0
+ This package provides the architecture independent parts for kernel
+ version locked tools for cloud tools for version 4.4.0.
+
+Package: linux-doc
+Description-md5: 62e9693f74b369c25babebdffb092819
+Description-en: Linux kernel specific documentation for version 4.4.0
+ This package provides the various documents in the 4.4.0 kernel
+ Documentation/ subdirectory.  These document kernel subsystems, APIs, device
+ drivers, and so on.  See
+ /usr/share/doc/linux-doc/00-INDEX for a list of what is
+ contained in each file.
+
+Package: linux-gcp-headers-4.15.0-1095
+Description-md5: 10a57ae619f29fd5665a25dc39f47a8e
+Description-en: Header files related to Linux kernel version 4.15.0
+ This package provides kernel header files for version 4.15.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-gcp-headers-4.15.0-1095/debian.README.gz for details
+
+Package: linux-gcp-tools-4.15.0-1095
+Description-md5: ce24631e237389b3cca98a14c44abe95
+Description-en: Linux kernel version specific tools for version 4.15.0-1095
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.15.0-1095 on
+ 64 bit x86.
+ You probably want to install linux-tools-4.15.0-1095-<flavour>.
+
+Package: linux-headers-4.15.0-1066-oracle
+Description-md5: 01ec56f317ac03b7c19e112cb6110170
+Description-en: Oracle Linux kernel headers for version 4.15.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.15.0-1066/debian.README.gz for details.
+
+Package: linux-headers-4.15.0-1067-oracle
+Description-md5: bb8b90ef6585fb988cb79098245db7c1
+Description-en: Oracle Linux kernel headers for version 4.15.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.15.0-1067/debian.README.gz for details.
+
+Package: linux-headers-4.15.0-1095-aws
+Description-md5: 1838235dc86c7656a38eb27ed56f25bf
+Description-en: Linux kernel headers for version 4.15.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.15.0-1095/debian.README.gz for details.
+
+Package: linux-headers-4.15.0-1095-gcp
+Description-md5: 1838235dc86c7656a38eb27ed56f25bf
+Description-en: Linux kernel headers for version 4.15.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.15.0-1095/debian.README.gz for details.
+
+Package: linux-headers-4.15.0-1096-aws
+Description-md5: 75da2f31f865e7ea7a7b053f14d34cb2
+Description-en: Linux kernel headers for version 4.15.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.15.0-1096/debian.README.gz for details.
+
+Package: linux-headers-4.15.0-1110-azure
+Description-md5: 941cb1c2d59bde9dac725e394d4dc40e
+Description-en: Linux kernel headers for version 4.15.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.15.0-1110/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-1125-aws
+Description-md5: 424328b9160a99bfb95048d1960b9a92
+Description-en: Linux kernel headers for version 4.4.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-1125/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-206
+Description-md5: f72ee6b736bd53847a7ecb24634fd6d7
+Description-en: Header files related to Linux kernel version 4.4.0
+ This package provides kernel header files for version 4.4.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-headers-4.4.0-206/debian.README.gz for details
+
+Package: linux-headers-4.4.0-206-generic
+Description-md5: e1af056428f0c5dcd225ce2e48dcc7fe
+Description-en: Linux kernel headers for version 4.4.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-206/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-206-lowlatency
+Description-md5: e1af056428f0c5dcd225ce2e48dcc7fe
+Description-en: Linux kernel headers for version 4.4.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-206/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-207
+Description-md5: 4ff72de7b6f48893359c8f83abf333e3
+Description-en: Header files related to Linux kernel version 4.4.0
+ This package provides kernel header files for version 4.4.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-headers-4.4.0-207/debian.README.gz for details
+
+Package: linux-headers-4.4.0-207-generic
+Description-md5: 30eef03b83d5a8b5dba1263fd24a372b
+Description-en: Linux kernel headers for version 4.4.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-207/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-207-lowlatency
+Description-md5: 30eef03b83d5a8b5dba1263fd24a372b
+Description-en: Linux kernel headers for version 4.4.0 on 64 bit x86 SMP
+ This package provides kernel header files for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-207/debian.README.gz for details.
+
+Package: linux-image-4.15.0-1066-oracle
+Description-md5: dac56b784e93dabcafaf01236fed222d
+Description-en: Signed kernel image oracle
+ A kernel image for Oracle.  This version of it is signed with
+ Canonical's UEFI/Opal signing key.
+
+Package: linux-image-4.15.0-1067-oracle
+Description-md5: dac56b784e93dabcafaf01236fed222d
+Description-en: Signed kernel image oracle
+ A kernel image for Oracle.  This version of it is signed with
+ Canonical's UEFI/Opal signing key.
+
+Package: linux-image-4.15.0-1095-aws
+Description-md5: faf23600882c3d906ab9424476eda056
+Description-en: Linux kernel image for version 4.15.0 on 64 bit x86 SMP
+ This package contains the Linux kernel image for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.15.0-1095-gcp
+Description-md5: a844e08bb9bc7e5da00eb900399526fd
+Description-en: Signed kernel image GCP
+ A kernel image for GCP.  This version of it is signed with
+ Canonical's UEFI/Opal signing key.
+
+Package: linux-image-4.15.0-1096-aws
+Description-md5: faf23600882c3d906ab9424476eda056
+Description-en: Linux kernel image for version 4.15.0 on 64 bit x86 SMP
+ This package contains the Linux kernel image for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.15.0-1110-azure
+Description-md5: 4f10ee54ba011a7f5b60c437e681a38d
+Description-en: Signed kernel image azure
+ A kernel image for azure.  This version of it is signed with
+ Canonical's UEFI/Opal signing key.
+
+Package: linux-image-4.4.0-1125-aws
+Description-md5: f7a24cd44f32b892a9c2832d2f93aa75
+Description-en: Linux kernel image for version 4.4.0 on 64 bit x86 SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-206-generic
+Description-md5: 54a18b1adebc179da3c9e59a5db5fe77
+Description-en: Signed kernel image generic
+ A kernel image for generic.  This version of it is signed with
+ Canonical's UEFI/Opal signing key.
+
+Package: linux-image-4.4.0-206-lowlatency
+Description-md5: d033c93139790e893a4e35936dd49bc8
+Description-en: Signed kernel image lowlatency
+ A kernel image for lowlatency.  This version of it is signed with
+ Canonical's UEFI signing key.
+
+Package: linux-image-4.4.0-207-generic
+Description-md5: 54a18b1adebc179da3c9e59a5db5fe77
+Description-en: Signed kernel image generic
+ A kernel image for generic.  This version of it is signed with
+ Canonical's UEFI/Opal signing key.
+
+Package: linux-image-4.4.0-207-lowlatency
+Description-md5: d033c93139790e893a4e35936dd49bc8
+Description-en: Signed kernel image lowlatency
+ A kernel image for lowlatency.  This version of it is signed with
+ Canonical's UEFI signing key.
+
+Package: linux-image-unsigned-4.15.0-1066-oracle
+Description-md5: c54abeefa130a057fcf5255783b60d59
+Description-en: Oracle Linux kernel image for version 4.15.0 on 64 bit x86 SMP
+ This package contains the unsigned Oracle Linux kernel image for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ Supports Oracle processors.
+ .
+ Geared toward Oracle Cloud systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-oracle meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-unsigned-4.15.0-1067-oracle
+Description-md5: c54abeefa130a057fcf5255783b60d59
+Description-en: Oracle Linux kernel image for version 4.15.0 on 64 bit x86 SMP
+ This package contains the unsigned Oracle Linux kernel image for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ Supports Oracle processors.
+ .
+ Geared toward Oracle Cloud systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-oracle meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-unsigned-4.15.0-1095-gcp
+Description-md5: 19716cef7153082e26c9e1965f0cd9f9
+Description-en: Linux kernel image for version 4.15.0 on 64 bit x86 SMP
+ This package contains the unsigned Linux kernel image for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ Supports amd64 processors.
+ .
+ Geared toward GCP systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-gcp meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-unsigned-4.15.0-1110-azure
+Description-md5: 7aba52fe21d535ba71e2c0cfe30e5811
+Description-en: Linux kernel image for version 4.15.0 on 64 bit x86 SMP
+ This package contains the unsigned Linux kernel image for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ Supports Azure processors.
+ .
+ Geared toward Azure systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-azure meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-unsigned-4.4.0-206-generic
+Description-md5: 95545462430ef5b7263b1af8fc492796
+Description-en: Linux kernel image for version 4.4.0 on 64 bit x86 SMP
+ This package contains the unsigned Linux kernel image for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-unsigned-4.4.0-206-lowlatency
+Description-md5: 9681edbf1fa027e0d51ae03e219df2fc
+Description-en: Linux kernel image for version 4.4.0 on 64 bit x86 SMP
+ This package contains the unsigned Linux kernel image for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-unsigned-4.4.0-207-generic
+Description-md5: 95545462430ef5b7263b1af8fc492796
+Description-en: Linux kernel image for version 4.4.0 on 64 bit x86 SMP
+ This package contains the unsigned Linux kernel image for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-unsigned-4.4.0-207-lowlatency
+Description-md5: 9681edbf1fa027e0d51ae03e219df2fc
+Description-en: Linux kernel image for version 4.4.0 on 64 bit x86 SMP
+ This package contains the unsigned Linux kernel image for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.15.0-1066-oracle
+Description-md5: d83f1365bb346a7fc8bd6e8f20129488
+Description-en: Oracle Linux kernel extra modules for version 4.15.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Oracle processors.
+ .
+ Geared toward Oracle Cloud systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-oracle meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.15.0-1067-oracle
+Description-md5: d83f1365bb346a7fc8bd6e8f20129488
+Description-en: Oracle Linux kernel extra modules for version 4.15.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Oracle processors.
+ .
+ Geared toward Oracle Cloud systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-oracle meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.15.0-1095-aws
+Description-md5: 20a13d07778ebdf4680b184206194be4
+Description-en: Linux kernel extra modules for version 4.15.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.15.0-1095-gcp
+Description-md5: 0c2b75c701ce9d39246729a5be61dd33
+Description-en: Linux kernel extra modules for version 4.15.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports amd64 processors.
+ .
+ Geared toward GCP systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-gcp meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.15.0-1096-aws
+Description-md5: 20a13d07778ebdf4680b184206194be4
+Description-en: Linux kernel extra modules for version 4.15.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.15.0-1110-azure
+Description-md5: 26f777826b44d7c350500e086941d146
+Description-en: Linux kernel extra modules for version 4.15.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Azure processors.
+ .
+ Geared toward Azure systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-azure meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-1125-aws
+Description-md5: ae75d2452e73d091100da3f4211f559d
+Description-en: Linux kernel extra modules for version 4.4.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-206-generic
+Description-md5: 9cf6ff33a9d36298879bfde6fa9783a8
+Description-en: Linux kernel extra modules for version 4.4.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-206-lowlatency
+Description-md5: 11aee5b14e611d687b61cc4ae177b534
+Description-en: Linux kernel extra modules for version 4.4.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-207-generic
+Description-md5: 9cf6ff33a9d36298879bfde6fa9783a8
+Description-en: Linux kernel extra modules for version 4.4.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-207-lowlatency
+Description-md5: 11aee5b14e611d687b61cc4ae177b534
+Description-en: Linux kernel extra modules for version 4.4.0 on 64 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-4.15.0-1066-oracle
+Description-md5: ff3f576f48e219e89bf2aa9212dbc471
+Description-en: Oracle Linux kernel extra modules for version 4.15.0 on 64 bit x86 SMP
+ This package contains the Oracle Linux kernel extra modules for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Oracle processors.
+ .
+ Geared toward Oracle Cloud systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-oracle meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-4.15.0-1067-oracle
+Description-md5: ff3f576f48e219e89bf2aa9212dbc471
+Description-en: Oracle Linux kernel extra modules for version 4.15.0 on 64 bit x86 SMP
+ This package contains the Oracle Linux kernel extra modules for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Oracle processors.
+ .
+ Geared toward Oracle Cloud systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-oracle meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-4.15.0-1095-aws
+Description-md5: a4818cb6efa4ed9d255cae8127080e29
+Description-en: Linux kernel extra modules for version 4.15.0 on 64 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-4.15.0-1095-gcp
+Description-md5: 95e2468efba7be918f6aa822cedab467
+Description-en: Linux kernel extra modules for version 4.15.0 on 64 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports amd64 processors.
+ .
+ Geared toward GCP systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-gcp meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-4.15.0-1096-aws
+Description-md5: a4818cb6efa4ed9d255cae8127080e29
+Description-en: Linux kernel extra modules for version 4.15.0 on 64 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-4.15.0-1110-azure
+Description-md5: 3b62513675e063ae02e1cac15b7f874b
+Description-en: Linux kernel extra modules for version 4.15.0 on 64 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 4.15.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Azure processors.
+ .
+ Geared toward Azure systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-azure meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-4.4.0-1125-aws
+Description-md5: b58db2ef760dd05e2b940db6916bd33f
+Description-en: Linux kernel extra modules for version 4.4.0 on 64 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-modules-extra-aws meta-package, which will ensure that upgrades
+ work correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-4.4.0-206-generic
+Description-md5: 8ddf4399af85f43e9127757b98ea6afe
+Description-en: Linux kernel extra modules for version 4.4.0 on 64 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-4.4.0-207-generic
+Description-md5: 8ddf4399af85f43e9127757b98ea6afe
+Description-en: Linux kernel extra modules for version 4.4.0 on 64 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 4.4.0 on
+ 64 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-oracle-headers-4.15.0-1066
+Description-md5: d1da6369162c1d79ab30fd9b66cf5185
+Description-en: Header files related to Oracle Linux kernel version 4.15.0
+ This package provides kernel header files for version 4.15.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-oracle-headers-4.15.0-1066/debian.README.gz for details
+
+Package: linux-oracle-headers-4.15.0-1067
+Description-md5: a666a335a352ef4e977159e82603b668
+Description-en: Header files related to Oracle Linux kernel version 4.15.0
+ This package provides kernel header files for version 4.15.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-oracle-headers-4.15.0-1067/debian.README.gz for details
+
+Package: linux-oracle-tools-4.15.0-1066
+Description-md5: 2739d4e9df75634f953d8e2133ff6fbf
+Description-en: Oracle Linux kernel version specific tools for version 4.15.0-1066
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.15.0-1066 on
+ 64 bit x86.
+ You probably want to install linux-tools-4.15.0-1066-<flavour>.
+
+Package: linux-oracle-tools-4.15.0-1067
+Description-md5: f55e1552b2f1b729fe5d2755d7eb375e
+Description-en: Oracle Linux kernel version specific tools for version 4.15.0-1067
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.15.0-1067 on
+ 64 bit x86.
+ You probably want to install linux-tools-4.15.0-1067-<flavour>.
+
+Package: linux-source-4.4.0
+Description-md5: 23685cba55b02ea33e12d1b1028623a1
+Description-en: Linux kernel source for version 4.4.0 with Ubuntu patches
+ This package provides the source code for the Linux kernel version
+ 4.4.0.
+ .
+ This package is mainly meant for other packages to use, in order to build
+ custom flavours.
+ .
+ If you wish to use this package to create a custom Linux kernel, then it
+ is suggested that you investigate the package kernel-package, which has
+ been designed to ease the task of creating kernel image packages.
+ .
+ If you are simply trying to build third-party modules for your kernel,
+ you do not want this package. Install the appropriate linux-headers
+ package instead.
+
+Package: linux-tools-4.15.0-1066-oracle
+Description-md5: 40224eb4c9c01e8bfb4f2acebbefa2d0
+Description-en: Oracle Linux kernel version specific tools for version 4.15.0-1066
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.15.0-1066 on
+ 64 bit x86.
+
+Package: linux-tools-4.15.0-1067-oracle
+Description-md5: fd0459d5f1c9f17c13cd28b485c9fbe5
+Description-en: Oracle Linux kernel version specific tools for version 4.15.0-1067
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.15.0-1067 on
+ 64 bit x86.
+
+Package: linux-tools-4.15.0-1095-aws
+Description-md5: 81d1d50bd8370313f11c42d4f7a7053f
+Description-en: Linux kernel version specific tools for version 4.15.0-1095
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.15.0-1095 on
+ 64 bit x86.
+
+Package: linux-tools-4.15.0-1095-gcp
+Description-md5: 81d1d50bd8370313f11c42d4f7a7053f
+Description-en: Linux kernel version specific tools for version 4.15.0-1095
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.15.0-1095 on
+ 64 bit x86.
+
+Package: linux-tools-4.15.0-1096-aws
+Description-md5: 0fbf24377ffe1cd1afb227759eba8bfb
+Description-en: Linux kernel version specific tools for version 4.15.0-1096
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.15.0-1096 on
+ 64 bit x86.
+
+Package: linux-tools-4.15.0-1110-azure
+Description-md5: ae71decee7b5e2789ff922f4fe01e285
+Description-en: Linux kernel version specific tools for version 4.15.0-1110
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.15.0-1110 on
+ 64 bit x86.
+
+Package: linux-tools-4.4.0-1125-aws
+Description-md5: ba5c23f7bfbe3c7605ff5cbd2b0cc9b7
+Description-en: Linux kernel version specific tools for version 4.4.0-1125
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-1125 on
+ 64 bit x86.
+
+Package: linux-tools-4.4.0-206
+Description-md5: db42cdcfaaf803c605d068d9387b604b
+Description-en: Linux kernel version specific tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-206 on
+ 64 bit x86.
+ You probably want to install linux-tools-4.4.0-206-<flavour>.
+
+Package: linux-tools-4.4.0-206-generic
+Description-md5: 02bc6e6487f153bfe250be4234f5661a
+Description-en: Linux kernel version specific tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-206 on
+ 64 bit x86.
+
+Package: linux-tools-4.4.0-206-lowlatency
+Description-md5: 02bc6e6487f153bfe250be4234f5661a
+Description-en: Linux kernel version specific tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-206 on
+ 64 bit x86.
+
+Package: linux-tools-4.4.0-207
+Description-md5: 888307642515d36540d91ee2b3f70da6
+Description-en: Linux kernel version specific tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-207 on
+ 64 bit x86.
+ You probably want to install linux-tools-4.4.0-207-<flavour>.
+
+Package: linux-tools-4.4.0-207-generic
+Description-md5: 3f3b30405ae62357736506ec48c79ac3
+Description-en: Linux kernel version specific tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-207 on
+ 64 bit x86.
+
+Package: linux-tools-4.4.0-207-lowlatency
+Description-md5: 3f3b30405ae62357736506ec48c79ac3
+Description-en: Linux kernel version specific tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-207 on
+ 64 bit x86.
+
+Package: linux-tools-common
+Description-md5: 7e37c6ad3f9ac97c3d7b6b43826feb00
+Description-en: Linux kernel version specific tools for version 4.4.0
+ This package provides the architecture independent parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0.
+
+Package: linux-tools-host
+Description-md5: d29120b11150b79af4338241d0a5dc74
+Description-en: Linux kernel VM host tools
+ This package provides kernel tools useful for VM hosts.
+
+Package: network-manager
+Description-md5: 8f6f8b56b77097ec1e2134d2c9189882
+Description-en: network management framework (daemon and userspace tools)
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, WiFi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package provides the userspace daemons and a command line interface to
+ interact with NetworkManager.
+ .
+ Optional dependencies:
+  * ppp: Required for establishing dial-up connections (e.g. via GSM).
+  * avahi-autoipd: Used for IPv4LL, a protocol for automatic Link-Local IP
+    address configuration.
+
+Package: network-manager-dev
+Description-md5: c0efb500095bf4fcb545da42a30d1b62
+Description-en: network management framework (development files)
+ this package provides header files that are needed to
+ compile VPN Plugins for NetworkManager.
+
+Package: linux-aws-hwe-cloud-tools-4.15.0-1095
+Description-md5: fc5aa3ad81d1f59fb304629d1d6bc0c9
+Description-en: Linux kernel version specific cloud tools for version 4.15.0-1095
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud tools for version 4.15.0-1095 on
+ ARMv8.
+ You probably want to install linux-cloud-tools-4.15.0-1095-<flavour>.
+
+Package: linux-aws-hwe-cloud-tools-4.15.0-1096
+Description-md5: d806c57d64c36110b47598c41319d4c6
+Description-en: Linux kernel version specific cloud tools for version 4.15.0-1096
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud tools for version 4.15.0-1096 on
+ ARMv8.
+ You probably want to install linux-cloud-tools-4.15.0-1096-<flavour>.
+
+Package: linux-aws-hwe-tools-4.15.0-1095
+Description-md5: e030252c231694bdfb5d0090d3a9dab8
+Description-en: Linux kernel version specific tools for version 4.15.0-1095
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.15.0-1095 on
+ ARMv8.
+ You probably want to install linux-tools-4.15.0-1095-<flavour>.
+
+Package: linux-aws-hwe-tools-4.15.0-1096
+Description-md5: 9c337aa9743da6ff70ed1dee72a455ef
+Description-en: Linux kernel version specific tools for version 4.15.0-1096
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.15.0-1096 on
+ ARMv8.
+ You probably want to install linux-tools-4.15.0-1096-<flavour>.
+
+Package: linux-buildinfo-4.15.0-1095-aws
+Description-md5: 4f01ed96492a10e6297bb9e9a0bf104c
+Description-en: Linux kernel buildinfo for version 4.15.0 on ARMv8 SMP
+ This package contains the Linux kernel buildinfo for version 4.15.0 on
+ ARMv8 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.15.0-1096-aws
+Description-md5: 4f01ed96492a10e6297bb9e9a0bf104c
+Description-en: Linux kernel buildinfo for version 4.15.0 on ARMv8 SMP
+ This package contains the Linux kernel buildinfo for version 4.15.0 on
+ ARMv8 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.4.0-206-generic
+Description-md5: a505cd1f93c23e97d833935905c9daed
+Description-en: Linux kernel buildinfo for version 4.4.0 on ARMv8 SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ ARMv8 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.4.0-207-generic
+Description-md5: a505cd1f93c23e97d833935905c9daed
+Description-en: Linux kernel buildinfo for version 4.4.0 on ARMv8 SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ ARMv8 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-cloud-tools-4.15.0-1095-aws
+Description-md5: d60104dd27e0d7e57bb6be7388ff959c
+Description-en: Linux kernel version specific cloud tools for version 4.15.0-1095
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 4.15.0-1095 on
+ ARMv8.
+
+Package: linux-cloud-tools-4.15.0-1096-aws
+Description-md5: 91dcb9595d57624637f51ada6ede2e74
+Description-en: Linux kernel version specific cloud tools for version 4.15.0-1096
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 4.15.0-1096 on
+ ARMv8.
+
+Package: linux-headers-4.15.0-1095-aws
+Description-md5: dd6e89686d22de8d1bf777bd6bc5ad6f
+Description-en: Linux kernel headers for version 4.15.0 on ARMv8 SMP
+ This package provides kernel header files for version 4.15.0 on
+ ARMv8 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.15.0-1095/debian.README.gz for details.
+
+Package: linux-headers-4.15.0-1096-aws
+Description-md5: 3d2f8c1b15a3f512720cce93dcdb0fea
+Description-en: Linux kernel headers for version 4.15.0 on ARMv8 SMP
+ This package provides kernel header files for version 4.15.0 on
+ ARMv8 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.15.0-1096/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-206-generic
+Description-md5: 15c620379a106256cc7ce2caff8e8324
+Description-en: Linux kernel headers for version 4.4.0 on ARMv8 SMP
+ This package provides kernel header files for version 4.4.0 on
+ ARMv8 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-206/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-207-generic
+Description-md5: eef6e3641f90c103cd45b71d7bd9d4cb
+Description-en: Linux kernel headers for version 4.4.0 on ARMv8 SMP
+ This package provides kernel header files for version 4.4.0 on
+ ARMv8 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-207/debian.README.gz for details.
+
+Package: linux-image-4.15.0-1095-aws
+Description-md5: aa63fbbf7b07eee00ba97652a9e72170
+Description-en: Linux kernel image for version 4.15.0 on ARMv8 SMP
+ This package contains the Linux kernel image for version 4.15.0 on
+ ARMv8 SMP.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.15.0-1096-aws
+Description-md5: aa63fbbf7b07eee00ba97652a9e72170
+Description-en: Linux kernel image for version 4.15.0 on ARMv8 SMP
+ This package contains the Linux kernel image for version 4.15.0 on
+ ARMv8 SMP.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-206-generic
+Description-md5: ecdac57d12fd188cdbde392f7bc89494
+Description-en: Linux kernel image for version 4.4.0 on ARMv8 SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ ARMv8 SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-207-generic
+Description-md5: ecdac57d12fd188cdbde392f7bc89494
+Description-en: Linux kernel image for version 4.4.0 on ARMv8 SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ ARMv8 SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.15.0-1095-aws
+Description-md5: 2130d3024e19e4644de5e113b9a4348d
+Description-en: Linux kernel extra modules for version 4.15.0 on ARMv8 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.15.0-1096-aws
+Description-md5: 2130d3024e19e4644de5e113b9a4348d
+Description-en: Linux kernel extra modules for version 4.15.0 on ARMv8 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-206-generic
+Description-md5: d0251b32627c7fb2c0ee8e9888fbcc89
+Description-en: Linux kernel extra modules for version 4.4.0 on ARMv8 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-207-generic
+Description-md5: d0251b32627c7fb2c0ee8e9888fbcc89
+Description-en: Linux kernel extra modules for version 4.4.0 on ARMv8 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-4.15.0-1095-aws
+Description-md5: 8d2a290b7ff329719a900d4205564e03
+Description-en: Linux kernel extra modules for version 4.15.0 on ARMv8 SMP
+ This package contains the Linux kernel extra modules for version 4.15.0 on
+ ARMv8 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-4.15.0-1096-aws
+Description-md5: 8d2a290b7ff329719a900d4205564e03
+Description-en: Linux kernel extra modules for version 4.15.0 on ARMv8 SMP
+ This package contains the Linux kernel extra modules for version 4.15.0 on
+ ARMv8 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports AWS processors.
+ .
+ Geared toward Amazon Web Services (AWS) systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-aws meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-tools-4.15.0-1095-aws
+Description-md5: 5f6c63ac9c7aa96c6b0678342ff38eef
+Description-en: Linux kernel version specific tools for version 4.15.0-1095
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.15.0-1095 on
+ ARMv8.
+
+Package: linux-tools-4.15.0-1096-aws
+Description-md5: 0a1ffb38b7fcb88528419f783bbced6b
+Description-en: Linux kernel version specific tools for version 4.15.0-1096
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.15.0-1096 on
+ ARMv8.
+
+Package: linux-tools-4.4.0-206
+Description-md5: 5573877ffb170a313bc331190e6d51b3
+Description-en: Linux kernel version specific tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-206 on
+ ARMv8.
+ You probably want to install linux-tools-4.4.0-206-<flavour>.
+
+Package: linux-tools-4.4.0-206-generic
+Description-md5: 2de6eb9ae1598055fc1bd6262e074cc2
+Description-en: Linux kernel version specific tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-206 on
+ ARMv8.
+
+Package: linux-tools-4.4.0-207
+Description-md5: 4b3ab34e0cbb6294f6fe3e43ef91da3b
+Description-en: Linux kernel version specific tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-207 on
+ ARMv8.
+ You probably want to install linux-tools-4.4.0-207-<flavour>.
+
+Package: linux-tools-4.4.0-207-generic
+Description-md5: e995cd6017a9b5ae00e0f5129ce01863
+Description-en: Linux kernel version specific tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-207 on
+ ARMv8.
+
+Package: linux-buildinfo-4.4.0-206-generic
+Description-md5: 37251d530035006334331845917b466e
+Description-en: Linux kernel buildinfo for version 4.4.0 on ARM (hard float) SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.4.0-206-generic-lpae
+Description-md5: 37251d530035006334331845917b466e
+Description-en: Linux kernel buildinfo for version 4.4.0 on ARM (hard float) SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.4.0-207-generic
+Description-md5: 37251d530035006334331845917b466e
+Description-en: Linux kernel buildinfo for version 4.4.0 on ARM (hard float) SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.4.0-207-generic-lpae
+Description-md5: 37251d530035006334331845917b466e
+Description-en: Linux kernel buildinfo for version 4.4.0 on ARM (hard float) SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-headers-4.4.0-206-generic
+Description-md5: 6ba375b6d6d1cd28d9149e4fb097ce8e
+Description-en: Linux kernel headers for version 4.4.0 on ARM (hard float) SMP
+ This package provides kernel header files for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-206/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-206-generic-lpae
+Description-md5: 6ba375b6d6d1cd28d9149e4fb097ce8e
+Description-en: Linux kernel headers for version 4.4.0 on ARM (hard float) SMP
+ This package provides kernel header files for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-206/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-207-generic
+Description-md5: 363c3ed399a889995bca69fd23fa341c
+Description-en: Linux kernel headers for version 4.4.0 on ARM (hard float) SMP
+ This package provides kernel header files for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-207/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-207-generic-lpae
+Description-md5: 363c3ed399a889995bca69fd23fa341c
+Description-en: Linux kernel headers for version 4.4.0 on ARM (hard float) SMP
+ This package provides kernel header files for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-207/debian.README.gz for details.
+
+Package: linux-image-4.4.0-206-generic
+Description-md5: b9edbed44539c75c8c8b833a0f736c7b
+Description-en: Linux kernel image for version 4.4.0 on ARM (hard float) SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-206-generic-lpae
+Description-md5: a3a38ecc1a22b35a5ac194259056708d
+Description-en: Linux kernel image for version 4.4.0 on ARM (hard float) SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ Supports Generic LPAE processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic-lpae meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-207-generic
+Description-md5: b9edbed44539c75c8c8b833a0f736c7b
+Description-en: Linux kernel image for version 4.4.0 on ARM (hard float) SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-207-generic-lpae
+Description-md5: a3a38ecc1a22b35a5ac194259056708d
+Description-en: Linux kernel image for version 4.4.0 on ARM (hard float) SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ Supports Generic LPAE processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic-lpae meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-206-generic
+Description-md5: e5bf2ff76e4dc745561e95ee67478609
+Description-en: Linux kernel extra modules for version 4.4.0 on ARM (hard float) SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-206-generic-lpae
+Description-md5: bcee660f29f16794fcbc14cf2343f8af
+Description-en: Linux kernel extra modules for version 4.4.0 on ARM (hard float) SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic LPAE processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic-lpae meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-207-generic
+Description-md5: e5bf2ff76e4dc745561e95ee67478609
+Description-en: Linux kernel extra modules for version 4.4.0 on ARM (hard float) SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-207-generic-lpae
+Description-md5: bcee660f29f16794fcbc14cf2343f8af
+Description-en: Linux kernel extra modules for version 4.4.0 on ARM (hard float) SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic LPAE processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic-lpae meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-tools-4.4.0-206
+Description-md5: 7ec47d44b85bc8da50ed34bd3821c81c
+Description-en: Linux kernel version specific tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-206 on
+ ARM (hard float).
+ You probably want to install linux-tools-4.4.0-206-<flavour>.
+
+Package: linux-tools-4.4.0-206-generic
+Description-md5: 701de6e79296eb73e7e797bed1c867dd
+Description-en: Linux kernel version specific tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-206 on
+ ARM (hard float).
+
+Package: linux-tools-4.4.0-206-generic-lpae
+Description-md5: 701de6e79296eb73e7e797bed1c867dd
+Description-en: Linux kernel version specific tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-206 on
+ ARM (hard float).
+
+Package: linux-tools-4.4.0-207
+Description-md5: 975f6cc40238733397b5e55c30bb3caf
+Description-en: Linux kernel version specific tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-207 on
+ ARM (hard float).
+ You probably want to install linux-tools-4.4.0-207-<flavour>.
+
+Package: linux-tools-4.4.0-207-generic
+Description-md5: 4e66a11224f7d724575b70b76f9ee68c
+Description-en: Linux kernel version specific tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-207 on
+ ARM (hard float).
+
+Package: linux-tools-4.4.0-207-generic-lpae
+Description-md5: 4e66a11224f7d724575b70b76f9ee68c
+Description-en: Linux kernel version specific tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-207 on
+ ARM (hard float).
+
+Package: linux-buildinfo-4.4.0-206-generic
+Description-md5: 1200c0b00c7a5c7ba14114f3517a37d2
+Description-en: Linux kernel buildinfo for version 4.4.0 on 32 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.4.0-206-lowlatency
+Description-md5: 1200c0b00c7a5c7ba14114f3517a37d2
+Description-en: Linux kernel buildinfo for version 4.4.0 on 32 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.4.0-207-generic
+Description-md5: 1200c0b00c7a5c7ba14114f3517a37d2
+Description-en: Linux kernel buildinfo for version 4.4.0 on 32 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.4.0-207-lowlatency
+Description-md5: 1200c0b00c7a5c7ba14114f3517a37d2
+Description-en: Linux kernel buildinfo for version 4.4.0 on 32 bit x86 SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-cloud-tools-4.4.0-206
+Description-md5: b434eb48aecfe51b1c43c1b22786b2b1
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud tools for version 4.4.0-206 on
+ 32 bit x86.
+ You probably want to install linux-cloud-tools-4.4.0-206-<flavour>.
+
+Package: linux-cloud-tools-4.4.0-206-generic
+Description-md5: dc3c92d7b4442608b60f873d3fecefa1
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 4.4.0-206 on
+ 32 bit x86.
+
+Package: linux-cloud-tools-4.4.0-206-lowlatency
+Description-md5: dc3c92d7b4442608b60f873d3fecefa1
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 4.4.0-206 on
+ 32 bit x86.
+
+Package: linux-cloud-tools-4.4.0-207
+Description-md5: 10cf96c484f0b85042ea98802fbc32e0
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud tools for version 4.4.0-207 on
+ 32 bit x86.
+ You probably want to install linux-cloud-tools-4.4.0-207-<flavour>.
+
+Package: linux-cloud-tools-4.4.0-207-generic
+Description-md5: 71f7e9f5a66d32455a567e8f5a5d8882
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 4.4.0-207 on
+ 32 bit x86.
+
+Package: linux-cloud-tools-4.4.0-207-lowlatency
+Description-md5: 71f7e9f5a66d32455a567e8f5a5d8882
+Description-en: Linux kernel version specific cloud tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools for cloud for version 4.4.0-207 on
+ 32 bit x86.
+
+Package: linux-headers-4.4.0-206-generic
+Description-md5: a31d0c74e25b929e336c1c4cabde0552
+Description-en: Linux kernel headers for version 4.4.0 on 32 bit x86 SMP
+ This package provides kernel header files for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-206/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-206-lowlatency
+Description-md5: a31d0c74e25b929e336c1c4cabde0552
+Description-en: Linux kernel headers for version 4.4.0 on 32 bit x86 SMP
+ This package provides kernel header files for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-206/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-207-generic
+Description-md5: 36255bd0517de20f799cef5e27b2a6dd
+Description-en: Linux kernel headers for version 4.4.0 on 32 bit x86 SMP
+ This package provides kernel header files for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-207/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-207-lowlatency
+Description-md5: 36255bd0517de20f799cef5e27b2a6dd
+Description-en: Linux kernel headers for version 4.4.0 on 32 bit x86 SMP
+ This package provides kernel header files for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-207/debian.README.gz for details.
+
+Package: linux-image-4.4.0-206-generic
+Description-md5: 1ec9ccadd91e6698d4148229ad729783
+Description-en: Linux kernel image for version 4.4.0 on 32 bit x86 SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-206-lowlatency
+Description-md5: b61f7a7fbcc409975afd9afe7904fc11
+Description-en: Linux kernel image for version 4.4.0 on 32 bit x86 SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-207-generic
+Description-md5: 1ec9ccadd91e6698d4148229ad729783
+Description-en: Linux kernel image for version 4.4.0 on 32 bit x86 SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-207-lowlatency
+Description-md5: b61f7a7fbcc409975afd9afe7904fc11
+Description-en: Linux kernel image for version 4.4.0 on 32 bit x86 SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-206-generic
+Description-md5: d5a70c9da26b18d352f4d38068cbb7cf
+Description-en: Linux kernel extra modules for version 4.4.0 on 32 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-206-lowlatency
+Description-md5: 84e5ec64f7d36b4138b57ff675e681fe
+Description-en: Linux kernel extra modules for version 4.4.0 on 32 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-207-generic
+Description-md5: d5a70c9da26b18d352f4d38068cbb7cf
+Description-en: Linux kernel extra modules for version 4.4.0 on 32 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-207-lowlatency
+Description-md5: 84e5ec64f7d36b4138b57ff675e681fe
+Description-en: Linux kernel extra modules for version 4.4.0 on 32 bit x86 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Lowlatency processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-lowlatency meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-4.4.0-206-generic
+Description-md5: 830b276ede2c2a36e5918788adc175ca
+Description-en: Linux kernel extra modules for version 4.4.0 on 32 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-4.4.0-207-generic
+Description-md5: 830b276ede2c2a36e5918788adc175ca
+Description-en: Linux kernel extra modules for version 4.4.0 on 32 bit x86 SMP
+ This package contains the Linux kernel extra modules for version 4.4.0 on
+ 32 bit x86 SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-tools-4.4.0-206
+Description-md5: a91202cad332e79d14e2fd1b50222ca5
+Description-en: Linux kernel version specific tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-206 on
+ 32 bit x86.
+ You probably want to install linux-tools-4.4.0-206-<flavour>.
+
+Package: linux-tools-4.4.0-206-generic
+Description-md5: ef12297f2aa05ba0e5714138bea44fd4
+Description-en: Linux kernel version specific tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-206 on
+ 32 bit x86.
+
+Package: linux-tools-4.4.0-206-lowlatency
+Description-md5: ef12297f2aa05ba0e5714138bea44fd4
+Description-en: Linux kernel version specific tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-206 on
+ 32 bit x86.
+
+Package: linux-tools-4.4.0-207
+Description-md5: 64ad1452dd90e5afc71831788e4cd9e3
+Description-en: Linux kernel version specific tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-207 on
+ 32 bit x86.
+ You probably want to install linux-tools-4.4.0-207-<flavour>.
+
+Package: linux-tools-4.4.0-207-generic
+Description-md5: 79b0482b0c33f9bdd7ab16cd08f5ca41
+Description-en: Linux kernel version specific tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-207 on
+ 32 bit x86.
+
+Package: linux-tools-4.4.0-207-lowlatency
+Description-md5: 79b0482b0c33f9bdd7ab16cd08f5ca41
+Description-en: Linux kernel version specific tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-207 on
+ 32 bit x86.
+
+Package: linux-buildinfo-4.4.0-206-generic
+Description-md5: 285324788b1300943ab480bf2558d831
+Description-en: Linux kernel buildinfo for version 4.4.0 on PowerPC 64el SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ PowerPC 64el SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.4.0-207-generic
+Description-md5: 285324788b1300943ab480bf2558d831
+Description-en: Linux kernel buildinfo for version 4.4.0 on PowerPC 64el SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ PowerPC 64el SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-headers-4.4.0-206-generic
+Description-md5: aae9bbc91b1cdc6177981fe48b05a682
+Description-en: Linux kernel headers for version 4.4.0 on PowerPC 64el SMP
+ This package provides kernel header files for version 4.4.0 on
+ PowerPC 64el SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-206/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-207-generic
+Description-md5: 31f784045058695651b90a3524d545a3
+Description-en: Linux kernel headers for version 4.4.0 on PowerPC 64el SMP
+ This package provides kernel header files for version 4.4.0 on
+ PowerPC 64el SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-207/debian.README.gz for details.
+
+Package: linux-image-4.4.0-206-generic
+Description-md5: 41f945652f5547753f4426a2ad48b1d5
+Description-en: Linux kernel image for version 4.4.0 on PowerPC 64el SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ PowerPC 64el SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-207-generic
+Description-md5: 41f945652f5547753f4426a2ad48b1d5
+Description-en: Linux kernel image for version 4.4.0 on PowerPC 64el SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ PowerPC 64el SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-206-generic
+Description-md5: 9b9d1acd92cf7331fbef8a9b3a10465d
+Description-en: Linux kernel extra modules for version 4.4.0 on PowerPC 64el SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-207-generic
+Description-md5: 9b9d1acd92cf7331fbef8a9b3a10465d
+Description-en: Linux kernel extra modules for version 4.4.0 on PowerPC 64el SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-4.4.0-206-generic
+Description-md5: 1d5769be9e0fcc5184bc3223ceb1afcc
+Description-en: Linux kernel extra modules for version 4.4.0 on PowerPC 64el SMP
+ This package contains the Linux kernel extra modules for version 4.4.0 on
+ PowerPC 64el SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-4.4.0-207-generic
+Description-md5: 1d5769be9e0fcc5184bc3223ceb1afcc
+Description-en: Linux kernel extra modules for version 4.4.0 on PowerPC 64el SMP
+ This package contains the Linux kernel extra modules for version 4.4.0 on
+ PowerPC 64el SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-tools-4.4.0-206
+Description-md5: d239c98a78fa1e06733782ac04d2fe95
+Description-en: Linux kernel version specific tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-206 on
+ PowerPC 64el.
+ You probably want to install linux-tools-4.4.0-206-<flavour>.
+
+Package: linux-tools-4.4.0-206-generic
+Description-md5: bc9ec9461b445f6d76beb0d296df19d7
+Description-en: Linux kernel version specific tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-206 on
+ PowerPC 64el.
+
+Package: linux-tools-4.4.0-207
+Description-md5: b574b48e346a78a8d44782f44055b86b
+Description-en: Linux kernel version specific tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-207 on
+ PowerPC 64el.
+ You probably want to install linux-tools-4.4.0-207-<flavour>.
+
+Package: linux-tools-4.4.0-207-generic
+Description-md5: 56bde0246ff19aa13a702dc3b915a989
+Description-en: Linux kernel version specific tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-207 on
+ PowerPC 64el.
+
+Package: linux-buildinfo-4.4.0-206-generic
+Description-md5: 25b063ed4663e4bf600eda0845d76b5e
+Description-en: Linux kernel buildinfo for version 4.4.0 on System 390x SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ System 390x SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.4.0-207-generic
+Description-md5: 25b063ed4663e4bf600eda0845d76b5e
+Description-en: Linux kernel buildinfo for version 4.4.0 on System 390x SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ System 390x SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-headers-4.4.0-206-generic
+Description-md5: 883b48c8731696a923ea4356afd277de
+Description-en: Linux kernel headers for version 4.4.0 on System 390x SMP
+ This package provides kernel header files for version 4.4.0 on
+ System 390x SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-206/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-207-generic
+Description-md5: a70157b396d6fff7748d1344efaa0253
+Description-en: Linux kernel headers for version 4.4.0 on System 390x SMP
+ This package provides kernel header files for version 4.4.0 on
+ System 390x SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-207/debian.README.gz for details.
+
+Package: linux-image-4.4.0-206-generic
+Description-md5: b5087eb77f142d2ea2a7d46adf882390
+Description-en: Linux kernel image for version 4.4.0 on System 390x SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ System 390x SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-207-generic
+Description-md5: b5087eb77f142d2ea2a7d46adf882390
+Description-en: Linux kernel image for version 4.4.0 on System 390x SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ System 390x SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-206-generic
+Description-md5: f3da1a5189bf950bcd55f3ee5d537704
+Description-en: Linux kernel extra modules for version 4.4.0 on System 390x SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-207-generic
+Description-md5: f3da1a5189bf950bcd55f3ee5d537704
+Description-en: Linux kernel extra modules for version 4.4.0 on System 390x SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-4.4.0-206-generic
+Description-md5: d85a0154e57e3d70dc719c5f2b0cb06a
+Description-en: Linux kernel extra modules for version 4.4.0 on System 390x SMP
+ This package contains the Linux kernel extra modules for version 4.4.0 on
+ System 390x SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-extra-4.4.0-207-generic
+Description-md5: d85a0154e57e3d70dc719c5f2b0cb06a
+Description-en: Linux kernel extra modules for version 4.4.0 on System 390x SMP
+ This package contains the Linux kernel extra modules for version 4.4.0 on
+ System 390x SMP.
+ .
+ Also includes the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-generic meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-tools-4.4.0-206
+Description-md5: b490bba94d57ae6b2eb459bc915d52ee
+Description-en: Linux kernel version specific tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-206 on
+ System 390x.
+ You probably want to install linux-tools-4.4.0-206-<flavour>.
+
+Package: linux-tools-4.4.0-206-generic
+Description-md5: b3bb49d256877b862c2f46871a9e9193
+Description-en: Linux kernel version specific tools for version 4.4.0-206
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-206 on
+ System 390x.
+
+Package: linux-tools-4.4.0-207
+Description-md5: 5d1ff3e978b855fd958f3dbb0d2d19c6
+Description-en: Linux kernel version specific tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-207 on
+ System 390x.
+ You probably want to install linux-tools-4.4.0-207-<flavour>.
+
+Package: linux-tools-4.4.0-207-generic
+Description-md5: 8ee878b6cd6b354c139e2312e9378fcc
+Description-en: Linux kernel version specific tools for version 4.4.0-207
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-207 on
+ System 390x.
+

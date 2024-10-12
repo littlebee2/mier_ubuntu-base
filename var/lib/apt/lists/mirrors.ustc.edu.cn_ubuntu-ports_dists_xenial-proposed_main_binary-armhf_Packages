@@ -1,0 +1,1163 @@
+Package: autopkgtest
+Architecture: all
+Version: 3.20.4ubuntu1.1
+Priority: optional
+Section: devel
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Autopkgtest team <autopkgtest-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 495
+Depends: python3, python3-debian, apt-utils, libdpkg-perl, procps
+Recommends: autodep8
+Suggests: schroot, lxc, lxd-client, qemu-system, qemu-utils
+Filename: pool/main/a/autopkgtest/autopkgtest_3.20.4ubuntu1.1_all.deb
+Size: 125334
+MD5sum: ad05876ae47e731e5e261e58cc60c029
+SHA1: 7d78652cb3ab9d08803f2b42436ed2bb01efdef1
+SHA256: 09057891c4d5e08cc2cd6d63c32dc1e93ea59f4af9b3d43c9994d148529f0e73
+SHA512: 5fd04b19d4377be74d91a174a50cb8f84e5904ab9c3fccb9dfdadc673c51df02dd7353c6325f12dd982ad3e7d3cd2efb0f4fa610b9cb35fc1e34e9b37f795af8
+Description: automatic as-installed testing for Debian packages
+Description-md5: d1a3b5cd66ee5520127338964a105bfc
+Supported: 5y
+
+Package: gir1.2-networkmanager-1.0
+Architecture: armhf
+Version: 1.2.6-0ubuntu0.16.04.4
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: network-manager
+Origin: Ubuntu
+Maintainer: Ubuntu Core Dev Team <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 483
+Depends: gir1.2-freedesktop, gir1.2-glib-2.0, libgirepository-1.0-1 (>= 1.41.4-1), libnm-glib4 (>= 1.1.90), libnm-util2 (>= 1.1.90), libnm0 (>= 1.2.6-0ubuntu0.16.04.4)
+Filename: pool/main/n/network-manager/gir1.2-networkmanager-1.0_1.2.6-0ubuntu0.16.04.4_armhf.deb
+Size: 70452
+MD5sum: 21f9408d2efa62d84fabf95bb6a24501
+SHA1: 030717ddb3f27f3510f5eb81f56cec1510b5f3a1
+SHA256: 2ec3a4c5c3e28b53f52bc2d01ba6da8cf435cb66953e682ba1ebbf986c91ca9f
+SHA512: a0098600a11bc3119cc063c8476e6c57a80afb3bb220b68e2897c5c16a676b741298cd59dae9bbba0ddc805d95d804078bf7e453efee8075d4727bbac39104f4
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Description: GObject introspection data for NetworkManager
+Task: ubuntu-gnome-desktop
+Description-md5: 1a7cb995cf66551c57433bbaf46aee25
+Supported: 5y
+
+Package: libnm-dev
+Architecture: armhf
+Version: 1.2.6-0ubuntu0.16.04.4
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: network-manager
+Origin: Ubuntu
+Maintainer: Ubuntu Core Dev Team <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6088
+Depends: libnm0 (= 1.2.6-0ubuntu0.16.04.4), gir1.2-networkmanager-1.0 (= 1.2.6-0ubuntu0.16.04.4), libglib2.0-dev
+Filename: pool/main/n/network-manager/libnm-dev_1.2.6-0ubuntu0.16.04.4_armhf.deb
+Size: 390162
+MD5sum: fb22013bc7eb5231892368b0f1a472e8
+SHA1: a75f4e177c56158fedd6486e3b5be6f80f35a3a0
+SHA256: 8707a964458210860f66a0e8af0ab610c98b46fc3cd94897558c8e2e0c5011d3
+SHA512: fab8b5f83e517618418f29d64377fcf41e71b3adf76d796989fa4befa17d0824b9eea4d66dcae4e80dcaacce786e3a13ead0ec891308703635a4af25898b9dec
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Description: GObject-based client library for NetworkManager (development files)
+Description-md5: 1b717b382fe67c166e11c143d527a631
+Supported: 5y
+
+Package: libnm-glib-dev
+Architecture: armhf
+Version: 1.2.6-0ubuntu0.16.04.4
+Multi-Arch: same
+Priority: optional
+Section: net
+Source: network-manager
+Origin: Ubuntu
+Maintainer: Ubuntu Core Dev Team <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2118
+Depends: libnm-glib4 (= 1.2.6-0ubuntu0.16.04.4), gir1.2-networkmanager-1.0 (= 1.2.6-0ubuntu0.16.04.4), libnm-util-dev (>= 1.2.6-0ubuntu0.16.04.4), network-manager-dev (>= 1.2.6-0ubuntu0.16.04.4), libglib2.0-dev, libdbus-glib-1-dev
+Filename: pool/main/n/network-manager/libnm-glib-dev_1.2.6-0ubuntu0.16.04.4_armhf.deb
+Size: 172944
+MD5sum: fb82022091a622cab2d9071d887a3aee
+SHA1: 911964e99017ed6ac9cca917e5cb82db6c8f47ce
+SHA256: 46e9c055fd16b55487496622322a813c0cc25d3d5c73640218353250306867ab
+SHA512: 6447ac454a51380a5bd6f6fd35e3859546982cd230e885866a1742a661d15b3d2db29f212f84451eb3ae3fcf2ca8ec949bc0d9d9c0055aa706cc20a248c677bf
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Description: network management framework (GLib interface)
+Description-md5: 56d0a34d148547835775f648c283d58f
+Supported: 5y
+
+Package: libnm-glib-vpn-dev
+Architecture: armhf
+Version: 1.2.6-0ubuntu0.16.04.4
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: network-manager
+Origin: Ubuntu
+Maintainer: Ubuntu Core Dev Team <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 125
+Depends: libnm-glib-vpn1 (= 1.2.6-0ubuntu0.16.04.4), libnm-glib-dev (>= 1.2.6-0ubuntu0.16.04.4), network-manager-dev (>= 1.2.6-0ubuntu0.16.04.4)
+Filename: pool/main/n/network-manager/libnm-glib-vpn-dev_1.2.6-0ubuntu0.16.04.4_armhf.deb
+Size: 6380
+MD5sum: 40b8854b1e6a92d7ef58f2ffc7371143
+SHA1: c7aabe028a53541f469860cca1c3ed67835e728e
+SHA256: c1a2186b495b2fbe1d06d5a05fc36794ad80ebf5c5f9145d6d6d0379e489bd26
+SHA512: 211fd385a907129dab3185ba262f8620f8d886958a3369094a57e3909aa12e17c14a8a688d4e193bca63c1d91289a3f00d65e3e0a2f13cedfccc8058e3770e59
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Description: network management framework (GLib interface)
+Description-md5: c78ac261b5f6cfbb4c74b78a708c90bc
+Supported: 5y
+
+Package: libnm-glib-vpn1
+Architecture: armhf
+Version: 1.2.6-0ubuntu0.16.04.4
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: network-manager
+Origin: Ubuntu
+Maintainer: Ubuntu Core Dev Team <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 127
+Depends: libc6 (>= 2.4), libdbus-glib-1-2 (>= 0.88), libglib2.0-0 (>= 2.32), libnm-util2 (>= 1.1.93)
+Filename: pool/main/n/network-manager/libnm-glib-vpn1_1.2.6-0ubuntu0.16.04.4_armhf.deb
+Size: 12180
+MD5sum: fb902744b08ec80f6b148b70d1f1f729
+SHA1: 8f1c4e83bb461cab514ead02c52952b9e75d6d85
+SHA256: 2cc290579a1c65c8f3cc9dff173b5ebd68958d72d34f7bebb6d777de20d875d2
+SHA512: 5b652f5b39f3621f3fb241f0122006bdefee22124d14c4d8c86f546efaa46d7b87721f4bebb602e1fadd25599541d1ee617039a4f106b2d35317e8b644aab000
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Description: network management framework (GLib VPN shared library)
+Task: ubuntu-desktop, ubuntu-usb, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+Description-md5: a8d1fc7f276929433320d96cddd81b4b
+Supported: 5y
+
+Package: libnm-glib4
+Architecture: armhf
+Version: 1.2.6-0ubuntu0.16.04.4
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: network-manager
+Origin: Ubuntu
+Maintainer: Ubuntu Core Dev Team <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 287
+Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.88), libglib2.0-0 (>= 2.32), libgudev-1.0-0 (>= 146), libnm-util2 (>= 1.1.93)
+Filename: pool/main/n/network-manager/libnm-glib4_1.2.6-0ubuntu0.16.04.4_armhf.deb
+Size: 71598
+MD5sum: 551757fae9d1c7332ef64978ca8f20df
+SHA1: 29c16de55a9a3073e9c4fe06f0f8613f2fc4997c
+SHA256: fcdbb0c4eee84df923f5e49e1238f1b849908f718a47c9245e62b6bfa6ec3ee3
+SHA512: 7ffcb6e69cd4a6a6bcba9d6478647d0ff8d6738c6c8913b633fb67d91804c4b1c5501ab0f7863070ffc0d21648af2dd714368d16b7392ff2655d597d20353265
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Description: network management framework (GLib shared library)
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-full, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntu-touch, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+Description-md5: 217fbdca65cb15a2066a01b11aa4ed86
+Supported: 5y
+
+Package: libnm-util-dev
+Architecture: armhf
+Version: 1.2.6-0ubuntu0.16.04.4
+Multi-Arch: same
+Priority: optional
+Section: net
+Source: network-manager
+Origin: Ubuntu
+Maintainer: Ubuntu Core Dev Team <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3845
+Depends: libnm-util2 (= 1.2.6-0ubuntu0.16.04.4), gir1.2-networkmanager-1.0 (= 1.2.6-0ubuntu0.16.04.4), network-manager-dev (>= 1.2.6-0ubuntu0.16.04.4), libglib2.0-dev, libdbus-glib-1-dev
+Filename: pool/main/n/network-manager/libnm-util-dev_1.2.6-0ubuntu0.16.04.4_armhf.deb
+Size: 208812
+MD5sum: 70dbec052c95c14acb5db575898bb94d
+SHA1: d6d9d32bad486f26539fc6c00959d630b894f211
+SHA256: 4a8b4b9837fcf210643ce2d545e59d1cfa38b0fb5d12c5efbe9049a1de389816
+SHA512: 5a1436bb53d08d131c4347d99ac07375a0339364377851c0fd14918b6ec18ec9c62ade07b2f8a6ad48dfec7b6846c010233936d67c99380fdd4345a65b802e63
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Description: network management framework (development files)
+Description-md5: 386633658ef6f2e5bd09c1075e48d085
+Supported: 5y
+
+Package: libnm-util2
+Architecture: armhf
+Version: 1.2.6-0ubuntu0.16.04.4
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: network-manager
+Origin: Ubuntu
+Maintainer: Ubuntu Core Dev Team <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 405
+Depends: libc6 (>= 2.4), libdbus-glib-1-2 (>= 0.78), libglib2.0-0 (>= 2.33.14), libgnutls30 (>= 3.4.0), libuuid1 (>= 2.16)
+Filename: pool/main/n/network-manager/libnm-util2_1.2.6-0ubuntu0.16.04.4_armhf.deb
+Size: 108566
+MD5sum: e71768e15d3dccf24be82107bf1082f3
+SHA1: 8cbef0637522c8d347a53183b7f5ed086dae5e9a
+SHA256: 0cbc32fd6bee88a76e3a1a4a069ab545edb43942376fbf1b831d32fac75cad27
+SHA512: 0345d39ef0a796347259fc02695880431e97d157da09cf394c21fe4084f20557c954065862b180177b6270bac6ad7d316761697163368d4bba228905272dda78
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Description: network management framework (shared library)
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-full, edubuntu-desktop, edubuntu-usb, xubuntu-desktop, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntu-touch, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+Description-md5: 9206e0c0315bf3dee48dfe5ab4d4bd13
+Supported: 5y
+
+Package: libnm0
+Architecture: armhf
+Version: 1.2.6-0ubuntu0.16.04.4
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: network-manager
+Origin: Ubuntu
+Maintainer: Ubuntu Core Dev Team <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 998
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libgnutls30 (>= 3.4.0), libgudev-1.0-0 (>= 146), libuuid1 (>= 2.16)
+Filename: pool/main/n/network-manager/libnm0_1.2.6-0ubuntu0.16.04.4_armhf.deb
+Size: 290012
+MD5sum: 44f62a84bcde0589c8e39cdbacb04ffd
+SHA1: 3625a7b4706aa7255175d6b287e5ab5de5c9d750
+SHA256: 9a58786d9ff6ee1ac0aeaa0925e660f21bb3a583f4d9437d63adfcbadd2cbcff
+SHA512: 0def3a0f1c8ca53ea35b6f89e37a29605fc3c18fdb93082f1fdc955a4548bffc54c8f9efead7d76c636c67cbe54d5d340d13588802d06e09d4e0c12ebd027f1a
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Description: GObject-based client library for NetworkManager
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-full, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntu-touch-core, ubuntu-touch, ubuntu-sdk, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+Description-md5: 38459a9c4a6d9a0f4df9a5fa423e81fc
+Supported: 5y
+
+Package: linux-aws-headers-4.15.0-1095
+Architecture: all
+Version: 4.15.0-1095.102~16.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux-aws-hwe
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 76025
+Depends: coreutils
+Breaks: iscsitarget-dkms (<< 1.4.20.3+svn502-2ubuntu4.4)
+Filename: pool/main/l/linux-aws-hwe/linux-aws-headers-4.15.0-1095_4.15.0-1095.102~16.04.1_all.deb
+Size: 10952544
+MD5sum: 0dabb28634b9be14e214031ba1b43388
+SHA1: 10d1b2dc584c46774f8e09239c06d4cdabb77087
+SHA256: 2a36023da2a5139e7daf7ab2baafd06b648dcfeab14c141268228ec2efd57f63
+SHA512: 776300faea8b32d74352ef989cee013e1be9d410127294e14bf4b5e94cc28f39a82f172b6a3914980349aa7b93eab27982ef3934bcd3b48deedbf249716d151d
+Description: Header files related to Linux kernel version 4.15.0
+Description-md5: 64c4498e6786a13998d52351c2ef8e36
+Supported: 5y
+
+Package: linux-aws-headers-4.15.0-1096
+Architecture: all
+Version: 4.15.0-1096.103~16.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux-aws-hwe
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 76026
+Depends: coreutils
+Breaks: iscsitarget-dkms (<< 1.4.20.3+svn502-2ubuntu4.4)
+Filename: pool/main/l/linux-aws-hwe/linux-aws-headers-4.15.0-1096_4.15.0-1096.103~16.04.1_all.deb
+Size: 10934716
+MD5sum: c5ec70a43bd7298f08580e057c960999
+SHA1: 50496e17414848504cda1253bb718de6687eae12
+SHA256: 2e32c25171dc1d053710c0a02c0f3b49e2728ad45bd9fd270ff5d2462df4854e
+SHA512: 12aec113e5f0c5115e4cc0f5de1786207d9f6c8b859ce1d4e686036f42860321d16e344fc41163ffa2cc56c530451ccac15df27123275ee788b2eb471d69918d
+Description: Header files related to Linux kernel version 4.15.0
+Description-md5: fd83bf1163791bbf31236e8ed64b4143
+Supported: 5y
+
+Package: linux-aws-headers-4.4.0-1125
+Architecture: all
+Version: 4.4.0-1125.139
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux-aws
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 70846
+Depends: coreutils
+Breaks: iscsitarget-dkms (<< 1.4.20.3+svn502-2ubuntu4.4)
+Filename: pool/main/l/linux-aws/linux-aws-headers-4.4.0-1125_4.4.0-1125.139_all.deb
+Size: 10072286
+MD5sum: e28f6c2af265c8fbca1be456eb8ce694
+SHA1: fcae0077b5b963d8543db1a3e36b0b490842aef0
+SHA256: 32e78ef56eb0c18aa8a2f5a8b3ec28bd8301468043d3c1acd8fcbc28b161a9ea
+SHA512: d1a666765da94305baf9156339d26035e503317882e35340043d2cd5fc4ed31feb5321c5a986b2275c54a560bbf17a46cdeee4f51ba507a451f2061675c8aa67
+Description: Header files related to Linux kernel version 4.4.0
+Description-md5: e060ece12bf0df12ed440e8f82cdd909
+
+Package: linux-azure-headers-4.15.0-1110
+Architecture: all
+Version: 4.15.0-1110.122~16.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux-azure
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 74812
+Depends: coreutils
+Filename: pool/main/l/linux-azure/linux-azure-headers-4.15.0-1110_4.15.0-1110.122~16.04.1_all.deb
+Size: 10942324
+MD5sum: b9f3158bd9df407a789f1d81a37c11ba
+SHA1: 7c7562f9d8374e506200370b20576f9f68b24b52
+SHA256: c730d1840d703ea0117c1b47ba57b4a07de0fa2a3d8e38e9afc361382e85531b
+SHA512: d5407b7c455c436dbca02101d3dcbb5962491cb91c8db893fc1d1d60e489e66644f614d0e48cb5d99bda9734db875ba80325b9dbb9cff97630c12d1d8f960ba5
+Description: Header files related to Linux kernel version 4.15.0
+Description-md5: e325b747216fc3c4d428c0ee49c7f9ea
+Supported: 5y
+
+Package: linux-buildinfo-4.4.0-206-generic
+Architecture: armhf
+Version: 4.4.0-206.238
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2005
+Filename: pool/main/l/linux/linux-buildinfo-4.4.0-206-generic_4.4.0-206.238_armhf.deb
+Size: 298200
+MD5sum: 5de500d4c8a080cdabe9630f218100e1
+SHA1: e0c7d804d421d153efe03918e604580a750836b8
+SHA256: 80cd2729db1dd2476780dd638b44a61cf3d13caa6e15e4960e6ff6183032c9e3
+SHA512: 767313e3a9a56f2e60a651e2ca4df7db7c1083dbd89c4d9ea389509c918aae9de8f7f864999b806ad2dfdff55602d240b80acfa582d0cfa2dbf8a7d6d7654496
+Description: Linux kernel buildinfo for version 4.4.0 on ARM (hard float) SMP
+Description-md5: 37251d530035006334331845917b466e
+Supported: 5y
+
+Package: linux-buildinfo-4.4.0-206-generic-lpae
+Architecture: armhf
+Version: 4.4.0-206.238
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2000
+Filename: pool/main/l/linux/linux-buildinfo-4.4.0-206-generic-lpae_4.4.0-206.238_armhf.deb
+Size: 296964
+MD5sum: ccc7ae6075e88020f7699e214935a23b
+SHA1: 9fe65ae5ad88f9f21fcc6e2b9154d97afaf65eeb
+SHA256: cf7e6b70467ddf014c3bb795831383663f78ae316dd6c46edf844131bb46427d
+SHA512: e8c233c5a647c6398df0d885d740977f29a8275d86f1b1ca66b7cd1a2f2ec1423524c51faf5cadb7e2f9c1dea83ab02d1760dc87f067bbc293a2307d6d50fa7d
+Description: Linux kernel buildinfo for version 4.4.0 on ARM (hard float) SMP
+Description-md5: 37251d530035006334331845917b466e
+
+Package: linux-buildinfo-4.4.0-207-generic
+Architecture: armhf
+Version: 4.4.0-207.239
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2012
+Filename: pool/main/l/linux/linux-buildinfo-4.4.0-207-generic_4.4.0-207.239_armhf.deb
+Size: 298288
+MD5sum: 1c4015b94b913616339722f22bb39779
+SHA1: c2839515ce6dbdb1a38f3370440ce6b8329b9d47
+SHA256: c9916f42e999c8f7f2e0f4e2004c3a95458e7623e98832406ddb544751f71d67
+SHA512: ea64504e7df0946c88991b90394604543045700c73960797c49b8f923ba5306e5d77acd29c3b2d7a7909776f10b04803d361b6287893ee1925d070d81c62bb5e
+Description: Linux kernel buildinfo for version 4.4.0 on ARM (hard float) SMP
+Description-md5: 37251d530035006334331845917b466e
+
+Package: linux-buildinfo-4.4.0-207-generic-lpae
+Architecture: armhf
+Version: 4.4.0-207.239
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2007
+Filename: pool/main/l/linux/linux-buildinfo-4.4.0-207-generic-lpae_4.4.0-207.239_armhf.deb
+Size: 296982
+MD5sum: d156f13191e869c75f4d80dd75ac6567
+SHA1: 6120deafe1a6a0212700b3aa1a6586e591de03ea
+SHA256: b6bd896ef643a4d7037069216fa9a2b93b66726c965aacdc92b236cc6defec84
+SHA512: 2836deb5b1781844e3f97374a391e214bf43c2131b5ac377281f73060736209371deaa32278edbeefeadfb9a99e7badc464fb66825882421fe4cb88e76be6028
+Description: Linux kernel buildinfo for version 4.4.0 on ARM (hard float) SMP
+Description-md5: 37251d530035006334331845917b466e
+
+Package: linux-cloud-tools-common
+Architecture: all
+Version: 4.4.0-206.238
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 642
+Provides: linux-aws-cloud-tools-common, linux-gke-cloud-tools-common
+Depends: init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7)
+Conflicts: linux-aws-cloud-tools-common, linux-gke-cloud-tools-common
+Replaces: linux-aws-cloud-tools-common, linux-gke-cloud-tools-common
+Filename: pool/main/l/linux/linux-cloud-tools-common_4.4.0-206.238_all.deb
+Size: 32298
+MD5sum: 88a3134c485f8b32cc5f2686c8a96758
+SHA1: 7321be55b0f500745f2be64b2359d3ab36d4ff4c
+SHA256: ad3760dd30df529f3944bb7c1911568fbdf83c3fa66b490479f24bc82824f798
+SHA512: 32e2e19da0e780b4691f20e7f5222f111f60269945a343b5bb1fc4e43d6d649f38a9d6286c82af2b54a860d0529497e29be47dd37147927f98960066b320c4e5
+Description: Linux kernel version specific cloud tools for version 4.4.0
+Description-md5: c46b3f589b3d9c07a66c74de87fb3dc8
+Supported: 5y
+
+Package: linux-cloud-tools-common
+Architecture: all
+Version: 4.4.0-207.239
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 649
+Provides: linux-aws-cloud-tools-common, linux-gke-cloud-tools-common
+Depends: init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7)
+Conflicts: linux-aws-cloud-tools-common, linux-gke-cloud-tools-common
+Replaces: linux-aws-cloud-tools-common, linux-gke-cloud-tools-common
+Filename: pool/main/l/linux/linux-cloud-tools-common_4.4.0-207.239_all.deb
+Size: 31940
+MD5sum: f56425c77a0f4b661e31bd7ed33d0758
+SHA1: f29fd37f1ec6bce789f498b5be1ca628ced33f21
+SHA256: 4f715b1a7b2e13bdcfc5159f2a400200c521af13170ed60b0a4b8a592de180db
+SHA512: 1e974cefc8dc8dbbd85be84d58ed579bba7c0fb9acc748623771459bdef434e57b26cb9c753b4db49a76343fd5ebbc3adbf4b9cb1c0f38b135e0b0fa48a4f5f2
+Description: Linux kernel version specific cloud tools for version 4.4.0
+Description-md5: c46b3f589b3d9c07a66c74de87fb3dc8
+Supported: 5y
+
+Package: linux-doc
+Architecture: all
+Version: 4.4.0-206.238
+Priority: optional
+Section: doc
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 42913
+Filename: pool/main/l/linux/linux-doc_4.4.0-206.238_all.deb
+Size: 11305040
+MD5sum: eb683f27844ee597566dcaaf1dd6be76
+SHA1: b6ad41bb18f634b4df044f35df62311ef40aa097
+SHA256: 560faf69e6a150f8419ad9547aef9a68c15a5cbd3374975c6759d49910f7fa14
+SHA512: 07c14c9bb0fe43c0ad0ade27206cd44d43fa2b037c324ae797efbe4b00d677bdcf6d89e2c4c783b80fe3a6b2d50f0b578c0ccbe07402f890f4dc0d73478255ae
+Description: Linux kernel specific documentation for version 4.4.0
+Description-md5: 62e9693f74b369c25babebdffb092819
+Supported: 5y
+
+Package: linux-doc
+Architecture: all
+Version: 4.4.0-207.239
+Priority: optional
+Section: doc
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 42933
+Filename: pool/main/l/linux/linux-doc_4.4.0-207.239_all.deb
+Size: 11346012
+MD5sum: 80939ac710d2d09d8863a924c635da5b
+SHA1: e872193459234ddb0f71bac693a202abd8b309a7
+SHA256: 978c2c3f64fc7d5194d7fea761485c0d6d7469083bdffe3849b1dea1ec27fbdc
+SHA512: 1f67481792f8464527143ec44a5386f748e23c11ca189c1c2689ccfe2002c23f540a0dddc11595e25d9d674fc2f6951b7c9693a59ce2563b522038d5001d51d5
+Description: Linux kernel specific documentation for version 4.4.0
+Description-md5: 62e9693f74b369c25babebdffb092819
+Supported: 5y
+
+Package: linux-headers-4.4.0-206
+Architecture: all
+Version: 4.4.0-206.238
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 69624
+Depends: coreutils
+Breaks: iscsitarget-dkms (<< 1.4.20.3+svn502-2ubuntu4.3)
+Filename: pool/main/l/linux/linux-headers-4.4.0-206_4.4.0-206.238_all.deb
+Size: 10042424
+MD5sum: bc580325e1cd596296f83cc3b2e737b0
+SHA1: 831c4a4f28413e0301da80f8db3a1d103ff44797
+SHA256: e3f2908c46117874bd222e0ad992d80015e7d008430fbfb84722fb0761c6114e
+SHA512: bde94c9ff599ec93203174512f88a8fff6eec9ff311ef68ccf3120bdf0d9f497e96997f85f778cf968608ee7e52337006acf9e9082efc885c756f16c7d16ad68
+Description: Header files related to Linux kernel version 4.4.0
+Description-md5: f72ee6b736bd53847a7ecb24634fd6d7
+Supported: 5y
+
+Package: linux-headers-4.4.0-206-generic
+Architecture: armhf
+Version: 4.4.0-206.238
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7635
+Provides: linux-headers, linux-headers-3.0
+Depends: linux-headers-4.4.0-206, libc6 (>= 2.11), libssl1.0.0 (>= 1.0.0)
+Filename: pool/main/l/linux/linux-headers-4.4.0-206-generic_4.4.0-206.238_armhf.deb
+Size: 802454
+MD5sum: 7c1351c9ea4ccb043f813c7a19928c81
+SHA1: a512e03aaa89d99a4295778459e5185b03c039c7
+SHA256: 3afa1f82f5364e398e5195948359919f2a1ecf37ca638e0a071df530195ddfd4
+SHA512: 2b2eea120ba82bb1a0e8cde3b4d8a748c0ea58bbc9f186a1b5c3f405341a44b250c8c0a4b0c4fff67f6ee25839e0f2cf1b61e4782d7267458c5289f750b9e0ed
+Description: Linux kernel headers for version 4.4.0 on ARM (hard float) SMP
+Description-md5: 6ba375b6d6d1cd28d9149e4fb097ce8e
+Supported: 5y
+
+Package: linux-headers-4.4.0-206-generic-lpae
+Architecture: armhf
+Version: 4.4.0-206.238
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7561
+Provides: linux-headers, linux-headers-3.0
+Depends: linux-headers-4.4.0-206, libc6 (>= 2.11), libssl1.0.0 (>= 1.0.0)
+Filename: pool/main/l/linux/linux-headers-4.4.0-206-generic-lpae_4.4.0-206.238_armhf.deb
+Size: 795798
+MD5sum: 93054dc70698406ee2b25e8495b2ec5f
+SHA1: 9c2239f77578922bd2b0bfcea1ddbe3313c34877
+SHA256: f5e1d823b88f628e11cdb8854f6e779b9d3c3c69608442c1d4aec7b020edbe86
+SHA512: 590e04934cea19a8ef9650511516c5edff38ea5ddbd872cd65d68925a752ad95844f26ed23e906d89c11189b876507e4e64ed813939e6c12daa04b5f256506ed
+Description: Linux kernel headers for version 4.4.0 on ARM (hard float) SMP
+Description-md5: 6ba375b6d6d1cd28d9149e4fb097ce8e
+
+Package: linux-headers-4.4.0-207
+Architecture: all
+Version: 4.4.0-207.239
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 69635
+Depends: coreutils
+Breaks: iscsitarget-dkms (<< 1.4.20.3+svn502-2ubuntu4.3)
+Filename: pool/main/l/linux/linux-headers-4.4.0-207_4.4.0-207.239_all.deb
+Size: 10082428
+MD5sum: 34e3374c6ba3d4a2876dbfca95ad8837
+SHA1: 55a2f6da09f4fdf1ffa9ee3e7a404ef74bcfecc6
+SHA256: bb68bf196e33319b6bdb28a3e86e82337681158b44907eb822ce3256b1cd7c20
+SHA512: 0c252b0970c0d333367c73f09d1931ee5f030902867c990f1d6abbcb82a62256ded7e81fab2962b9ec59e8bae6e48fec92c38ae03e4924b4a72b52d917d20c8e
+Description: Header files related to Linux kernel version 4.4.0
+Description-md5: 4ff72de7b6f48893359c8f83abf333e3
+
+Package: linux-headers-4.4.0-207-generic
+Architecture: armhf
+Version: 4.4.0-207.239
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7641
+Provides: linux-headers, linux-headers-3.0
+Depends: linux-headers-4.4.0-207, libc6 (>= 2.11), libssl1.0.0 (>= 1.0.0)
+Filename: pool/main/l/linux/linux-headers-4.4.0-207-generic_4.4.0-207.239_armhf.deb
+Size: 811066
+MD5sum: 94e73e282998d705e217b2702704e232
+SHA1: 24157e55c5d753bd4012ad7f61f14a820e1e8c15
+SHA256: 6f71dc4f4178e8a50dc07233112a68f3885751040c262790b17114cc5587762e
+SHA512: 152ad1fa7077e8ab4e3c4aeeb1f464727dbb6c948f8cc8ba3b051c7b6be88357894af6d9503454c7c0f8431b05db190b9046aa4696cbb0416591acd5b4494472
+Description: Linux kernel headers for version 4.4.0 on ARM (hard float) SMP
+Description-md5: 363c3ed399a889995bca69fd23fa341c
+
+Package: linux-headers-4.4.0-207-generic-lpae
+Architecture: armhf
+Version: 4.4.0-207.239
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7567
+Provides: linux-headers, linux-headers-3.0
+Depends: linux-headers-4.4.0-207, libc6 (>= 2.11), libssl1.0.0 (>= 1.0.0)
+Filename: pool/main/l/linux/linux-headers-4.4.0-207-generic-lpae_4.4.0-207.239_armhf.deb
+Size: 804960
+MD5sum: 068c507d9d69c8f2167a6652afeeac53
+SHA1: f889647684b268b7b03f62e129e48169b9b14923
+SHA256: a88dd1116a7d1cc3032e186109e636bc83fa8054527516c2a8a2a40236056e5f
+SHA512: 3697fc65f1913747d5e751b72b3091a1f9115517d84c47bdaf3a841d33e5919c7a86fc8a26209005f9b6b2d7c3abc0a75b69c52ec69de26326a7055aa634c94c
+Description: Linux kernel headers for version 4.4.0 on ARM (hard float) SMP
+Description-md5: 363c3ed399a889995bca69fd23fa341c
+
+Package: linux-image-4.4.0-206-generic
+Architecture: armhf
+Version: 4.4.0-206.238
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7761
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules
+Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-4.4.0-206-generic
+Recommends: flash-kernel, initramfs-tools | linux-initramfs-tool
+Suggests: fdutils, linux-doc-4.4.0 | linux-source-4.4.0, linux-tools, linux-headers-4.4.0-206-generic
+Conflicts: linux-image-unsigned-4.4.0-206-generic
+Filename: pool/main/l/linux/linux-image-4.4.0-206-generic_4.4.0-206.238_armhf.deb
+Size: 7344198
+MD5sum: 20810de1e0f037d209547d81e0389bac
+SHA1: 89dada2520ff8736a103c73399818db7aab4802e
+SHA256: f2d59141e8e0089e611bb330b68b61e3969627b400d6b49d0b27c3da8c32d078
+SHA512: ebda8d0005cb11762e6f8300f974d59ca5ba5c962cd86167fbb510820238cf2e415353c95869f3e093f519ac96e6ab8997ef6d4bab9c35ac8e7a02824e133a53
+Description: Linux kernel image for version 4.4.0 on ARM (hard float) SMP
+Description-md5: b9edbed44539c75c8c8b833a0f736c7b
+Supported: 5y
+
+Package: linux-image-4.4.0-206-generic-lpae
+Architecture: armhf
+Version: 4.4.0-206.238
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7564
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules
+Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-4.4.0-206-generic-lpae
+Recommends: flash-kernel, initramfs-tools | linux-initramfs-tool
+Suggests: fdutils, linux-doc-4.4.0 | linux-source-4.4.0, linux-tools, linux-headers-4.4.0-206-generic-lpae
+Conflicts: linux-image-unsigned-4.4.0-206-generic-lpae
+Filename: pool/main/l/linux/linux-image-4.4.0-206-generic-lpae_4.4.0-206.238_armhf.deb
+Size: 7146110
+MD5sum: 060d60b3a7d56c6c211e313963c7a8ce
+SHA1: 9effc5b40234c934b47231f0275ee0b8a358a152
+SHA256: b32344e9b74f4954f4741b0bd4fb43e24878f63f2d0057169e56c3bf5d330456
+SHA512: ab54eed7e7fe72fd6f1b7919aac070ac9671e07f14b92f2475a8d5107ff3bb9a52be94d2ac8567d0a4b0139ccf5db7dfa888d4aa0d739c08f0266995098387d2
+Description: Linux kernel image for version 4.4.0 on ARM (hard float) SMP
+Description-md5: a3a38ecc1a22b35a5ac194259056708d
+
+Package: linux-image-4.4.0-207-generic
+Architecture: armhf
+Version: 4.4.0-207.239
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7767
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules
+Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-4.4.0-207-generic
+Recommends: flash-kernel, initramfs-tools | linux-initramfs-tool
+Suggests: fdutils, linux-doc-4.4.0 | linux-source-4.4.0, linux-tools, linux-headers-4.4.0-207-generic
+Conflicts: linux-image-unsigned-4.4.0-207-generic
+Filename: pool/main/l/linux/linux-image-4.4.0-207-generic_4.4.0-207.239_armhf.deb
+Size: 7344350
+MD5sum: 4ef77220026550237d65e71f696d38ed
+SHA1: 29b72488899693aea21013d527130818a25c45a3
+SHA256: 5cf0fdd7f5319aa1e92a0ea0aec3517c44584ddc67a162250c9ceaa1abe7c37d
+SHA512: 5b99f591ef5cfcb65e073029be6afaf4cb28ada2886c51b84596b8ba8f2a4bc77c1ecd056ce330957a5e58a614f46d9963dbd79a8483825eb5bf651e6686d31b
+Description: Linux kernel image for version 4.4.0 on ARM (hard float) SMP
+Description-md5: b9edbed44539c75c8c8b833a0f736c7b
+
+Package: linux-image-4.4.0-207-generic-lpae
+Architecture: armhf
+Version: 4.4.0-207.239
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7572
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules
+Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-4.4.0-207-generic-lpae
+Recommends: flash-kernel, initramfs-tools | linux-initramfs-tool
+Suggests: fdutils, linux-doc-4.4.0 | linux-source-4.4.0, linux-tools, linux-headers-4.4.0-207-generic-lpae
+Conflicts: linux-image-unsigned-4.4.0-207-generic-lpae
+Filename: pool/main/l/linux/linux-image-4.4.0-207-generic-lpae_4.4.0-207.239_armhf.deb
+Size: 7146996
+MD5sum: 1c6d1a5665471245f792f8d37067da46
+SHA1: 95df75f1b2d17cca589cfd7ccd0e1d6c84545f1f
+SHA256: 624c35efa5ff9b202c281ad318518a56bb7557b77a43861fa87983c44f62950d
+SHA512: 47e8355ea1abecb9cd7e341c00145e11b891ae2cfc75ed413feef609a3159fa8cb2d2d861e4b9dcc8ca04ff45d72793779daa7661c34ceeadd1ca9fcd756ab3e
+Description: Linux kernel image for version 4.4.0 on ARM (hard float) SMP
+Description-md5: a3a38ecc1a22b35a5ac194259056708d
+
+Package: linux-modules-4.4.0-206-generic
+Architecture: armhf
+Version: 4.4.0-206.238
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 174275
+Filename: pool/main/l/linux/linux-modules-4.4.0-206-generic_4.4.0-206.238_armhf.deb
+Size: 37811378
+MD5sum: 44b78c00f613988ffd2277600b825aad
+SHA1: 5e4c7659cf29b9eb02657e25818d8171354314de
+SHA256: 30cbb7c14beea9403d989a401816181484633f943ed90510df2009689458e3b7
+SHA512: 91cf7e1bc52236b0a223269e912175adcd49d3cc3a6f42f3bcd7acaa126f293b985479c545c23180fe7d1c1aaaf98acdebf93f0bb12435f4cd19e1dbd133da98
+Description: Linux kernel extra modules for version 4.4.0 on ARM (hard float) SMP
+Description-md5: e5bf2ff76e4dc745561e95ee67478609
+Supported: 5y
+
+Package: linux-modules-4.4.0-206-generic-lpae
+Architecture: armhf
+Version: 4.4.0-206.238
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 164865
+Filename: pool/main/l/linux/linux-modules-4.4.0-206-generic-lpae_4.4.0-206.238_armhf.deb
+Size: 37179530
+MD5sum: 6f390b1ed9077fd521be1dbeace7e74c
+SHA1: ce4bcfc4abeb5b77a0f771085bcb6273ce1c40c5
+SHA256: eed55dff844e0fd952537336224ad0402711145d4b92bbb1213cc80c1f205ecd
+SHA512: 86fbf869a527b6cf8b4332c94ba8626abbf44b0c5b9d4c3ab0f0eeb2052288620aed6430c9a740ee8435d13a539d8d038d7ffa1c3772df1702b2dfa3fc1d299b
+Description: Linux kernel extra modules for version 4.4.0 on ARM (hard float) SMP
+Description-md5: bcee660f29f16794fcbc14cf2343f8af
+
+Package: linux-modules-4.4.0-207-generic
+Architecture: armhf
+Version: 4.4.0-207.239
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 174290
+Filename: pool/main/l/linux/linux-modules-4.4.0-207-generic_4.4.0-207.239_armhf.deb
+Size: 37816786
+MD5sum: 5493ac9677e480be6d3dd84663f8d985
+SHA1: 780356849a14447d2d9cf314ef983cb12f8faf2e
+SHA256: aa3c1190c38e3dfefea9802b6ca30fc68f5849293914f5d2d39178d70036a047
+SHA512: 3a9f65080c218753dcd0fb8f84d7fe6c03cdf6e065bee794b3d1127f045cf1ff2c2869976e6716af3a83de2240a354ea9525382e25dadc7d59dc4c093ffb9393
+Description: Linux kernel extra modules for version 4.4.0 on ARM (hard float) SMP
+Description-md5: e5bf2ff76e4dc745561e95ee67478609
+
+Package: linux-modules-4.4.0-207-generic-lpae
+Architecture: armhf
+Version: 4.4.0-207.239
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 164875
+Filename: pool/main/l/linux/linux-modules-4.4.0-207-generic-lpae_4.4.0-207.239_armhf.deb
+Size: 37187666
+MD5sum: 090f97595c160f36287c5b326ce8e37c
+SHA1: 388913885545fd752fd45679b0c7fbb75bdbae73
+SHA256: e7cb8f8c38c33d37721a1d84d47a26471c5588743a931c6cfb24c725fc6c7271
+SHA512: e4e9cd7bdd02d4fac1ec74b942bcbdfaa173b80304e12b755f54ae08bfd9b9b99a4a16b7f5b081f591423c148d62a6f3a8561f382d5ec3de935ad217a37f3c21
+Description: Linux kernel extra modules for version 4.4.0 on ARM (hard float) SMP
+Description-md5: bcee660f29f16794fcbc14cf2343f8af
+
+Package: linux-oracle-headers-4.15.0-1066
+Architecture: all
+Version: 4.15.0-1066.74~16.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux-oracle
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 76086
+Depends: coreutils
+Filename: pool/main/l/linux-oracle/linux-oracle-headers-4.15.0-1066_4.15.0-1066.74~16.04.1_all.deb
+Size: 10952636
+MD5sum: 00ff06f79741abb140801d19b9193edc
+SHA1: b5ea52a32ba1f1c6567d5d2b45dc34e4924f5592
+SHA256: 84c2610e622aea205610d8399023b83fffddc78be5330c33a7ffa7d2799d2499
+SHA512: 3ba09a3d4aa0ebb3f8f69502f254db6ba9cad3f5fbd4d7af4796b57484745a598d2c382f294ea229e1a14bcb0eaa60c4e40021f1a8fcb15ac556ebb3b43cf551
+Description: Header files related to Oracle Linux kernel version 4.15.0
+Description-md5: d1da6369162c1d79ab30fd9b66cf5185
+Supported: 5y
+
+Package: linux-oracle-headers-4.15.0-1067
+Architecture: all
+Version: 4.15.0-1067.75~16.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: linux-oracle
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 76086
+Depends: coreutils
+Filename: pool/main/l/linux-oracle/linux-oracle-headers-4.15.0-1067_4.15.0-1067.75~16.04.1_all.deb
+Size: 10930750
+MD5sum: ef0f8138f7679f36a201690510380935
+SHA1: 0c4b2c8d98b5f7562413c267bc2bfe4f51b9ade6
+SHA256: cd452959287d3adb13f4cf37938e624b59fc69ec96a0e1fbdfbf54674026e03b
+SHA512: 4e6e2ce3fe523da31b3306f965f3951dcda3013fd4ecb419027ff2d0f78d6b0d61a90df84f0d122aaac3f1a1ee2290783532932b2166072747de3f32d0d29557
+Description: Header files related to Oracle Linux kernel version 4.15.0
+Description-md5: a666a335a352ef4e977159e82603b668
+Supported: 5y
+
+Package: linux-source-4.4.0
+Architecture: all
+Version: 4.4.0-206.238
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 129487
+Provides: linux-source, linux-source-3
+Depends: binutils, bzip2, coreutils
+Recommends: libc-dev, gcc, make
+Suggests: libncurses-dev | ncurses-dev, kernel-package, libqt3-dev
+Filename: pool/main/l/linux/linux-source-4.4.0_4.4.0-206.238_all.deb
+Size: 113446356
+MD5sum: 1652cd6591dbbd154507a0259531b713
+SHA1: 2a86660484a60b3f587efe55ceba99fb6fed4706
+SHA256: b5978f2f63a8493e13ea1535b4476fe3d704e9e9e021026bb7df719b4edc9945
+SHA512: d9b1715424740ccc0e96f3ec003617e675921cbd3e7e3de357ccf6f875c2e11149e7e7d5dbadc4963f65b1da62470daeb236ac091bfc68dd7552b62004074af4
+Description: Linux kernel source for version 4.4.0 with Ubuntu patches
+Description-md5: 23685cba55b02ea33e12d1b1028623a1
+Supported: 5y
+
+Package: linux-source-4.4.0
+Architecture: all
+Version: 4.4.0-207.239
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 129582
+Provides: linux-source, linux-source-3
+Depends: binutils, bzip2, coreutils
+Recommends: libc-dev, gcc, make
+Suggests: libncurses-dev | ncurses-dev, kernel-package, libqt3-dev
+Filename: pool/main/l/linux/linux-source-4.4.0_4.4.0-207.239_all.deb
+Size: 112989890
+MD5sum: 8baabc51bd602f1fbe25ec58c58c0e6c
+SHA1: 59bc210b3bc8d874c6dda594aed22e8439083e37
+SHA256: 73898bfa74b2d7e74a534de20631f311a6cdcbd727a48e6a1219f96a56456efa
+SHA512: f7ef89a5386bfeea032aef31d86f36587100931d34ba0ee63b0787da6c02c62e3987dd9f01a0c0a634312f6ede404b91aed9965421224c12edb960f264ac8542
+Description: Linux kernel source for version 4.4.0 with Ubuntu patches
+Description-md5: 23685cba55b02ea33e12d1b1028623a1
+Supported: 5y
+
+Package: linux-tools-4.4.0-206
+Architecture: armhf
+Version: 4.4.0-206.238
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 8873
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.8), libdw1 (>= 0.157), libelf1 (>= 0.144), libgcc1 (>= 1:3.5), liblzma5 (>= 5.1.1alpha+20120614), libslang2 (>= 2.2.4), libudev1 (>= 183), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux/linux-tools-4.4.0-206_4.4.0-206.238_armhf.deb
+Size: 2403546
+MD5sum: 4513e7eea7ff140367d3fcc54acbd3a9
+SHA1: 5796b93f96a2898676a70a1e83d3fdbf8feece33
+SHA256: 20f1553d43c7ab7944928aebcbf181d8cf07f2e16c3949a07ccbac608b23c53f
+SHA512: d3c7ec802c15915ee1da99024107b38f4f51508a5c550c927bac72e322e9450791e0d7aae3e2eb8cc3fd6bb715cc838d6f0675ebf7055cdc9835a32b3819f80e
+Description: Linux kernel version specific tools for version 4.4.0-206
+Description-md5: 7ec47d44b85bc8da50ed34bd3821c81c
+Supported: 5y
+
+Package: linux-tools-4.4.0-206-generic
+Architecture: armhf
+Version: 4.4.0-206.238
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 599
+Depends: linux-tools-4.4.0-206
+Filename: pool/main/l/linux/linux-tools-4.4.0-206-generic_4.4.0-206.238_armhf.deb
+Size: 2572
+MD5sum: 774932b0b26ca44172d83e9e8a9c6cb1
+SHA1: eb90418a163d6a1a6a5a1fb77b08e81f30796158
+SHA256: 249f6792aa5025bdb114e6b6e763f40edf16ba17eabdd95b9548f96103a07e3a
+SHA512: eb669a6934f6c89308080ea65548cc28feb2a84af2adebab5571fe46e840b47391ad72d2d12f12f38a2369f2242e41587483ac0197f61c2e433f32eea910a8e8
+Description: Linux kernel version specific tools for version 4.4.0-206
+Description-md5: 701de6e79296eb73e7e797bed1c867dd
+Supported: 5y
+
+Package: linux-tools-4.4.0-206-generic-lpae
+Architecture: armhf
+Version: 4.4.0-206.238
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 599
+Depends: linux-tools-4.4.0-206
+Filename: pool/main/l/linux/linux-tools-4.4.0-206-generic-lpae_4.4.0-206.238_armhf.deb
+Size: 2570
+MD5sum: 40fc4e674130bc698c3cd5d4633f75d3
+SHA1: 9b157fd941560b7df59d6ae4168e5f187ea15041
+SHA256: 6e798de3805ab8f2e652d1e6a1ef61c597187bc4d193cef87aa87b88551c7c36
+SHA512: c4d3f4f7431eb7bc11e3ae9775369a219163e1ae6533310fd78aae2e98f4f4862eb2e0d1452b49268aaf497a288ac758b9e0c0969adc4a97c64a60234f8d4835
+Description: Linux kernel version specific tools for version 4.4.0-206
+Description-md5: 701de6e79296eb73e7e797bed1c867dd
+
+Package: linux-tools-4.4.0-207
+Architecture: armhf
+Version: 4.4.0-207.239
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 8881
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.8), libdw1 (>= 0.157), libelf1 (>= 0.144), libgcc1 (>= 1:3.5), liblzma5 (>= 5.1.1alpha+20120614), libslang2 (>= 2.2.4), libudev1 (>= 183), libunwind8, zlib1g (>= 1:1.1.4), linux-tools-common
+Filename: pool/main/l/linux/linux-tools-4.4.0-207_4.4.0-207.239_armhf.deb
+Size: 2403510
+MD5sum: 52c161ce01fab28e21a870ce3f578d2b
+SHA1: 82986dcb18a3e66d91bc7fc5e2145c7d81d7f624
+SHA256: bad0a7834d8614249f2e3beab59e3b2a08ff6b9220d89a083eec0712a1a64563
+SHA512: d99c6559771697760861cec4c397b1f60f8106d6f644eee0b12e51a22212bdba0c6781a71b3385c500f0cc96d009ed4c8f1cb7ce1db91acc2e0012f75d375ecf
+Description: Linux kernel version specific tools for version 4.4.0-207
+Description-md5: 975f6cc40238733397b5e55c30bb3caf
+
+Package: linux-tools-4.4.0-207-generic
+Architecture: armhf
+Version: 4.4.0-207.239
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 606
+Depends: linux-tools-4.4.0-207
+Filename: pool/main/l/linux/linux-tools-4.4.0-207-generic_4.4.0-207.239_armhf.deb
+Size: 2562
+MD5sum: fc5bcd7083045be648e72bb956150fad
+SHA1: 44cbc1bf62499ebb4eca3fdfd177ae271c04f688
+SHA256: b7341f348e81d951d948fedf664005da05ed49b91a823c7bce24a7d53954db73
+SHA512: 2da219b13ea111fd54cb8b112e299c4a94656c68240f38f1ee9b3031432481ee4081481c6685f660c0066ec6a9a64768f491afa050bfcf650a2a10d4c30518a7
+Description: Linux kernel version specific tools for version 4.4.0-207
+Description-md5: 4e66a11224f7d724575b70b76f9ee68c
+
+Package: linux-tools-4.4.0-207-generic-lpae
+Architecture: armhf
+Version: 4.4.0-207.239
+Priority: optional
+Section: devel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 606
+Depends: linux-tools-4.4.0-207
+Filename: pool/main/l/linux/linux-tools-4.4.0-207-generic-lpae_4.4.0-207.239_armhf.deb
+Size: 2566
+MD5sum: 110ddb3f17a7635440f3c18c15dc8090
+SHA1: cddbe3f2a99fa56eca142ffe4fcaba9454aa24be
+SHA256: c42700c85744065250f1fdd551607a94d1d310bdbaf2693b03b50d4bff436a56
+SHA512: e230ae8f62cd2a921e35247a38464e398b84a5ee8949e047744a3b15ffa4cd786ebe637182c6b99c20fc9d1fdfec0586bd1d182b7cdf12c87b29c3b3cf9e71e2
+Description: Linux kernel version specific tools for version 4.4.0-207
+Description-md5: 4e66a11224f7d724575b70b76f9ee68c
+
+Package: linux-tools-common
+Architecture: all
+Version: 4.4.0-206.238
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 711
+Provides: linux-aws-tools-common, linux-gke-tools-common
+Depends: lsb-release
+Conflicts: linux-aws-tools-common, linux-gke-tools-common
+Replaces: linux-aws-tools-common, linux-gke-tools-common
+Filename: pool/main/l/linux/linux-tools-common_4.4.0-206.238_all.deb
+Size: 114872
+MD5sum: 188c20b759f1e48c0e0af9666cb2b5fd
+SHA1: 4483a109f51669bd61bfc4e6d13ebbc45243e4a2
+SHA256: 4df4cec17c41a3f121ddd746bde2518c2284a214d9eb7ecf2902f9dcab408c68
+SHA512: f551dc9ceb4217ef7c85331db8527236ba5c53588c364fd1bf6da84512b1d2bde1dda587ed3c487d6166edcb7cf23bd4039987994d986d63e1531b9348535917
+Description: Linux kernel version specific tools for version 4.4.0
+Description-md5: 7e37c6ad3f9ac97c3d7b6b43826feb00
+Supported: 5y
+
+Package: linux-tools-common
+Architecture: all
+Version: 4.4.0-207.239
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 718
+Provides: linux-aws-tools-common, linux-gke-tools-common
+Depends: lsb-release
+Conflicts: linux-aws-tools-common, linux-gke-tools-common
+Replaces: linux-aws-tools-common, linux-gke-tools-common
+Filename: pool/main/l/linux/linux-tools-common_4.4.0-207.239_all.deb
+Size: 114614
+MD5sum: 08c3ec30ad53df35b90d18bc4ef98713
+SHA1: be0d185c2c336e0ecfdf584eb755c09e435666c3
+SHA256: c71bfc41663d15f9f820f5bdaf776e176eaa5f47216b16190440987866aede54
+SHA512: e80bcc5dd4a8ec5f58c8232370ba08d7358b3e49937a7a047ce794f946d89f4d8d3c2ff562e1fb6b63073ce53da39cf02fef122983873ac9bd73bbf8bf25ebc2
+Description: Linux kernel version specific tools for version 4.4.0
+Description-md5: 7e37c6ad3f9ac97c3d7b6b43826feb00
+Supported: 5y
+
+Package: linux-tools-host
+Architecture: all
+Version: 4.4.0-206.238
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 592
+Depends: python3
+Filename: pool/main/l/linux/linux-tools-host_4.4.0-206.238_all.deb
+Size: 24754
+MD5sum: 431617817087cd704fba7f4a166d897f
+SHA1: 28cdcac470a349bc29d9910f459e39f4ff53f0e7
+SHA256: 5e4c808d4822741ba972f4e44db09dd45c8f3855a9ad767dd07c95f29eaab35f
+SHA512: b732992c822ab0d163f3121ef5b868e771a1895ed228c7fd9fcb716d8dc33afe1b6140c1659ca24676a49ccdfb050164e3e369f3c7a1de76a1a0b182082a8103
+Description: Linux kernel VM host tools
+Description-md5: d29120b11150b79af4338241d0a5dc74
+Supported: 5y
+
+Package: linux-tools-host
+Architecture: all
+Version: 4.4.0-207.239
+Multi-Arch: foreign
+Priority: optional
+Section: kernel
+Source: linux
+Origin: Ubuntu
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 599
+Depends: python3
+Filename: pool/main/l/linux/linux-tools-host_4.4.0-207.239_all.deb
+Size: 24434
+MD5sum: f59b6b3c797a7d366ff821776f56442a
+SHA1: 22ab7a74d5da56b749b7e61d494dce0e9c362d6c
+SHA256: 250286e13c11a0e6f7368fcdce0da2289a0a1fbf908cb4847231b8db8b0e7fc3
+SHA512: 9daee6fdfffad91f3de6d5f7400cec1e1cae2f41997a056e6eff8978b215a85bc47c984e4438fba66abdd6e6e0781d1f7eb51b51b280ca3e80aca0361cb8cea1
+Description: Linux kernel VM host tools
+Description-md5: d29120b11150b79af4338241d0a5dc74
+Supported: 5y
+
+Package: network-manager
+Architecture: armhf
+Version: 1.2.6-0ubuntu0.16.04.4
+Priority: optional
+Section: net
+Origin: Ubuntu
+Maintainer: Ubuntu Core Dev Team <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 6136
+Depends: libbluetooth3 (>= 4.91), libc6 (>= 2.17), libglib2.0-0 (>= 2.39.4), libgnutls30 (>= 3.4.0), libgudev-1.0-0 (>= 165), libmm-glib0 (>= 1.0.0), libndp0 (>= 1.2), libnewt0.52, libnl-3-200 (>= 3.2.7), libnm0 (>= 1.1.93), libpolkit-agent-1-0 (>= 0.99), libpolkit-gobject-1-0 (>= 0.104), libreadline6 (>= 6.0), libsoup2.4-1 (>= 2.40), libsystemd0, libuuid1 (>= 2.16), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), dnsmasq-base, wpasupplicant (>= 0.7.3-1), dbus (>= 1.1.2), udev, adduser, isc-dhcp-client (>= 4.3.1-5ubuntu1), libpam-systemd, policykit-1
+Recommends: ppp (>= 2.4.6), iptables, modemmanager, crda, iputils-arping, network-manager-pptp, network-manager-gnome | plasma-widget-networkmanagement | plasma-nm
+Suggests: avahi-autoipd, python
+Conflicts: connman
+Breaks: network-manager-gnome (<< 0.9), network-manager-kde (<< 1:0.9), network-manager-openconnect (<< 0.9), network-manager-openvpn (<< 0.9), network-manager-pptp (<< 0.9), network-manager-vpnc (<< 0.9), plasma-widget-networkmanagement (<< 0.9~), ppp (<< 2.4.6)
+Filename: pool/main/n/network-manager/network-manager_1.2.6-0ubuntu0.16.04.4_armhf.deb
+Size: 1682588
+MD5sum: 69ec679a3aa868863acf020b5bb2c265
+SHA1: cb395a1b6b5c73c31c14f589f4c3c02b6545bd4f
+SHA256: 07b85669c208fcbf83e7e5ae56a21e3427015568e3948a237bced911b4636b2f
+SHA512: ec39116239f4ce329c8d5d135dff6a472b9fba2ead746d87a31b539444b2faee16b4149acceb0b92b5b1ae0edae7c2d6bcace474befd170827958a18b061abf7
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Description: network management framework (daemon and userspace tools)
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, kubuntu-full, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-frontend, mythbuntu-desktop, mythbuntu-backend-slave, mythbuntu-backend-master, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntu-touch-core, ubuntu-touch, ubuntu-sdk, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+Description-md5: 8f6f8b56b77097ec1e2134d2c9189882
+Supported: 5y
+
+Package: network-manager-dev
+Architecture: armhf
+Version: 1.2.6-0ubuntu0.16.04.4
+Multi-Arch: same
+Priority: optional
+Section: net
+Source: network-manager
+Origin: Ubuntu
+Maintainer: Ubuntu Core Dev Team <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1375
+Filename: pool/main/n/network-manager/network-manager-dev_1.2.6-0ubuntu0.16.04.4_armhf.deb
+Size: 129940
+MD5sum: 2204c19a4a0933aabb6792538e25d2ff
+SHA1: 4c85788cdfc9e440895c523c9e203effd9c59ba1
+SHA256: 4c1386cd5af007db403c15158fdf43e2bae9d147645f81a2b67d7333712a96cd
+SHA512: 751d8ab34287adc72b0b45b02986165ec9f58317328b374a151d30e102503bdfdf8c2e4bdfc32a19fca7575357ca86c8d0d747e56ba2491ea7107d86e3755846
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Description: network management framework (development files)
+Description-md5: c0efb500095bf4fcb545da42a30d1b62
+Supported: 5y
+

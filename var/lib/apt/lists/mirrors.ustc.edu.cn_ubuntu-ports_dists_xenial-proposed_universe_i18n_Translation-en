@@ -1,0 +1,337 @@
+Package: docker-doc
+Description-md5: 4f86326741c09d05fe80222b21fce476
+Description-en: Linux container runtime -- documentation
+ Docker complements kernel namespacing with a high-level API which operates at
+ the process level. It runs unix processes with strong guarantees of isolation
+ and repeatability across servers.
+ .
+ Docker is a great building block for automating distributed systems:
+ large-scale web deployments, database clusters, continuous deployment systems,
+ private PaaS, service-oriented architectures, etc.
+ .
+ This package contains the daemon and client. Using docker.io on non-amd64 hosts
+ is not supported at this time. Please be careful when using it on anything
+ besides amd64.
+ .
+ Also, note that kernel version 3.8 or above is required for proper operation of
+ the daemon process, and that any lower versions may have subtle and/or glaring
+ issues.
+ .
+ This package provides documentation for Docker.
+
+Package: docker.io
+Description-md5: 05dc9eba68f3bf418e6a0cf29d555878
+Description-en: Linux container runtime
+ Docker complements kernel namespacing with a high-level API which operates at
+ the process level. It runs unix processes with strong guarantees of isolation
+ and repeatability across servers.
+ .
+ Docker is a great building block for automating distributed systems:
+ large-scale web deployments, database clusters, continuous deployment systems,
+ private PaaS, service-oriented architectures, etc.
+ .
+ This package contains the daemon and client. Using docker.io on non-amd64 hosts
+ is not supported at this time. Please be careful when using it on anything
+ besides amd64.
+ .
+ Also, note that kernel version 3.8 or above is required for proper operation of
+ the daemon process, and that any lower versions may have subtle and/or glaring
+ issues.
+
+Package: golang-docker-dev
+Description-md5: d8f9334d5a9c76803c31ea534993299a
+Description-en: Transitional package for golang-github-docker-docker-dev
+ This is a transitional package to ease upgrades to the
+ golang-github-docker-docker-dev package. It can safely be removed.
+
+Package: golang-github-docker-docker-dev
+Description-md5: 6265ea5dccb7d86a2aa69e4e5d1c8598
+Description-en: Externally reusable Go packages included with Docker
+ These packages are intentionally developed by upstream in such a way that they
+ are reusable to projects outside Docker and only rely on each other or other
+ external dependencies to be built.
+
+Package: google-guest-agent
+Description-md5: 631281603d95decc0c24b058cbfb142f
+Description-en: Google Compute Engine Guest Agent
+ Contains the guest agent and metadata script runner binaries.
+
+Package: vim-syntax-docker
+Description-md5: fcdf3cc569fec99526c4f1c044063f82
+Description-en: Docker container engine - Vim highlighting syntax files
+ This package provides syntax files for the Vim editor for editing Dockerfiles
+ from the Docker container engine.
+
+Package: google-osconfig-agent
+Description-md5: d340d4bbff21c26cce4994d051e1eed4
+Description-en: Google OS Config Agent
+ The OS Config agent currently supports the following main features:
+  * OS inventory management
+  * OS patch management
+  * OS configuration management
+
+Package: linux-buildinfo-4.4.0-1153-snapdragon
+Description-md5: a505cd1f93c23e97d833935905c9daed
+Description-en: Linux kernel buildinfo for version 4.4.0 on ARMv8 SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ ARMv8 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-headers-4.4.0-1153-snapdragon
+Description-md5: 712111f69b7ab9bae1ee84a34aab7d31
+Description-en: Linux kernel headers for version 4.4.0 on ARMv8 SMP
+ This package provides kernel header files for version 4.4.0 on
+ ARMv8 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-1153/debian.README.gz for details.
+
+Package: linux-image-4.4.0-1153-snapdragon
+Description-md5: 9a90dabe6f1b83f31b07ba739b51f64a
+Description-en: Linux kernel image for version 4.4.0 on ARMv8 SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ ARMv8 SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-snapdragon meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-1153-snapdragon
+Description-md5: 8379b6d3fa9d6c8f29e7e586d9744004
+Description-en: Linux kernel extra modules for version 4.4.0 on ARMv8 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-snapdragon meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-snapdragon-headers-4.4.0-1153
+Description-md5: cc79ff56d238633d45c66d2535d7a6c8
+Description-en: Header files related to Linux kernel version 4.4.0
+ This package provides kernel header files for version 4.4.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-snapdragon-headers-4.4.0-1153/debian.README.gz for details
+
+Package: linux-snapdragon-tools-4.4.0-1153
+Description-md5: 56e3bf33c71aab04cc0a3267d7ee50ee
+Description-en: Linux kernel version specific tools for version 4.4.0-1153
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-1153 on
+ ARMv8.
+ You probabaly want to install linux-tools-<flavour> meta package.
+
+Package: linux-tools-4.4.0-1153-snapdragon
+Description-md5: 98ba62d3dc84121268e0cad067136f6c
+Description-en: Linux kernel version specific tools for version 4.4.0-1153
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-1153 on
+ ARMv8.
+
+Package: petitboot
+Description-md5: 280b7da8852eec1982897447dba6cf8f
+Description-en: ncurses version of petitboot, a kexec based bootloader
+ Petitboot is a platform independent bootloader based on the Linux kexec warm
+ reboot mechanism. Petitboot supports loading kernel and initrd image files
+ from any mountable Linux device, plus can load image files from the network
+ using TFTP, NFS, HTTP, HTTPS, and SCP. Petitboot can boot any operating
+ system supported by kexec.
+
+Package: petitboot-twin
+Description-md5: d886d16895a18d56ed4783387f3ccb96
+Description-en: Twin GUI version of petitboot, a kexec based bootloader
+ Petitboot is a platform independent bootloader based on the Linux kexec warm
+ reboot mechanism. Petitboot supports loading kernel and initrd image files
+ from any mountable Linux device, plus can load image files from the network
+ using TFTP, NFS, HTTP, HTTPS, and SCP. Petitboot can boot any operating
+ system supported by kexec.
+
+Package: agda-bin
+Description-md5: f8e26d204d9ccc3a3cfdad460ae35595
+Description-en: commandline interface to Agda
+ Agda is a dependently typed functional programming language: It has inductive
+ families, which are like Haskell's GADTs, but they can be indexed by values and
+ not just types. It also has parameterised modules, mixfix operators, Unicode
+ characters, and an interactive Emacs interface (the type checker can assist in
+ the development of your code).
+ .
+ Agda is also a proof assistant: It is an interactive system for writing and
+ checking proofs. Agda is based on intuitionistic type theory, a foundational
+ system for constructive mathematics developed by the Swedish logician Per
+ Martin-Löf. It has many similarities with other proof assistants based on
+ dependent types, such as Coq, Epigram and NuPRL.
+ .
+ This package provides a command-line program for type-checking and compiling
+ Agda programs. The program can also generate hyperlinked, highlighted HTML
+ files from Agda sources.
+
+Package: libghc-agda-dev
+Description-md5: 367dee38c949eb56c7f0325161eedb49
+Description-en: dependently typed functional programming language
+ Agda is a dependently typed functional programming language: It has inductive
+ families, which are like Haskell's GADTs, but they can be indexed by values and
+ not just types. It also has parameterised modules, mixfix operators, Unicode
+ characters, and an interactive Emacs interface (the type checker can assist in
+ the development of your code).
+ .
+ Agda is also a proof assistant: It is an interactive system for writing and
+ checking proofs. Agda is based on intuitionistic type theory, a foundational
+ system for constructive mathematics developed by the Swedish logician Per
+ Martin-Löf. It has many similarities with other proof assistants based on
+ dependent types, such as Coq, Epigram and NuPRL.
+ .
+ This package provides a library for the Haskell programming language.
+ See http://www.haskell.org/ for more information on Haskell.
+
+Package: linux-buildinfo-4.4.0-1148-raspi2
+Description-md5: 37251d530035006334331845917b466e
+Description-en: Linux kernel buildinfo for version 4.4.0 on ARM (hard float) SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-4.4.0-1149-raspi2
+Description-md5: 37251d530035006334331845917b466e
+Description-en: Linux kernel buildinfo for version 4.4.0 on ARM (hard float) SMP
+ This package contains the Linux kernel buildinfo for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-headers-4.4.0-1148-raspi2
+Description-md5: fcdcafb2c58dfd7daa52ba0b2c2894af
+Description-en: Linux kernel headers for version 4.4.0 on ARM (hard float) SMP
+ This package provides kernel header files for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-1148/debian.README.gz for details.
+
+Package: linux-headers-4.4.0-1149-raspi2
+Description-md5: 738c44fdd3ab0676e2b9623f26d62ceb
+Description-en: Linux kernel headers for version 4.4.0 on ARM (hard float) SMP
+ This package provides kernel header files for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-4.4.0-1149/debian.README.gz for details.
+
+Package: linux-image-4.4.0-1148-raspi2
+Description-md5: cf241f4620886fe2587367119d625378
+Description-en: Linux kernel image for version 4.4.0 on ARM (hard float) SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-raspi2 meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-4.4.0-1149-raspi2
+Description-md5: cf241f4620886fe2587367119d625378
+Description-en: Linux kernel image for version 4.4.0 on ARM (hard float) SMP
+ This package contains the Linux kernel image for version 4.4.0 on
+ ARM (hard float) SMP.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-raspi2 meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-1148-raspi2
+Description-md5: 9f3043a604907999ebd0a829bb29dd0d
+Description-en: Linux kernel extra modules for version 4.4.0 on ARM (hard float) SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-raspi2 meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-4.4.0-1149-raspi2
+Description-md5: 9f3043a604907999ebd0a829bb29dd0d
+Description-en: Linux kernel extra modules for version 4.4.0 on ARM (hard float) SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports Generic processors.
+ .
+ Geared toward desktop and server systems.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-raspi2 meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-raspi2-headers-4.4.0-1148
+Description-md5: 4bda99cb5158b86bea66ef8387eb0679
+Description-en: Header files related to Linux kernel version 4.4.0
+ This package provides kernel header files for version 4.4.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-raspi2-headers-4.4.0-1148/debian.README.gz for details
+
+Package: linux-raspi2-headers-4.4.0-1149
+Description-md5: 88a98c738e3b082ed0f08db4cab8fc2a
+Description-en: Header files related to Linux kernel version 4.4.0
+ This package provides kernel header files for version 4.4.0, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-raspi2-headers-4.4.0-1149/debian.README.gz for details
+
+Package: linux-raspi2-tools-4.4.0-1148
+Description-md5: e187f988870cff6873a92282ecf26cf4
+Description-en: Linux kernel version specific tools for version 4.4.0-1148
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-1148 on
+ ARM (hard float).
+ You probabaly want to install the linux-tools-<flavour> meta package.
+
+Package: linux-raspi2-tools-4.4.0-1149
+Description-md5: 4bd310eedbb3cd1a6049eb61e4be3e6c
+Description-en: Linux kernel version specific tools for version 4.4.0-1149
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-1149 on
+ ARM (hard float).
+ You probabaly want to install the linux-tools-<flavour> meta package.
+
+Package: linux-tools-4.4.0-1148-raspi2
+Description-md5: ea4b1be4bba0526758bd41e477e594b4
+Description-en: Linux kernel version specific tools for version 4.4.0-1148
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-1148 on
+ ARM (hard float).
+
+Package: linux-tools-4.4.0-1149-raspi2
+Description-md5: 87d9ad8e71c0bce6e2d3415ab65aaa84
+Description-en: Linux kernel version specific tools for version 4.4.0-1149
+ This package provides the architecture dependant parts for kernel
+ version locked tools (such as perf and x86_energy_perf_policy) for
+ version 4.4.0-1149 on
+ ARM (hard float).
+

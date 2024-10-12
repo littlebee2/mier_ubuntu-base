@@ -1,0 +1,225 @@
+Feb 11 16:28:05 alientek_imx6ul kernel: Booting Linux on physical CPU 0x0
+Feb 11 16:28:05 alientek_imx6ul kernel: Linux version 4.1.15 (danneil@danneil-machine) (gcc version 4.9.4 (Linaro GCC 4.9-2017.01) ) #1 SMP PREEMPT Wed Oct 9 18:04:37 CST 2024
+Feb 11 16:28:05 alientek_imx6ul kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c5387d
+Feb 11 16:28:05 alientek_imx6ul kernel: CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Feb 11 16:28:05 alientek_imx6ul kernel: Machine model: Freescale i.MX6 ULL 14x14 EVK Board
+Feb 11 16:28:05 alientek_imx6ul kernel: Reserved memory: created CMA memory pool at 0x8c000000, size 320 MiB
+Feb 11 16:28:05 alientek_imx6ul kernel: Reserved memory: initialized node linux,cma, compatible id shared-dma-pool
+Feb 11 16:28:05 alientek_imx6ul kernel: Memory policy: Data cache writealloc
+Feb 11 16:28:05 alientek_imx6ul kernel: On node 0 totalpages: 131072
+Feb 11 16:28:05 alientek_imx6ul kernel: free_area_init_node: node 0, pgdat 809cdd40, node_mem_map 8bb57000
+Feb 11 16:28:05 alientek_imx6ul kernel:  Normal zone: 1024 pages used for memmap
+Feb 11 16:28:05 alientek_imx6ul kernel:  Normal zone: 0 pages reserved
+Feb 11 16:28:05 alientek_imx6ul kernel:  Normal zone: 131072 pages, LIFO batch:31
+Feb 11 16:28:05 alientek_imx6ul kernel: PERCPU: Embedded 12 pages/cpu @8bb32000 s16768 r8192 d24192 u49152
+Feb 11 16:28:05 alientek_imx6ul kernel: pcpu-alloc: s16768 r8192 d24192 u49152 alloc=12*4096
+Feb 11 16:28:05 alientek_imx6ul kernel: pcpu-alloc: [0] 0 
+Feb 11 16:28:05 alientek_imx6ul kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 130048
+Feb 11 16:28:05 alientek_imx6ul kernel: Kernel command line: console=ttymxc0,115200 root=/dev/nfs nfsroot=192.168.10.100:/home/danneil/items/nfs/ubuntu_rootfs,proto=tcp rw ip=192.168.10.50:192.168.10.100:192.168.10.1:255.255.255.0::eth0:off 
+Feb 11 16:28:05 alientek_imx6ul kernel: PID hash table entries: 2048 (order: 1, 8192 bytes)
+Feb 11 16:28:05 alientek_imx6ul kernel: Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+Feb 11 16:28:05 alientek_imx6ul kernel: Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Feb 11 16:28:05 alientek_imx6ul kernel: Memory: 180792K/524288K available (6888K kernel code, 323K rwdata, 2368K rodata, 428K init, 437K bss, 15816K reserved, 327680K cma-reserved, 0K highmem)
+Feb 11 16:28:05 alientek_imx6ul kernel: Virtual kernel memory layout:
+Feb 11 16:28:05 alientek_imx6ul kernel:    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Feb 11 16:28:05 alientek_imx6ul kernel:    fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Feb 11 16:28:05 alientek_imx6ul kernel:    vmalloc : 0xa0800000 - 0xff000000   (1512 MB)
+Feb 11 16:28:05 alientek_imx6ul kernel:    lowmem  : 0x80000000 - 0xa0000000   ( 512 MB)
+Feb 11 16:28:05 alientek_imx6ul kernel:    pkmap   : 0x7fe00000 - 0x80000000   (   2 MB)
+Feb 11 16:28:05 alientek_imx6ul kernel:    modules : 0x7f000000 - 0x7fe00000   (  14 MB)
+Feb 11 16:28:05 alientek_imx6ul kernel:      .text : 0x80008000 - 0x80912334   (9257 kB)
+Feb 11 16:28:05 alientek_imx6ul kernel:      .init : 0x80913000 - 0x8097e000   ( 428 kB)
+Feb 11 16:28:05 alientek_imx6ul kernel:      .data : 0x8097e000 - 0x809cef00   ( 324 kB)
+Feb 11 16:28:05 alientek_imx6ul kernel:       .bss : 0x809d1000 - 0x80a3e440   ( 438 kB)
+Feb 11 16:28:05 alientek_imx6ul kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Feb 11 16:28:05 alientek_imx6ul kernel: Preemptible hierarchical RCU implementation.
+Feb 11 16:28:05 alientek_imx6ul kernel: 	Additional per-CPU info printed with stalls.
+Feb 11 16:28:05 alientek_imx6ul kernel: 	RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=1.
+Feb 11 16:28:05 alientek_imx6ul kernel: RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Feb 11 16:28:05 alientek_imx6ul kernel: NR_IRQS:16 nr_irqs:16 16
+Feb 11 16:28:05 alientek_imx6ul kernel: mxc_clocksource_init 3000000
+Feb 11 16:28:05 alientek_imx6ul kernel: Switching to timer-based delay loop, resolution 333ns
+Feb 11 16:28:05 alientek_imx6ul kernel: sched_clock: 32 bits at 3000kHz, resolution 333ns, wraps every 715827882841ns
+Feb 11 16:28:05 alientek_imx6ul kernel: clocksource mxc_timer1: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 637086815595 ns
+Feb 11 16:28:05 alientek_imx6ul kernel: Console: colour dummy device 80x30
+Feb 11 16:28:05 alientek_imx6ul kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 6.00 BogoMIPS (lpj=30000)
+Feb 11 16:28:05 alientek_imx6ul kernel: pid_max: default: 32768 minimum: 301
+Feb 11 16:28:05 alientek_imx6ul kernel: Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Feb 11 16:28:05 alientek_imx6ul kernel: Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Feb 11 16:28:05 alientek_imx6ul kernel: CPU: Testing write buffer coherency: ok
+Feb 11 16:28:05 alientek_imx6ul kernel: /cpus/cpu@0 missing clock-frequency property
+Feb 11 16:28:05 alientek_imx6ul kernel: CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Feb 11 16:28:05 alientek_imx6ul kernel: Setting up static identity map for 0x80008280 - 0x800082d8
+Feb 11 16:28:05 alientek_imx6ul kernel: Brought up 1 CPUs
+Feb 11 16:28:05 alientek_imx6ul kernel: SMP: Total of 1 processors activated (6.00 BogoMIPS).
+Feb 11 16:28:05 alientek_imx6ul kernel: CPU: All CPU(s) started in SVC mode.
+Feb 11 16:28:05 alientek_imx6ul kernel: devtmpfs: initialized
+Feb 11 16:28:05 alientek_imx6ul kernel: device-tree: Duplicate name in lcdif@021c8000, renamed to "display#1"
+Feb 11 16:28:05 alientek_imx6ul kernel: VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+Feb 11 16:28:05 alientek_imx6ul kernel: clocksource jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Feb 11 16:28:05 alientek_imx6ul kernel: pinctrl core: initialized pinctrl subsystem
+Feb 11 16:28:05 alientek_imx6ul kernel: NET: Registered protocol family 16
+Feb 11 16:28:05 alientek_imx6ul kernel: DMA: preallocated 256 KiB pool for atomic coherent allocations
+Feb 11 16:28:05 alientek_imx6ul kernel: cpuidle: using governor ladder
+Feb 11 16:28:05 alientek_imx6ul kernel: cpuidle: using governor menu
+Feb 11 16:28:05 alientek_imx6ul kernel: hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Feb 11 16:28:05 alientek_imx6ul kernel: hw-breakpoint: maximum watchpoint size is 8 bytes.
+Feb 11 16:28:05 alientek_imx6ul kernel: imx6ul-pinctrl 20e0000.iomuxc: Invalid fsl,pins property in node /soc/aips-bus@02000000/iomuxc@020e0000/imx6ul-evk/flexcan1grp
+Feb 11 16:28:05 alientek_imx6ul kernel: imx6ul-pinctrl 20e0000.iomuxc: initialized IMX pinctrl driver
+Feb 11 16:28:05 alientek_imx6ul kernel: imx6ul-pinctrl 2290000.iomuxc-snvs: Invalid fsl,pins property in node /soc/aips-bus@02200000/iomuxc-snvs@02290000/imx6ul-evk/hoggrp-2
+Feb 11 16:28:05 alientek_imx6ul kernel: imx6ul-pinctrl 2290000.iomuxc-snvs: initialized IMX pinctrl driver
+Feb 11 16:28:05 alientek_imx6ul kernel: mxs-dma 1804000.dma-apbh: initialized
+Feb 11 16:28:05 alientek_imx6ul kernel: SCSI subsystem initialized
+Feb 11 16:28:05 alientek_imx6ul kernel: libata version 3.00 loaded.
+Feb 11 16:28:05 alientek_imx6ul kernel: usbcore: registered new interface driver usbfs
+Feb 11 16:28:05 alientek_imx6ul kernel: usbcore: registered new interface driver hub
+Feb 11 16:28:05 alientek_imx6ul kernel: usbcore: registered new device driver usb
+Feb 11 16:28:05 alientek_imx6ul kernel: i2c i2c-1: IMX I2C adapter registered
+Feb 11 16:28:05 alientek_imx6ul kernel: i2c i2c-1: can't use DMA
+Feb 11 16:28:05 alientek_imx6ul kernel: Linux video capture interface: v2.00
+Feb 11 16:28:05 alientek_imx6ul kernel: pps_core: LinuxPPS API ver. 1 registered
+Feb 11 16:28:05 alientek_imx6ul kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Feb 11 16:28:05 alientek_imx6ul kernel: PTP clock support registered
+Feb 11 16:28:05 alientek_imx6ul kernel: Advanced Linux Sound Architecture Driver Initialized.
+Feb 11 16:28:05 alientek_imx6ul kernel: Switched to clocksource mxc_timer1
+Feb 11 16:28:05 alientek_imx6ul kernel: NET: Registered protocol family 2
+Feb 11 16:28:05 alientek_imx6ul kernel: TCP established hash table entries: 4096 (order: 2, 16384 bytes)
+Feb 11 16:28:05 alientek_imx6ul kernel: TCP bind hash table entries: 4096 (order: 3, 32768 bytes)
+Feb 11 16:28:05 alientek_imx6ul kernel: TCP: Hash tables configured (established 4096 bind 4096)
+Feb 11 16:28:05 alientek_imx6ul kernel: UDP hash table entries: 256 (order: 1, 8192 bytes)
+Feb 11 16:28:05 alientek_imx6ul kernel: UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+Feb 11 16:28:05 alientek_imx6ul kernel: NET: Registered protocol family 1
+Feb 11 16:28:05 alientek_imx6ul kernel: RPC: Registered named UNIX socket transport module.
+Feb 11 16:28:05 alientek_imx6ul kernel: RPC: Registered udp transport module.
+Feb 11 16:28:05 alientek_imx6ul kernel: RPC: Registered tcp transport module.
+Feb 11 16:28:05 alientek_imx6ul kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Feb 11 16:28:05 alientek_imx6ul kernel: imx rpmsg driver is registered.
+Feb 11 16:28:05 alientek_imx6ul kernel: Bus freq driver module loaded
+Feb 11 16:28:05 alientek_imx6ul kernel: futex hash table entries: 256 (order: 2, 16384 bytes)
+Feb 11 16:28:05 alientek_imx6ul kernel: VFS: Disk quotas dquot_6.6.0
+Feb 11 16:28:05 alientek_imx6ul kernel: VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Feb 11 16:28:05 alientek_imx6ul kernel: NFS: Registering the id_resolver key type
+Feb 11 16:28:05 alientek_imx6ul kernel: Key type id_resolver registered
+Feb 11 16:28:05 alientek_imx6ul kernel: Key type id_legacy registered
+Feb 11 16:28:05 alientek_imx6ul kernel: jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+Feb 11 16:28:05 alientek_imx6ul kernel: fuse init (API version 7.23)
+Feb 11 16:28:05 alientek_imx6ul kernel: io scheduler noop registered
+Feb 11 16:28:05 alientek_imx6ul kernel: io scheduler deadline registered
+Feb 11 16:28:05 alientek_imx6ul kernel: io scheduler cfq registered (default)
+Feb 11 16:28:05 alientek_imx6ul kernel: imx-weim 21b8000.weim: Driver registered.
+Feb 11 16:28:05 alientek_imx6ul kernel: 21c8000.lcdif supply lcd not found, using dummy regulator
+Feb 11 16:28:05 alientek_imx6ul kernel: mxsfb 21c8000.lcdif: failed to find mxc display driver 
+Feb 11 16:28:05 alientek_imx6ul kernel: Console: switching to colour frame buffer device 60x34
+Feb 11 16:28:05 alientek_imx6ul kernel: mxsfb 21c8000.lcdif: initialized
+Feb 11 16:28:05 alientek_imx6ul kernel: imx-sdma 20ec000.sdma: no event needs to be remapped
+Feb 11 16:28:05 alientek_imx6ul kernel: imx-sdma 20ec000.sdma: loaded firmware 3.3
+Feb 11 16:28:05 alientek_imx6ul kernel: imx-sdma 20ec000.sdma: initialized
+Feb 11 16:28:05 alientek_imx6ul kernel: 2020000.serial: ttymxc0 at MMIO 0x2020000 (irq = 18, base_baud = 5000000) is a IMX
+Feb 11 16:28:05 alientek_imx6ul kernel: console [ttymxc0] enabled
+Feb 11 16:28:05 alientek_imx6ul kernel: 21e8000.serial: ttymxc1 at MMIO 0x21e8000 (irq = 232, base_baud = 5000000) is a IMX
+Feb 11 16:28:05 alientek_imx6ul kernel: imx sema4 driver is registered.
+Feb 11 16:28:05 alientek_imx6ul kernel: probe
+Feb 11 16:28:05 alientek_imx6ul kernel: probe success!
+Feb 11 16:28:05 alientek_imx6ul kernel: [drm] Initialized drm 1.1.0 20060810
+Feb 11 16:28:05 alientek_imx6ul kernel: [drm] Initialized vivante 1.0.0 20120216 on minor 0
+Feb 11 16:28:05 alientek_imx6ul kernel: brd: module loaded
+Feb 11 16:28:05 alientek_imx6ul kernel: loop: module loaded
+Feb 11 16:28:05 alientek_imx6ul kernel: fsl-quadspi 21e0000.qspi: unrecognized JEDEC id bytes: ff, ff, ff
+Feb 11 16:28:05 alientek_imx6ul kernel: fsl-quadspi 21e0000.qspi: Freescale QuadSPI probe failed
+Feb 11 16:28:05 alientek_imx6ul kernel: CAN device driver interface
+Feb 11 16:28:05 alientek_imx6ul kernel: flexcan 2094000.can: device registered (reg_base=a09e0000, irq=27)
+Feb 11 16:28:05 alientek_imx6ul kernel: 20b4000.ethernet supply phy not found, using dummy regulator
+Feb 11 16:28:05 alientek_imx6ul kernel: pps pps0: new PPS source ptp0
+Feb 11 16:28:05 alientek_imx6ul kernel: fec 20b4000.ethernet (unnamed net_device) (uninitialized): Invalid MAC address: 00:00:00:00:00:00
+Feb 11 16:28:05 alientek_imx6ul kernel: fec 20b4000.ethernet (unnamed net_device) (uninitialized): Using random MAC address: ba:f6:8c:50:ae:75
+Feb 11 16:28:05 alientek_imx6ul kernel: libphy: fec_enet_mii_bus: probed
+Feb 11 16:28:05 alientek_imx6ul kernel: fec 20b4000.ethernet eth0: registered PHC device 0
+Feb 11 16:28:05 alientek_imx6ul kernel: 2188000.ethernet supply phy not found, using dummy regulator
+Feb 11 16:28:05 alientek_imx6ul kernel: pps pps1: new PPS source ptp1
+Feb 11 16:28:05 alientek_imx6ul kernel: fec 2188000.ethernet eth1: registered PHC device 1
+Feb 11 16:28:05 alientek_imx6ul kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Feb 11 16:28:05 alientek_imx6ul kernel: ehci-mxc: Freescale On-Chip EHCI Host driver
+Feb 11 16:28:05 alientek_imx6ul kernel: usbcore: registered new interface driver usb-storage
+Feb 11 16:28:05 alientek_imx6ul kernel: 2184800.usbmisc supply vbus-wakeup not found, using dummy regulator
+Feb 11 16:28:05 alientek_imx6ul kernel: 2184000.usb supply vbus not found, using dummy regulator
+Feb 11 16:28:05 alientek_imx6ul kernel: 2184200.usb supply vbus not found, using dummy regulator
+Feb 11 16:28:05 alientek_imx6ul kernel: ci_hdrc ci_hdrc.1: EHCI Host Controller
+Feb 11 16:28:05 alientek_imx6ul kernel: ci_hdrc ci_hdrc.1: new USB bus registered, assigned bus number 1
+Feb 11 16:28:05 alientek_imx6ul kernel: ci_hdrc ci_hdrc.1: USB 2.0 started, EHCI 1.00
+Feb 11 16:28:05 alientek_imx6ul kernel: hub 1-0:1.0: USB hub found
+Feb 11 16:28:05 alientek_imx6ul kernel: hub 1-0:1.0: 1 port detected
+Feb 11 16:28:05 alientek_imx6ul kernel: Mass Storage Function, version: 2009/09/11
+Feb 11 16:28:05 alientek_imx6ul kernel: LUN: removable file: (no medium)
+Feb 11 16:28:05 alientek_imx6ul kernel: no file given for LUN0
+Feb 11 16:28:05 alientek_imx6ul kernel: g_mass_storage ci_hdrc.0: failed to start g_mass_storage: -22
+Feb 11 16:28:05 alientek_imx6ul kernel: mousedev: PS/2 mouse device common for all mice
+Feb 11 16:28:05 alientek_imx6ul kernel: input: 20cc000.snvs:snvs-powerkey as /devices/platform/soc/2000000.aips-bus/20cc000.snvs/20cc000.snvs:snvs-powerkey/input/input0
+Feb 11 16:28:05 alientek_imx6ul kernel: input: iMX6UL TouchScreen Controller as /devices/platform/soc/2000000.aips-bus/2040000.tsc/input/input1
+Feb 11 16:28:05 alientek_imx6ul kernel: snvs_rtc 20cc000.snvs:snvs-rtc-lp: rtc core: registered 20cc000.snvs:snvs-r as rtc0
+Feb 11 16:28:05 alientek_imx6ul kernel: i2c /dev entries driver
+Feb 11 16:28:05 alientek_imx6ul kernel: IR NEC protocol handler initialized
+Feb 11 16:28:05 alientek_imx6ul kernel: IR RC5(x/sz) protocol handler initialized
+Feb 11 16:28:05 alientek_imx6ul kernel: IR RC6 protocol handler initialized
+Feb 11 16:28:05 alientek_imx6ul kernel: IR JVC protocol handler initialized
+Feb 11 16:28:05 alientek_imx6ul kernel: IR Sony protocol handler initialized
+Feb 11 16:28:05 alientek_imx6ul kernel: IR SANYO protocol handler initialized
+Feb 11 16:28:05 alientek_imx6ul kernel: IR Sharp protocol handler initialized
+Feb 11 16:28:05 alientek_imx6ul kernel: IR MCE Keyboard/mouse protocol handler initialized
+Feb 11 16:28:05 alientek_imx6ul kernel: IR XMP protocol handler initialized
+Feb 11 16:28:05 alientek_imx6ul kernel: imx2-wdt 20bc000.wdog: use WDOG_B to reboot.
+Feb 11 16:28:05 alientek_imx6ul kernel: imx2-wdt 20bc000.wdog: timeout 60 sec (nowayout=0)
+Feb 11 16:28:05 alientek_imx6ul kernel: sdhci: Secure Digital Host Controller Interface driver
+Feb 11 16:28:05 alientek_imx6ul kernel: sdhci: Copyright(c) Pierre Ossman
+Feb 11 16:28:05 alientek_imx6ul kernel: sdhci-pltfm: SDHCI platform and OF driver helper
+Feb 11 16:28:05 alientek_imx6ul kernel: /soc/aips-bus@02100000/usdhc@02190000: voltage-ranges unspecified
+Feb 11 16:28:05 alientek_imx6ul kernel: sdhci-esdhc-imx 2190000.usdhc: Got CD GPIO
+Feb 11 16:28:05 alientek_imx6ul kernel: sdhci-esdhc-imx 2190000.usdhc: No vqmmc regulator found
+Feb 11 16:28:05 alientek_imx6ul kernel: mmc0: SDHCI controller on 2190000.usdhc [2190000.usdhc] using ADMA
+Feb 11 16:28:05 alientek_imx6ul kernel: /soc/aips-bus@02100000/usdhc@02194000: voltage-ranges unspecified
+Feb 11 16:28:05 alientek_imx6ul kernel: sdhci-esdhc-imx 2194000.usdhc: could not get ultra high speed state, work on normal mode
+Feb 11 16:28:05 alientek_imx6ul kernel: sdhci-esdhc-imx 2194000.usdhc: No vmmc regulator found
+Feb 11 16:28:05 alientek_imx6ul kernel: sdhci-esdhc-imx 2194000.usdhc: No vqmmc regulator found
+Feb 11 16:28:05 alientek_imx6ul kernel: mmc0: host does not support reading read-only switch, assuming write-enable
+Feb 11 16:28:05 alientek_imx6ul kernel: mmc1: SDHCI controller on 2194000.usdhc [2194000.usdhc] using ADMA
+Feb 11 16:28:05 alientek_imx6ul kernel: usbcore: registered new interface driver usbhid
+Feb 11 16:28:05 alientek_imx6ul kernel: usbhid: USB HID core driver
+Feb 11 16:28:05 alientek_imx6ul kernel: mmc0: new high speed SDHC card at address b368
+Feb 11 16:28:05 alientek_imx6ul kernel: mmcblk0: mmc0:b368 SD08G 7.31 GiB 
+Feb 11 16:28:05 alientek_imx6ul kernel: usb 1-1: new high-speed USB device number 2 using ci_hdrc
+Feb 11 16:28:05 alientek_imx6ul kernel: mmcblk0: p1
+Feb 11 16:28:05 alientek_imx6ul kernel: NET: Registered protocol family 10
+Feb 11 16:28:05 alientek_imx6ul kernel: sit: IPv6 over IPv4 tunneling driver
+Feb 11 16:28:05 alientek_imx6ul kernel: NET: Registered protocol family 17
+Feb 11 16:28:05 alientek_imx6ul kernel: can: controller area network core (rev 20120528 abi 9)
+Feb 11 16:28:05 alientek_imx6ul kernel: NET: Registered protocol family 29
+Feb 11 16:28:05 alientek_imx6ul kernel: can: raw protocol (rev 20120528)
+Feb 11 16:28:05 alientek_imx6ul kernel: can: broadcast manager protocol (rev 20120528 t)
+Feb 11 16:28:05 alientek_imx6ul kernel: can: netlink gateway (rev 20130117) max_hops=1
+Feb 11 16:28:05 alientek_imx6ul kernel: Key type dns_resolver registered
+Feb 11 16:28:05 alientek_imx6ul kernel: Registering SWP/SWPB emulation handler
+Feb 11 16:28:05 alientek_imx6ul kernel: snvs_rtc 20cc000.snvs:snvs-rtc-lp: setting system clock to 1970-01-01 01:48:24 UTC (6504)
+Feb 11 16:28:05 alientek_imx6ul kernel: hub 1-1:1.0: USB hub found
+Feb 11 16:28:05 alientek_imx6ul kernel: hub 1-1:1.0: 4 ports detected
+Feb 11 16:28:05 alientek_imx6ul kernel: mmc1: MAN_BKOPS_EN bit is not set
+Feb 11 16:28:05 alientek_imx6ul kernel: mmc1: new DDR MMC card at address 0001
+Feb 11 16:28:05 alientek_imx6ul kernel: mmcblk1: mmc1:0001 S40004 3.64 GiB 
+Feb 11 16:28:05 alientek_imx6ul kernel: mmcblk1boot0: mmc1:0001 S40004 partition 1 4.00 MiB
+Feb 11 16:28:05 alientek_imx6ul kernel: mmcblk1boot1: mmc1:0001 S40004 partition 2 4.00 MiB
+Feb 11 16:28:05 alientek_imx6ul kernel: mmcblk1rpmb: mmc1:0001 S40004 partition 3 4.00 MiB
+Feb 11 16:28:05 alientek_imx6ul kernel: mmcblk1: p1 p2
+Feb 11 16:28:05 alientek_imx6ul kernel: fec 20b4000.ethernet eth0: Freescale FEC PHY driver [Generic PHY] (mii_bus:phy_addr=20b4000.ethernet:01, irq=-1)
+Feb 11 16:28:05 alientek_imx6ul kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Feb 11 16:28:05 alientek_imx6ul kernel: fec 20b4000.ethernet eth0: Link is Up - 100Mbps/Full - flow control rx/tx
+Feb 11 16:28:05 alientek_imx6ul kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Feb 11 16:28:05 alientek_imx6ul kernel: IP-Config: Complete:
+Feb 11 16:28:05 alientek_imx6ul kernel:     device=eth0, hwaddr=ba:f6:8c:50:ae:75, ipaddr=192.168.10.50, mask=255.255.255.0, gw=192.168.10.1
+Feb 11 16:28:05 alientek_imx6ul kernel:     host=192.168.10.50, domain=, nis-domain=(none)
+Feb 11 16:28:05 alientek_imx6ul kernel:     bootserver=192.168.10.100, rootserver=192.168.10.100, rootpath=
+Feb 11 16:28:05 alientek_imx6ul kernel: can-3v3: disabling
+Feb 11 16:28:05 alientek_imx6ul kernel: ALSA device list:
+Feb 11 16:28:05 alientek_imx6ul kernel:  No soundcards found.
+Feb 11 16:28:05 alientek_imx6ul kernel: VFS: Mounted root (nfs filesystem) on device 0:15.
+Feb 11 16:28:05 alientek_imx6ul kernel: devtmpfs: mounted
+Feb 11 16:28:05 alientek_imx6ul kernel: Freeing unused kernel memory: 428K (80913000 - 8097e000)
+Feb 11 16:28:05 alientek_imx6ul kernel: random: systemd urandom read with 67 bits of entropy available
+Feb 11 16:28:05 alientek_imx6ul kernel: random: nonblocking pool is initialized

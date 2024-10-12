@@ -1,0 +1,201 @@
+Package: flashplugin-nonfree
+Format: 1.0
+Binary: flashplugin-installer, flashplugin-downloader
+Architecture: i386 amd64
+Version: 32.0.0.465ubuntu0.16.04.2
+Priority: optional
+Section: multiverse/web
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bart Martens <bartm@knars.be>
+Standards-Version: 3.8.0
+Build-Depends: debhelper (>= 9)
+Homepage: http://www.adobe.com/products/flashplayer.html
+Directory: pool/multiverse/f/flashplugin-nonfree
+Package-List:
+ flashplugin-downloader deb contrib/web optional arch=i386
+ flashplugin-installer deb contrib/web optional arch=i386,amd64
+Files:
+ 7ab6ceedd891a8a4253bb042837c119f 1461 flashplugin-nonfree_32.0.0.465ubuntu0.16.04.2.dsc
+ 36f6866d82216fc4a0db83b5150e1b2d 19910 flashplugin-nonfree_32.0.0.465ubuntu0.16.04.2.tar.gz
+Checksums-Sha1:
+ ed1b03e49e42209606ae937aef39e2a2ccb0eb92 1461 flashplugin-nonfree_32.0.0.465ubuntu0.16.04.2.dsc
+ 837f496cff26ef92760f8ec7949253d69e5375b7 19910 flashplugin-nonfree_32.0.0.465ubuntu0.16.04.2.tar.gz
+Checksums-Sha256:
+ 4a0c3d4e31ce69cdd21fb6cc5c2cfbf7b249a3ed51431d7244acc477dc4e9814 1461 flashplugin-nonfree_32.0.0.465ubuntu0.16.04.2.dsc
+ 437c2de14d30962c327802eabad32ef59cfde725bb113eca8582a41392cd4722 19910 flashplugin-nonfree_32.0.0.465ubuntu0.16.04.2.tar.gz
+Checksums-Sha512:
+ 4aa1f5eb1bf84dbc3598dbe23bed9e93f5a62b548e1ebf75bad49b3ccf37a834199af4ef422e57b03ca6b454d4607245c7523a5727bc01d03650732791f561cc 1461 flashplugin-nonfree_32.0.0.465ubuntu0.16.04.2.dsc
+ 06f0c95f676d5e2f8c53336bbecba7178f071d4e99319b541a18eb74c3a149030987333de3adebf9a3c8e2475d062ef775e54072939445cc8e07a9afccecbf20 19910 flashplugin-nonfree_32.0.0.465ubuntu0.16.04.2.tar.gz
+
+Package: libclamunrar
+Format: 3.0 (quilt)
+Binary: libclamunrar9
+Architecture: any
+Version: 0.101.2-1~ubuntu0.16.04.1
+Priority: optional
+Section: multiverse/libs
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Uploaders: Michael Tautschnig <mt@debian.org>, Stephen Gran <sgran@debian.org>, Sebastian Andrzej Siewior <sebastian@breakpoint.cc>
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 9), zlib1g-dev, libbz2-dev, libssl-dev, pkg-config
+Homepage: https://www.clamav.net/
+Vcs-Browser: https://salsa.debian.org/clamav-team/libclamunrar
+Vcs-Git: https://salsa.debian.org/clamav-team/libclamunrar.git -b unstable
+Directory: pool/multiverse/libc/libclamunrar
+Package-List:
+ libclamunrar9 deb non-free/libs optional arch=any
+Files:
+ 04e9b174afc11171821cb9b4fdf461bb 2253 libclamunrar_0.101.2-1~ubuntu0.16.04.1.dsc
+ c8052a500894d5fda896fd8f2a5124b1 487968 libclamunrar_0.101.2.orig.tar.xz
+ a122e59539bc2c8db41e1f02781edb35 6768 libclamunrar_0.101.2-1~ubuntu0.16.04.1.debian.tar.xz
+Checksums-Sha1:
+ 003f4a898329711f05a3a57fc5de7e161c5f8edd 2253 libclamunrar_0.101.2-1~ubuntu0.16.04.1.dsc
+ 6f660fc27166a75b0e336b82769b242bf0471374 487968 libclamunrar_0.101.2.orig.tar.xz
+ fc5a581b8bee042423af688b4868a31eba076235 6768 libclamunrar_0.101.2-1~ubuntu0.16.04.1.debian.tar.xz
+Checksums-Sha256:
+ e8c37c8e34b04c2805673d6e35b55da958c9efb58f863009473c5cac0ada981b 2253 libclamunrar_0.101.2-1~ubuntu0.16.04.1.dsc
+ 754d0ac5d71e748a021e459969378eb204b9a239530903dcdfa8479df2e0b8a2 487968 libclamunrar_0.101.2.orig.tar.xz
+ 1cd22db65b587d03db00362d0fa557ac98ab4c2e6e60f59b222913046cdbbd14 6768 libclamunrar_0.101.2-1~ubuntu0.16.04.1.debian.tar.xz
+Checksums-Sha512:
+ d7d423b2de286b8de213984e362033c7b9dca059d93376e66d2aebaed58d0430f411be114c66bc9194668c8f66c0a36e9d07340411c105a69a3733c5480ee202 2253 libclamunrar_0.101.2-1~ubuntu0.16.04.1.dsc
+ dd652c85fb96e0e664dd29ffc870238564c686d5c4ef0b588d5b3a8c6aa0416d94b6c10a8bb29a7986f37547a2b8392967fafe97473ffa098b61988b384be7e7 487968 libclamunrar_0.101.2.orig.tar.xz
+ ba84fba2d60927406c93e0b99b11d7baf0b2e11b16eebe65fccea87d1d40fdb4a02383b1f22d1f973be685da34b49936bccec288ef628b834d13cd83e85627f6 6768 libclamunrar_0.101.2-1~ubuntu0.16.04.1.debian.tar.xz
+Autobuild: yes
+
+Package: linux-firmware-raspi2
+Format: 3.0 (quilt)
+Binary: linux-firmware-raspi2
+Architecture: armhf
+Version: 1.20161020-0ubuntu1~0.1
+Priority: optional
+Section: multiverse/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 9)
+Homepage: https://github.com/raspberrypi/firmware
+Directory: pool/multiverse/l/linux-firmware-raspi2
+Package-List:
+ linux-firmware-raspi2 deb multiverse/misc optional arch=armhf
+Files:
+ 97465ce0c492f3c68b21b0b9aed08920 1935 linux-firmware-raspi2_1.20161020-0ubuntu1~0.1.dsc
+ db97e5939ab0e851521e1fac704d6072 6827824 linux-firmware-raspi2_1.20161020.orig.tar.gz
+ d5fe1781bd381d8f850003f7fe877586 3440 linux-firmware-raspi2_1.20161020-0ubuntu1~0.1.debian.tar.xz
+Checksums-Sha1:
+ 5ed4ff2a2a6ec0b51004f7627e2db5ed7b4ddd94 1935 linux-firmware-raspi2_1.20161020-0ubuntu1~0.1.dsc
+ 7e9f894875cd66abca98fbab0207894658ca0d6e 6827824 linux-firmware-raspi2_1.20161020.orig.tar.gz
+ da677a9b3699146130105c9554db8b15d141ea8b 3440 linux-firmware-raspi2_1.20161020-0ubuntu1~0.1.debian.tar.xz
+Checksums-Sha256:
+ 847a5bf0646a9a05303d66ab04efc0b511d7d8c01660db7dee596ff18a9830bb 1935 linux-firmware-raspi2_1.20161020-0ubuntu1~0.1.dsc
+ 5c3387694563b82c8c3a5986b71241ddc98eb79cde2623b5019ebcf719e283c3 6827824 linux-firmware-raspi2_1.20161020.orig.tar.gz
+ 39cf91ba7aad37fe2bd6251a96c6fd813bac4af315089af8c376a298f2e20f01 3440 linux-firmware-raspi2_1.20161020-0ubuntu1~0.1.debian.tar.xz
+Checksums-Sha512:
+ 387d02924b5366591a9cf68463b764e2bc6c0d7f6630f2ddcb83e1a5c936589a1a466100ae7b4f7825191a379e477d05d092e414a54f6ba56e42d0b93339d465 1935 linux-firmware-raspi2_1.20161020-0ubuntu1~0.1.dsc
+ fcf3450872fd92ade32f4837a01b19d0612a6e5f6bde441a7b3a1b8cea6833d15fefc7b25602f3a15464a3f9a06e01a03d83e8084711cf051085671db1c228e5 6827824 linux-firmware-raspi2_1.20161020.orig.tar.gz
+ cf3aed0b845defed0fb628bd5d9f523d2112c9b573beb44ebd375d80bdcc41d74c3a5f2b2e5ccac23df95d6fafb34bf044441119bfa5f37317549b9cddd4d018 3440 linux-firmware-raspi2_1.20161020-0ubuntu1~0.1.debian.tar.xz
+
+Package: linux-firmware-snapdragon
+Format: 3.0 (quilt)
+Binary: linux-firmware-snapdragon
+Architecture: arm64
+Version: 1.3-0ubuntu3~16.04.1
+Priority: optional
+Section: multiverse/misc
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 9)
+Homepage: https://developer.qualcomm.com/hardware/dragonboard-410c/tools
+Directory: pool/multiverse/l/linux-firmware-snapdragon
+Package-List:
+ linux-firmware-snapdragon deb multiverse/misc optional arch=arm64
+Files:
+ 55e70bf6403adff7826c708c9b2043fd 1935 linux-firmware-snapdragon_1.3-0ubuntu3~16.04.1.dsc
+ 94359df359fbe8f9f43f003021b69fed 2752747 linux-firmware-snapdragon_1.3.orig.tar.gz
+ f8b017517f7cd89ef6f60a55b5bab1e7 7404 linux-firmware-snapdragon_1.3-0ubuntu3~16.04.1.debian.tar.xz
+Checksums-Sha1:
+ e46976f1404114af4014afe0e5669b30561a2e8a 1935 linux-firmware-snapdragon_1.3-0ubuntu3~16.04.1.dsc
+ 359d0d4cc78229c9b182dd28546cbee5dd4e69bb 2752747 linux-firmware-snapdragon_1.3.orig.tar.gz
+ a79bdbc1d42be5dcce1947d606c26cfc49f4a040 7404 linux-firmware-snapdragon_1.3-0ubuntu3~16.04.1.debian.tar.xz
+Checksums-Sha256:
+ bcce68fe357aae41bab106fa09446076a9efc14fe9063955de5bbd36c8e5fae0 1935 linux-firmware-snapdragon_1.3-0ubuntu3~16.04.1.dsc
+ 66bdce6f07a52bfb0228120a89c285e46068e8e03a7f60ff3e751e89ecdcf988 2752747 linux-firmware-snapdragon_1.3.orig.tar.gz
+ 2addec1c2cbc157f3e2621ee16ffe55809b4653ae49308844571992d32ecf37c 7404 linux-firmware-snapdragon_1.3-0ubuntu3~16.04.1.debian.tar.xz
+Checksums-Sha512:
+ 54369803b3f509e876a55adcda82fb83cdc5e0ca52f004f8d07c92ac292efa344ab040ee67637d60ea44982d31688939334d330ede4f41eee4d87419d0c2dd5e 1935 linux-firmware-snapdragon_1.3-0ubuntu3~16.04.1.dsc
+ 96d9b752808f5e086d643c496e4ba433599be46109fdfabd8d8261fde37c6c67a7a28228a47188aa7c8960d01d1e2eab2fa6e31e3302eed1c522d51bbe23c482 2752747 linux-firmware-snapdragon_1.3.orig.tar.gz
+ 9e27e0009f322f6322735f2c2c51bbfd7a38f2e23bda16d46198d1e2d0099494ef6c50daf36d6d93512a94bdc7d590e14e8f1af05ed061822107455311d5d43c 7404 linux-firmware-snapdragon_1.3-0ubuntu3~16.04.1.debian.tar.xz
+
+Package: unrar-nonfree
+Format: 3.0 (quilt)
+Binary: unrar
+Architecture: any
+Version: 1:5.3.2-1+deb9u1build0.16.04.1
+Priority: optional
+Section: multiverse/misc
+Maintainer: Martin Meredith <mez@debian.org>
+Standards-Version: 3.9.6.1
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.16.1~)
+Homepage: http://www.rarlabs.com/
+Directory: pool/multiverse/u/unrar-nonfree
+Package-List:
+ unrar deb non-free/utils optional arch=any
+Files:
+ 1e28169d03403554ed7b9bb711cbb1ae 1859 unrar-nonfree_5.3.2-1+deb9u1build0.16.04.1.dsc
+ 9b6b0aeffa089a968dd62f77b99cfd37 221786 unrar-nonfree_5.3.2.orig.tar.gz
+ 0acf1d7e49c123226d77c171779c605b 6464 unrar-nonfree_5.3.2-1+deb9u1build0.16.04.1.debian.tar.xz
+Checksums-Sha1:
+ 458f236d65c9b714e249c7068e819b7f72a042d0 1859 unrar-nonfree_5.3.2-1+deb9u1build0.16.04.1.dsc
+ 4940a81febac52e7f1fd0140acc148b09cba864e 221786 unrar-nonfree_5.3.2.orig.tar.gz
+ 8c6c8a85c9edb5aa9f55ca6dadfcd76fd21b734b 6464 unrar-nonfree_5.3.2-1+deb9u1build0.16.04.1.debian.tar.xz
+Checksums-Sha256:
+ 65d96a8ae697bc0a8662e139191f2670396dc6d0755e994a55cc452a9a2d9612 1859 unrar-nonfree_5.3.2-1+deb9u1build0.16.04.1.dsc
+ 2d8712eed32367b1a404633f230f94f545c1f2ce0552f851266b00c261a786ea 221786 unrar-nonfree_5.3.2.orig.tar.gz
+ f82cb631ba6481dc36fdbe1361b1bbb3857dc22e0bf9102220ffef1fc2e7f9fa 6464 unrar-nonfree_5.3.2-1+deb9u1build0.16.04.1.debian.tar.xz
+Checksums-Sha512:
+ 4d00c6c53a3a51268a119e28a7d49b4f2650825dc775dde57108b9d496332882f0baadc0144bbb2ec50bb524131b949082072f20e4c732bd867c08cbcbb63039 1859 unrar-nonfree_5.3.2-1+deb9u1build0.16.04.1.dsc
+ ea3ee5dd3c15a52f577896bca0d5136c9a6e76a5552d6f56be519eb59c2cc137aba0dafe53dfb50c768e8e7f2e1c1c067a3e4d0c67383da3ae1da58ed68fe99b 221786 unrar-nonfree_5.3.2.orig.tar.gz
+ 452dfe8b458001625c6ca7f8d94e541730f170853c4612716d5b09082685149d1ae66eba9f520d814621cf1bd7d3648dc245e43ebd4bd3ad844944ed2c736373 6464 unrar-nonfree_5.3.2-1+deb9u1build0.16.04.1.debian.tar.xz
+Autobuild: yes
+
+Package: virtualbox
+Format: 3.0 (quilt)
+Binary: virtualbox-qt, virtualbox, virtualbox-dkms, virtualbox-source, virtualbox-guest-dkms, virtualbox-guest-source, virtualbox-guest-x11, virtualbox-guest-utils
+Architecture: amd64 i386 all
+Version: 5.1.38-dfsg-0ubuntu1.16.04.2
+Priority: optional
+Section: multiverse/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Uploaders: Ritesh Raj Sarraf <rrs@debian.org>, Gianfranco Costamagna <locutusofborg@debian.org>
+Standards-Version: 4.1.1
+Build-Depends: bzip2, debhelper (>= 9), default-jdk, dh-python, dh-systemd (>= 1.5), dkms (>= 2.1.1.1), docbook-xml, docbook-xsl, dpkg-dev (>= 1.15.6~), g++-multilib, genisoimage, gsoap (>= 2.8.16), iasl, imagemagick, kbuild (>= 1:0.1.9998svn2814~), libasound2-dev, libcap-dev, libcurl4-gnutls-dev, libdevmapper-dev, libdrm-dev, libegl1-mesa-dev, libgl1-mesa-dev, libglu1-mesa-dev, libidl-dev, libpam0g-dev, libpixman-1-dev, libpng-dev, libpulse-dev, libqt5x11extras5-dev, libqt5opengl5-dev, qttools5-dev-tools, libsdl1.2-dev, libssl-dev, libvncserver-dev, libvpx-dev, libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxi-dev, libxinerama-dev, libxml2-dev, libxml2-utils, libxmu-dev, libxrandr-dev, libxrender-dev, libxslt1-dev, libxt-dev, lsb-release, lynx-cur, makeself, module-assistant, python3-dev, texlive-fonts-extra, texlive-fonts-recommended, texlive-latex-extra, texlive-latex-recommended, uuid-dev, x11proto-gl-dev, x11proto-xf86dri-dev, xserver-xorg-dev, xsltproc, yasm (>= 0.7.0), zlib1g-dev
+Homepage: http://www.virtualbox.org/
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-virtualbox/virtualbox.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-virtualbox/virtualbox.git
+Directory: pool/multiverse/v/virtualbox
+Package-List:
+ virtualbox deb contrib/misc optional arch=amd64,i386
+ virtualbox-dkms deb contrib/kernel optional arch=all
+ virtualbox-guest-dkms deb contrib/kernel optional arch=all
+ virtualbox-guest-source deb contrib/kernel optional arch=all
+ virtualbox-guest-utils deb contrib/misc optional arch=amd64,i386
+ virtualbox-guest-x11 deb contrib/x11 optional arch=amd64,i386
+ virtualbox-qt deb contrib/misc optional arch=amd64,i386
+ virtualbox-source deb contrib/kernel optional arch=all
+Files:
+ e43fd17bcd3c639822a152c7ad9e8967 3774 virtualbox_5.1.38-dfsg-0ubuntu1.16.04.2.dsc
+ 4d231c73d102a40b840c19cc61a6611d 53124640 virtualbox_5.1.38-dfsg.orig.tar.xz
+ 0a0531d6b343f006d8e5129e3290cf32 85000 virtualbox_5.1.38-dfsg-0ubuntu1.16.04.2.debian.tar.xz
+Checksums-Sha1:
+ 46699f36ca7b8b4d409d866a2ce12295632392bd 3774 virtualbox_5.1.38-dfsg-0ubuntu1.16.04.2.dsc
+ c64dabf13c1921d3a5520e190c3f1ea3da627415 53124640 virtualbox_5.1.38-dfsg.orig.tar.xz
+ 950c3aec950fd56717879211d53da4cb59456f91 85000 virtualbox_5.1.38-dfsg-0ubuntu1.16.04.2.debian.tar.xz
+Checksums-Sha256:
+ 67e86f4a65b4504b5406d32adfd70a98753349ce5130d37db71a554fcb495cf9 3774 virtualbox_5.1.38-dfsg-0ubuntu1.16.04.2.dsc
+ de1b569b28bd148b88a5018a4f32ec26bb7cf98181635b902ff2757fca7e91ee 53124640 virtualbox_5.1.38-dfsg.orig.tar.xz
+ 8c99efb816bacddd58375811ba9733429c9f056cd73d40602163e96d629680c0 85000 virtualbox_5.1.38-dfsg-0ubuntu1.16.04.2.debian.tar.xz
+Checksums-Sha512:
+ 1e5d1afa5acbac79ae7d24a9661b58068616c23f29c3d9994e5c28e54f042a5a857eee2719dde9c4eb39bb6aae37828e8e2866092c8d60c731a9b9f2fb4a44ff 3774 virtualbox_5.1.38-dfsg-0ubuntu1.16.04.2.dsc
+ ad407c996e07b69487e98b8ae0292b898d773349ce484ebe5253e1849feec8d3478dd44b5d6dd60303988206695833e4ece1585ac8c368aba8266a6170110bc7 53124640 virtualbox_5.1.38-dfsg.orig.tar.xz
+ 8aa9db20a98de5172adc53cc5508cc4471af007af1b63c307bbe43771cec6b1b32bb464c9c2fdcf0986dcc7cba1db9a1e04158f5a6b77e2c4cfb6000610a20d5 85000 virtualbox_5.1.38-dfsg-0ubuntu1.16.04.2.debian.tar.xz
+

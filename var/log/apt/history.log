@@ -1,0 +1,56 @@
+
+Start-Date: 2018-07-31  00:30:50
+Commandline: apt-get --yes --force-yes upgrade
+Upgrade: libpam0g:armhf (1.1.8-3.2ubuntu2, 1.1.8-3.2ubuntu2.1), perl-base:armhf (5.22.1-9, 5.22.1-9ubuntu0.5), init:armhf (1.29ubuntu1, 1.29ubuntu4), init-system-helpers:armhf (1.29ubuntu1, 1.29ubuntu4), libseccomp2:armhf (2.2.3-3ubuntu3, 2.3.1-2.1ubuntu2~16.04.1), libaudit-common:armhf (1:2.4.5-1ubuntu2, 1:2.4.5-1ubuntu2.1), libfdisk1:armhf (2.27.1-6ubuntu3, 2.27.1-6ubuntu3.6), libpam-modules:armhf (1.1.8-3.2ubuntu2, 1.1.8-3.2ubuntu2.1), libsystemd0:armhf (229-4ubuntu4, 229-4ubuntu21.4), apt:armhf (1.2.10ubuntu1, 1.2.27), makedev:armhf (2.3.1-93ubuntu1, 2.3.1-93ubuntu2~ubuntu16.04.1), libkmod2:armhf (22-1ubuntu4, 22-1ubuntu5), libmount1:armhf (2.27.1-6ubuntu3, 2.27.1-6ubuntu3.6), zlib1g:armhf (1:1.2.8.dfsg-2ubuntu4, 1:1.2.8.dfsg-2ubuntu4.1), libc6:armhf (2.23-0ubuntu3, 2.23-0ubuntu10), util-linux:armhf (2.27.1-6ubuntu3, 2.27.1-6ubuntu3.6), coreutils:armhf (8.25-2ubuntu2, 8.25-2ubuntu3~16.04), passwd:armhf (1:4.2-3.1ubuntu5, 1:4.2-3.1ubuntu5.3), procps:armhf (2:3.3.10-4ubuntu2, 2:3.3.10-4ubuntu2.4), libpam-runtime:armhf (1.1.8-3.2ubuntu2, 1.1.8-3.2ubuntu2.1), libapt-pkg5.0:armhf (1.2.10ubuntu1, 1.2.27), libprocps4:armhf (2:3.3.10-4ubuntu2, 2:3.3.10-4ubuntu2.4), libudev1:armhf (229-4ubuntu4, 229-4ubuntu21.4), libapparmor1:armhf (2.10.95-0ubuntu2, 2.10.95-0ubuntu2.9), mount:armhf (2.27.1-6ubuntu3, 2.27.1-6ubuntu3.6), gcc-5-base:armhf (5.3.1-14ubuntu2, 5.4.0-6ubuntu1~16.04.10), libblkid1:armhf (2.27.1-6ubuntu3, 2.27.1-6ubuntu3.6), dpkg:armhf (1.18.4ubuntu1, 1.18.4ubuntu1.4), libc-bin:armhf (2.23-0ubuntu3, 2.23-0ubuntu10), tar:armhf (1.28-2.1, 1.28-2.1ubuntu0.1), systemd-sysv:armhf (229-4ubuntu4, 229-4ubuntu21.4), libuuid1:armhf (2.27.1-6ubuntu3, 2.27.1-6ubuntu3.6), libgcrypt20:armhf (1.6.5-2, 1.6.5-2ubuntu0.5), gpgv:armhf (1.4.20-1ubuntu3, 1.4.20-1ubuntu3.2), systemd:armhf (229-4ubuntu4, 229-4ubuntu21.4), libsmartcols1:armhf (2.27.1-6ubuntu3, 2.27.1-6ubuntu3.6), grep:armhf (2.24-1, 2.25-1~16.04.1), login:armhf (1:4.2-3.1ubuntu5, 1:4.2-3.1ubuntu5.3), libcryptsetup4:armhf (2:1.6.6-5ubuntu2, 2:1.6.6-5ubuntu2.1), libpam-modules-bin:armhf (1.1.8-3.2ubuntu2, 1.1.8-3.2ubuntu2.1), libdb5.3:armhf (5.3.28-11, 5.3.28-11ubuntu0.1), bsdutils:armhf (1:2.27.1-6ubuntu3, 1:2.27.1-6ubuntu3.6), bash:armhf (4.3-14ubuntu1, 4.3-14ubuntu1.2), multiarch-support:armhf (2.23-0ubuntu3, 2.23-0ubuntu10), lsb-base:armhf (9.20160110, 9.20160110ubuntu0.2), gnupg:armhf (1.4.20-1ubuntu3, 1.4.20-1ubuntu3.2), libstdc++6:armhf (5.3.1-14ubuntu2, 5.4.0-6ubuntu1~16.04.10), libaudit1:armhf (1:2.4.5-1ubuntu2, 1:2.4.5-1ubuntu2.1), sensible-utils:armhf (0.0.9, 0.0.9ubuntu0.16.04.1), base-files:armhf (9.4ubuntu4, 9.4ubuntu4.7)
+End-Date: 2018-07-31  00:31:02
+
+Start-Date: 2024-10-12  02:37:42
+Commandline: /usr/bin/apt install sudo
+Install: sudo:armhf (1.8.16-0ubuntu1.10)
+End-Date: 2024-10-12  02:37:42
+
+Start-Date: 2024-10-12  02:38:05
+Commandline: /usr/bin/apt install vim
+Install: vim-common:armhf (2:7.4.1689-3ubuntu1.5, automatic), libsqlite3-0:armhf (3.11.0-1ubuntu1.5, automatic), libpython3.5:armhf (3.5.2-2ubuntu0~16.04.13, automatic), mime-support:armhf (3.59ubuntu1, automatic), libmagic1:armhf (1:5.25-2ubuntu1.4, automatic), libmpdec2:armhf (2.4.2-1, automatic), libexpat1:armhf (2.1.0-7ubuntu0.16.04.5, automatic), vim-runtime:armhf (2:7.4.1689-3ubuntu1.5, automatic), vim:armhf (2:7.4.1689-3ubuntu1.5), libgpm2:armhf (1.20.4-6.1, automatic), file:armhf (1:5.25-2ubuntu1.4, automatic), libpython3.5-stdlib:armhf (3.5.2-2ubuntu0~16.04.13, automatic), libpython3.5-minimal:armhf (3.5.2-2ubuntu0~16.04.13, automatic), libssl1.0.0:armhf (1.0.2g-1ubuntu4.20, automatic)
+End-Date: 2024-10-12  02:38:12
+
+Start-Date: 2024-10-12  02:38:20
+Commandline: /usr/bin/apt install kmod
+Install: kmod:armhf (22-1ubuntu5.2)
+Upgrade: libkmod2:armhf (22-1ubuntu5, 22-1ubuntu5.2)
+End-Date: 2024-10-12  02:38:21
+
+Start-Date: 2024-10-12  02:38:27
+Commandline: /usr/bin/apt install net-tools
+Install: net-tools:armhf (1.60-26ubuntu1)
+End-Date: 2024-10-12  02:38:27
+
+Start-Date: 2024-10-12  02:38:33
+Commandline: /usr/bin/apt install ethtool
+Install: ethtool:armhf (1:4.5-1)
+End-Date: 2024-10-12  02:38:33
+
+Start-Date: 2024-10-12  02:38:43
+Commandline: /usr/bin/apt install ifupdown
+Install: libdns-export162:armhf (1:9.10.3.dfsg.P4-8ubuntu1.19, automatic), ifupdown:armhf (0.8.10ubuntu1.4), isc-dhcp-common:armhf (4.3.3-5ubuntu12.10, automatic), libisc-export160:armhf (1:9.10.3.dfsg.P4-8ubuntu1.19, automatic), libatm1:armhf (1:2.5.1-1.5, automatic), iproute2:armhf (4.3.0-1ubuntu3.16.04.5, automatic), libxtables11:armhf (1.6.0-2ubuntu3, automatic), isc-dhcp-client:armhf (4.3.3-5ubuntu12.10, automatic), libmnl0:armhf (1.0.3-5, automatic)
+End-Date: 2024-10-12  02:38:47
+
+Start-Date: 2024-10-12  02:38:56
+Commandline: /usr/bin/apt install language-pack-en-base
+Install: locales:armhf (2.23-0ubuntu11.3, automatic), language-pack-en:armhf (1:16.04+20161009, automatic), language-pack-en-base:armhf (1:16.04+20160627)
+End-Date: 2024-10-12  02:40:06
+
+Start-Date: 2024-10-12  02:41:08
+Commandline: /usr/bin/apt install rsyslog
+Install: libpopt0:armhf (1.16-10, automatic), rsyslog:armhf (8.16.0-1ubuntu3.1), ucf:armhf (3.0036, automatic), libestr0:armhf (0.1.10-1, automatic), logrotate:armhf (3.8.7-2ubuntu2.16.04.2, automatic), cron:armhf (3.0pl1-128ubuntu2, automatic), libjson-c2:armhf (0.11-4ubuntu2.6, automatic)
+End-Date: 2024-10-12  02:41:17
+
+Start-Date: 2024-10-12  02:41:21
+Commandline: /usr/bin/apt install htop
+Install: htop:armhf (2.0.1-1ubuntu1)
+End-Date: 2024-10-12  02:41:22
+
+Start-Date: 2024-10-12  02:41:32
+Commandline: /usr/bin/apt install iputils-ping
+Install: libgnutls-openssl27:armhf (3.4.10-4ubuntu1.9, automatic), libgmp10:armhf (2:6.1.0+dfsg-2, automatic), libhogweed4:armhf (3.2-1ubuntu0.16.04.2, automatic), iputils-ping:armhf (3:20121221-5ubuntu2), libnettle6:armhf (3.2-1ubuntu0.16.04.2, automatic), libidn11:armhf (1.32-3ubuntu1.2, automatic), libgnutls30:armhf (3.4.10-4ubuntu1.9, automatic), libffi6:armhf (3.2.1-4, automatic), libp11-kit0:armhf (0.23.2-5~ubuntu16.04.2, automatic), libtasn1-6:armhf (4.7-3ubuntu0.16.04.3, automatic)
+End-Date: 2024-10-12  02:41:34
